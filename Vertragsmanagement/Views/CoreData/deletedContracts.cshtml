@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Vertragsmanagement.Models.Contract>
+
+@{
+    ViewBag.Title = "gelöschte Verträge";
+    Layout = "~/Views/CoreData/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <div class="clearfix">
+                <b>gelöschte Verträge</b>
+            </div>
+        </div>
+    </div><div class="panel-body">
+        @if (ViewBag.Error != null && ViewBag.Error)
+        {
+            <div class="text-danger">@ViewBag.ErrorMessage</div>
+        }
+        <div class="table-responsive">
+            <table id="DeletedContractsTable" class="table table-striped display nowrap" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.extID)</th>
+                        <th>@Html.DisplayNameFor(model => model.titel)</th>
+                        <th>@Html.DisplayNameFor(model => model.contractValue)</th>
+                        <th>@Html.DisplayNameFor(model => model.startDate)</th>
+                        <th>@Html.DisplayNameFor(model => model.partner.name)</th>
+                        <th>@Html.DisplayNameFor(model => model.signer.FullName)</th>
+                        <th class="all">Aktionen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.extID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.titel)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.contractValue)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.startDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.partner.name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.signer.FullName)
+                            </td>
+                            <td>
+                                @Html.ActionLink(" ", "restoreContract", "CoreData", new { id = item.intID }, new { @class = "btn btn-primary glyphicon glyphicon-repeat", @data_toggle = "popover", @data_content = "Wiederherstellen" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

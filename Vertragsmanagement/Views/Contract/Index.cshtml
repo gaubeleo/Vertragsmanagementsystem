@@ -1,0 +1,351 @@
+﻿@using Vertragsmanagement.Models
+@model Vertragsmanagement.ViewModels.IndexContractsViewModel
+
+@{
+    ViewBag.Title = "Verträge";
+}
+
+@Styles.Render("~/Content/Contract")
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <a data-toggle="collapse" href="#collapse1">
+                    <span class="glyphicon glyphicon-chevron-down" id="customfilter"></span>
+                    <b>Benutzerdefinierte Suche</b>
+                </a>
+            </div>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+                @Html.Partial("_Filter")
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <div class="clearfix">
+                    <b>Verträge</b>
+                    <div class="btn-group pull-right">
+                        @Html.ActionLink("Import aus CSV Datei", "Import", "Contract", null, new { id = "btnCreate", @class = "btn btn-default" })
+                        @Html.ActionLink("neuen Vertrag anlegen", "Create", new { area = "" }, new { @class = "btn btn-success" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="ContractsTable" class="table table-striped display nowrap" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.intID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.extID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.titel)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.contractValue)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.contractCosts)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.paymentIntervall)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.noticePeriod)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.earliestNoticePeriod)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.contractExtension)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.valueTax)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.partnerIs)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.remark)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.category)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.subcategory)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.species)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.signer)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.personInCharge)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.mappedDepartment)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.observingDepartment)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.partner)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.paymentBegin)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.startDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.creationDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.noticeDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.endDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.remindingDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.escalationDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.locality)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.escalated)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.reminded)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.noticeReminded)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.otherFeatures)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.costCenterDivides)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.mappedDepartment.mandant.name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.contract.state)
+                            </th>
+                            <th class="all">Aktionen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Vertragsmanagement.Models.Contract item in Model.contracts)
+                        {
+                            <tr class="@(item.escalated ? "highlight" : item.state == State.unvollständig ? "incomplete" : "")">
+                                <td>
+                                    @Html.DisplayFor(m => item.intID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.extID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.titel)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.contractValue)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.contractCosts)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.paymentIntervall)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.noticePeriod)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.earliestNoticePeriod)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.contractExtension)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.valueTax)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.partnerIs)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.remark)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.category.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.subcategory.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.species.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.signer.FullName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.personInCharge.FullName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.mappedDepartment.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.observingDepartment.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.partner.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.paymentBegin)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.startDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.creationDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.noticeDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.endDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.remindingDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.escalationDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.locality)
+                                </td>
+                                <td>
+                                    @if (item.escalated == true)
+                                    {
+                                        <span class="glyphicon glyphicon-ok"></span>
+                                        <div style='display: none;'>true</div>
+                                    }
+                                    else
+                                    {
+                                        <span class="glyphicon glyphicon-remove"></span>
+                                        <div style='display: none;'>false</div>
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.reminded == true)
+                                    {
+                                        <span class="glyphicon glyphicon-ok"></span>
+                                        <div style='display: none;'>true</div>
+                                    }
+                                    else
+                                    {
+                                        <span class="glyphicon glyphicon-remove"></span>
+                                        <div style='display: none;'>false</div>
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.noticeReminded == true)
+                                    {
+                                        <span class="glyphicon glyphicon-ok"></span>
+                                        <div style='display: none;'>true</div>
+                                    }
+                                    else
+                                    {
+                                        <span class="glyphicon glyphicon-remove"></span>
+                                        <div style='display: none;'>false</div>
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.otherFeatures.Count() == 1)
+                                    {
+                                        foreach (var item2 in item.otherFeatures)
+                                        {
+                                            @item2.title;
+                                        }
+                                    }
+                                    else if (item.otherFeatures.Count() > 1)
+                                    {
+                                        int i = 1;
+                                        foreach (var item2 in item.otherFeatures)
+                                        {
+                                            if (i < item.otherFeatures.Count())
+                                            {
+                                                @item2.title<text>,</text>
+                                            }
+                                            else
+                                            {
+                                                @item2.title
+                                            }
+                                            i++;
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.costCenterDivides.Count() == 1)
+                                    {
+                                        foreach (var item2 in item.costCenterDivides)
+                                        {
+                                            @item2.costCentre.Divide
+                                        }
+                                    }
+                                    else if (item.costCenterDivides.Count() > 1)
+                                    {
+                                        int i = 1;
+                                        foreach (var item2 in item.costCenterDivides)
+                                        {
+                                            if (i < item.costCenterDivides.Count())
+                                            {
+                                                @item2.costCentre.Divide<text>,</text>
+                                            }
+                                            else
+                                            {
+                                                @item2.costCentre.Divide
+                                            }
+                                            i++;
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.mappedDepartment.mandant.name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.state)
+                                </td>
+                                <td>
+                                    <a href="~/Contract/specialAuthorization/@item.intID" class="btn btn-primary" data-toggle="popover" data-content="Nutzer authorisieren"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                    <a href="~/Contract/frameworkContract/@item.intID" class="btn btn-primary" data-toggle="popover" data-content="Rahmenvertrag Verträge zuordnen"><span class="glyphicon glyphicon-book"></span></a>
+                                    <a href="~/Contract/costCentres/@item.intID" class="btn btn-primary" data-toggle="popover" data-content="Aufteilung auf Kostenstellen"><span class="glyphicon glyphicon-euro"></span></a>
+                                    <a href="~/Contract/OtherFeature/@item.intID" class="btn btn-primary" data-toggle="popover" data-content="Weitere Merkmale"><span class="glyphicon glyphicon-list-alt"></span></a>
+                                    <a href="~/Contract/Files/@item.intID" class="btn btn-primary" data-toggle="popover" data-content="Hochgeladene Dateien"><span class="glyphicon glyphicon-file"></span></a>
+                                    <a href="~/Contract/Details/@item.intID" class="btn btn-primary" data-toggle="popover" data-content="Details"><span class="glyphicon glyphicon-search"></span></a>
+                                    <a href="~/Contract/Edit/@item.intID" class="btn btn-warning" data-toggle="popover" data-content="Bearbeiten"><span class="glyphicon glyphicon-pencil"></span></a>
+                                    @Html.ActionLink(" ", "Delete", "Contract", new { id = item.intID }, new { data_modal = "", @class = "btn btn-danger glyphicon glyphicon-trash", @data_toggle = "popover", @data_content = "Löschen" })
+                                </td>
+                            </tr>
+}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/Contract")

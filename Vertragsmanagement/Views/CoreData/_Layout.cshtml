@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = @ViewBag.Title + " - Stammdatenverwaltung";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <b>Firmenspezifische Stammdaten</b>
+                </div>
+            </div>
+            <div class="panel-body text-center">
+                <div class="btn-group center">
+                    <button type="button" class="btn btn-default @((ViewContext.RouteData.Values["Action"].ToString() == "Departments" || ViewContext.RouteData.Values["Action"].ToString() == "responsiblePersonsDepartment") ? "active" : "")" onclick="location.href = '@Url.Action("Departments", "CoreData")'">
+                        <span class="glyphicon glyphicon-home"></span> Abteilungen
+                    </button>
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")" onclick="location.href = '@Url.Action("Index", "CoreData")'">
+                        <span class="glyphicon glyphicon-user"></span> Benutzer
+                    </button>
+                    <button type="button" class="btn btn-default @((ViewContext.RouteData.Values["Action"].ToString() == "CostCentres" || ViewContext.RouteData.Values["Action"].ToString() == "ImportCostCentre") ? "active" : "")" onclick="location.href = '@Url.Action("CostCentres", "CoreData")'">
+                        <span class="glyphicon glyphicon-euro"></span> Kostenstellen
+                    </button>
+                    <button type="button" class="btn btn-default @((ViewContext.RouteData.Values["Action"].ToString() == "Mandants" || ViewContext.RouteData.Values["Action"].ToString() == "responsiblePersonsMandant") ? "active" : "")" onclick="location.href = '@Url.Action("Mandants", "CoreData")'">
+                        <span class="glyphicon glyphicon-user"></span> Mandanten
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <b>Vertragsspezifische Stammdaten</b>
+                </div>
+            </div>
+            <div class="panel-body text-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "ContractCategorys" ? "active" : "")" onclick="location.href = '@Url.Action("ContractCategorys", "CoreData")'">Kategorien</button>
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "ContractSubcategorys" ? "active" : "")" onclick="location.href = '@Url.Action("ContractSubcategorys", "CoreData")'">Unterkategorien</button>
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "OtherFeatures" ? "active" : "")" onclick="location.href = '@Url.Action("OtherFeatures", "CoreData")'">Weitere Merkmale</button>
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "ContractPartners" ? "active" : "")" onclick="location.href = '@Url.Action("ContractPartners", "CoreData")'">Partner</button>
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "ContractSpecies" ? "active" : "")" onclick="location.href = '@Url.Action("ContractSpecies", "CoreData")'">Typen</button>
+                    <button type="button" class="btn btn-default @(ViewContext.RouteData.Values["Action"].ToString() == "deletedContracts" ? "active" : "")" onclick="location.href = '@Url.Action("deletedContracts", "CoreData")'">gelöschte Verträge</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@RenderBody()
+
+@Scripts.Render("~/bundles/CoreData")
+@RenderSection("scripts", required: false)

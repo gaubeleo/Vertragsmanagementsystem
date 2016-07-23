@@ -1,0 +1,123 @@
+﻿@model Vertragsmanagement.Models.Contract
+
+@{
+    ViewBag.Title = "Vertrag Löschen";
+    Layout = "~/Views/Shared/_LayoutModal.cshtml";
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title" id="myModalLabel">Vertrag löschen</h4>
+</div>
+
+<div class="modal-body">
+    <h3>Sind sie sicher, dass sie diesen Vertrag löschen möchten?</h3>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.intID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.intID)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.extID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.extID)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.titel)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.titel)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.category.name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.category.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.species.name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.species.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.personInCharge)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.personInCharge.FullName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.signer)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.signer.FullName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.partner.name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.partner.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.mappedDepartment.name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.mappedDepartment.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.observingDepartment.name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.observingDepartment.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.contractValue)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.contractValue)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.state)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.state)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+@using (Html.BeginForm())
+{
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Abbrechen</button>
+        <input class="btn btn-primary" type="submit" value="Löschen"/>
+    </div>
+}

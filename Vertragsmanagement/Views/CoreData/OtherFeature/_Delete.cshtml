@@ -1,0 +1,47 @@
+﻿@model Vertragsmanagement.Models.OtherFeature
+
+@{
+    ViewBag.Title = "Weiteres Merkmal löschen";
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title" id="myModalLabel">Weitere Merkmale löschen</h4>
+</div>
+
+<div class="modal-body">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.describtion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.describtion)
+        </dd>
+    </dl>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-footer">
+        @if (ViewBag.notDeletable)
+        {
+            <p class="text-danger">Dieses Merkmal aktiven Verträgen zugeordnet und kann deshalb nicht gelöscht werden!</p>
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" disabled="disabled" type="submit" value="Löschen" />
+        }
+        else
+        {
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" type="submit" value="Löschen" />
+        }
+    </div>
+}

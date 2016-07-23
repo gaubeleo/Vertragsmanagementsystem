@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Vertragsmanagement.Models.Task>
+
+@{
+    ViewBag.Title = "Übersicht";
+}
+<div class="row">
+    <div class="panel-group">
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="img-responsive">
+                        <img src="~/Content/Images/Bezirkskliniken_Schwaben_Logo.svg.png" class="col-md-12">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading"><b>Meine Übersicht</b></div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Typ</th>
+                                    <th>Anzahl</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> <a href="/Contract?state=aktiv">aktive Verträge</a> </td>
+                                    <td> <span class="badge progress-bar-success">@ViewBag.active</span> </td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="/Contract?state=unvollständig">unvollständige Verträge</a> </td>
+                                    <td> <span class="badge progress-bar-warning">@ViewBag.notCompleted</span> </td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="/Contract?state=eskaliert">eskalierte Verträge</a> </td>
+                                    <td> <span class="badge progress-bar-danger">@ViewBag.escalated</span> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading"><b>Anstehende Aufgaben</b></div>
+
+                <div class="panel-body">
+                    @if (Model.Count() == 0)
+                    {
+                        <p class="text-center">Keine Aufgaben vorhanden</p>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.contract.titel)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.describtion)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.deadline)
+                                        </th>
+                                        <th>Aktion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.ActionLink(item.contract.titel, "Edit", "Contract", new { id = item.contract.intID, TaskID = item.ID }, null)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.describtion)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(model => item.deadline)
+                                            </td>
+                                            <td>
+                                                @Html.ActionLink(" ", "deleteTask", "Home", new { ID = item.ID }, new {data_modal = "", @class = "btn btn-primary glyphicon glyphicon-remove", @data_toggle = "popover", @data_content = "Aufgabe ist erledigt" })
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/Home")

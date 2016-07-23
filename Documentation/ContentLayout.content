@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topics>
+  <Topic id="1ab5e005-6338-4a06-90ce-0f0d3c946a56" visible="True" isDefault="true" isSelected="true" title="Welcome to the SoPro Team 15 Documentation of Vertragsverwaltung">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="Welcome" />
+    </HelpKeywords>
+  </Topic>
+  <Topic id="deb11ff5-aee6-4404-9417-09f0613bc462" visible="True" isExpanded="true" title="Version History">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="version, history" />
+    </HelpKeywords>
+    <Topic id="83f2cd8d-7291-4b9b-b66b-ffedc1478c1b" visible="True" title="Version 1.0.0.0">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="version, 1.0.0.0" />
+      </HelpKeywords>
+    </Topic>
+  </Topic>
+</Topics>

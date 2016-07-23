@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="64bb28438ead4080b0ca9909c8e2b797" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="SQLDBModel.ContractCategory" Width="1.5" PointX="2.75" PointY="1.25" />
+        <EntityTypeShape EntityType="SQLDBModel.ContractPartner" Width="1.5" PointX="2.625" PointY="8.875" />
+        <EntityTypeShape EntityType="SQLDBModel.Contract" Width="1.5" PointX="6" PointY="1.375" />
+        <EntityTypeShape EntityType="SQLDBModel.ContractSpecy" Width="1.5" PointX="0.5" PointY="7.375" />
+        <EntityTypeShape EntityType="SQLDBModel.ContractSubcategory" Width="1.5" PointX="2.625" PointY="6" />
+        <EntityTypeShape EntityType="SQLDBModel.CostCentreDivide" Width="1.5" PointX="10.125" PointY="4.375" />
+        <EntityTypeShape EntityType="SQLDBModel.CostCentre" Width="1.5" PointX="8" PointY="5.125" />
+        <EntityTypeShape EntityType="SQLDBModel.Department" Width="1.5" PointX="0.5" PointY="3.625" />
+        <EntityTypeShape EntityType="SQLDBModel.Document" Width="1.5" PointX="8.25" PointY="1.375" />
+        <EntityTypeShape EntityType="SQLDBModel.Mandant" Width="1.5" PointX="0.5" PointY="1.25" />
+        <EntityTypeShape EntityType="SQLDBModel.OtherFeature" Width="1.5" PointX="10.625" PointY="8.75" />
+        <EntityTypeShape EntityType="SQLDBModel.Task" Width="1.5" PointX="8.375" PointY="8.125" />
+        <EntityTypeShape EntityType="SQLDBModel.User" Width="1.5" PointX="12.25" PointY="3.25" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractCategories_categoryID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractPartners_partnerID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_Contracts_frameworkContractID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_Departments_mappedDepartmentID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_Departments_observingDepartmentID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_Users_personInChargeID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Contracts_dbo_Users_signerID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Documents_dbo_Contracts_Contract_intID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Tasks_dbo_Contracts_contractID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Departments_dbo_Mandants_mandantID" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_Users_dbo_Departments_departmentID" />
+        <AssociationConnector Association="SQLDBModel.ContractFeatures" />
+        <AssociationConnector Association="SQLDBModel.DepartmentCoordinators" />
+        <AssociationConnector Association="SQLDBModel.DepartmentDispatchers" />
+        <AssociationConnector Association="SQLDBModel.MandantCoordinators" />
+        <AssociationConnector Association="SQLDBModel.SpecialAuthorization" />
+        <AssociationConnector Association="SQLDBModel.UserContractAuthorization" />
+        <AssociationConnector Association="SQLDBModel.UserMappedToTask" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

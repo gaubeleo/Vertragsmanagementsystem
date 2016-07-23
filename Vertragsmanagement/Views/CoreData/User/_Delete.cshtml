@@ -1,0 +1,111 @@
+﻿@model Vertragsmanagement.Models.User
+
+@{
+    ViewBag.Title = "Benutzer löschen";
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title" id="myModalLabel">Benutzer löschen</h4>
+</div>
+
+<div class="modal-body">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.administrator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.administrator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dispatcher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dispatcher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.coordinator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.coordinator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.signer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.signer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.personInCharge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.personInCharge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.blocked)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.blocked)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.activeDirectoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.activeDirectoryName)
+        </dd>
+    </dl>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-footer">
+        @if (ViewBag.notDeletable)
+        {
+            <p class="text-danger">Dieser Benutzer ist aktiven Verträgen zugeordnet und kann deshalb nicht gelöscht werden!</p>
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" disabled="disabled" type="submit" value="Löschen" />
+        }
+        else
+        {
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" type="submit" value="Löschen" />
+        }
+    </div>
+}

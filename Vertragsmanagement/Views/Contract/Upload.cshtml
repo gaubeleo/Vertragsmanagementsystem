@@ -1,0 +1,60 @@
+﻿@model Vertragsmanagement.Models.Document
+@{
+    ViewBag.Title = "Upload";
+    ViewBag.upload_progress = "10";
+}
+
+<div class="col-md-2">
+</div>
+@using (Html.BeginForm("Upload", "Contract", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <b>Datei hochladen</b>
+                </div>
+            </div>
+            <div class="panel-body">
+                @Html.ValidationSummary()
+                <div class="form-horizontal col-sm-offset-2">
+                    <input class="hidden" name="id" value="@ViewBag.ContractID" />
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.title, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.title, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.title, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.category, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.category, new SelectList(new List<SelectListItem>
+                                    {
+                                        new SelectListItem {Text = "Vertrag", Value = "Vertrag"},
+                                        new SelectListItem {Text = "Anlage", Value = "Anlage"},
+                                        new SelectListItem {Text = "Kündigung", Value = "Kündigung"},
+                                        new SelectListItem {Text = "Schriftverkehr", Value = "Schriftverkehr"}
+                                    }, "Value", "Text"), "Kategorie wählen", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.category, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="FileUploader">Datei</label>
+                        <div class="col-sm-7">
+                            <input type="file" id="FileUploader" name="FileUploader" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3">
+                            <button type="submit" id="Submit" name="Submit" class="btn btn-primary">Upload</button>
+                            @Html.ActionLink("Abbrechen", "Files", "Contract", new { id = ViewBag.ContractID }, new { @class = "btn btn-primary" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<div class="col-md-2">
+</div>

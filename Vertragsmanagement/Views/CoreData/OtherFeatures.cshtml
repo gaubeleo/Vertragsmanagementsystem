@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Vertragsmanagement.Models.OtherFeature>
+
+@{
+    ViewBag.Title = "Weitere Merkmale Übersicht";
+    Layout = "~/Views/CoreData/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <div class="clearfix">
+                <b>Weitere Merkmale Übersicht</b>
+                @Html.ActionLink("Weiteres Merkmal erstellen", "CreateOtherFeature", "CoreData", null, new { data_modal = "", id = "btnCreate", @class = "btn btn-success pull-right" })
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="table-responsive">
+            <table id="OtherFeaturesTable" class="table table-striped display nowrap" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.ID)</th>
+                    <th>@Html.DisplayNameFor(model => model.describtion)</th>
+                    <th>@Html.DisplayNameFor(model => model.title)</th>
+                    <th class="all">Aktionen</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.describtion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.title)
+                        </td>
+                        <td>
+                            @Html.ActionLink(" ", "EditOtherFeature", "CoreData", new {id = item.ID}, new {data_modal = "", @class = "btn btn-warning glyphicon glyphicon-pencil", @data_toggle = "popover", @data_content = "Bearbeiten" })
+                            @Html.ActionLink(" ", "DeleteOtherFeature", "CoreData", new {id = item.ID }, new {data_modal = "", @class = "btn btn-danger glyphicon glyphicon-trash", @data_toggle = "popover", @data_content = "Löschen" })
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

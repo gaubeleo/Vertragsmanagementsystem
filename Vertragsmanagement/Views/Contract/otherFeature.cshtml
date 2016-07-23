@@ -1,0 +1,70 @@
+﻿@model Vertragsmanagement.ViewModels.OtherFeaturesViewModel
+@{
+    ViewBag.Title = "Weitere Merkmale";
+}
+
+<div class="col-md-2">
+</div>
+<div class="col-md-8">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <b>Dem Vertrag @Model.contract.titel zugeordnete Merkmale</b>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <b>Merkmale</b>
+                            </div>
+                        </div>
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Beschreibung</th>
+                                <th></th>
+                            </tr>
+                            @{ int i = 1; }
+                            @foreach (var item in Model.otherFeaturesOfContract)
+                            {
+                                <tr>
+                                    <td>@i</td>
+                                    <td>@item.title</td>
+                                    <td>@item.describtion</td>
+                                    <td align="right"><a href="~/Contract/DeleteFeatureFromContract/@Model.contract.intID?featureID=@item.ID" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a></td>
+                                </tr>
+                                i = i + 1;
+                            }
+                        </table>
+                    </div>
+                    @if (Model.allOtherFeatures.Count() != 0)
+                    {
+                        <form class="form-inline" action="/Contract/otherFeature/@Model.contract.intID" method="post">
+                            <div class="form-group">
+                                <label>Merkmal hinzufügen: </label>
+                                <select class="form-control" id="featureID" name="featureID">
+                                    @foreach (var item in Model.allOtherFeatures)
+                                    {
+                                        <option value="@item.ID">@item.title</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+                            </div>
+                            <div class="form-group pull-right">
+                                @Html.ActionLink("Zurück zur Übersicht", "Index", "Contract", null, new { @class = "btn btn-primary" })
+                            </div>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-2">
+</div>

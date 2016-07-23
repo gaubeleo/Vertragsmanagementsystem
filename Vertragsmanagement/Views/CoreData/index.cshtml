@@ -1,0 +1,195 @@
+﻿@model IEnumerable<Vertragsmanagement.Models.User>
+
+@{
+    ViewBag.Title = "Benutzerverwaltung";
+    Layout = "~/Views/CoreData/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <div class="clearfix">
+                <b>Benutzerübersicht</b>
+                @Html.ActionLink("Benutzer erstellen", "CreateUser", "CoreData", null, new { data_modal = "", id = "btnCreate", @class = "btn btn-success pull-right" })
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="table-responsive">
+            <table id="UsersTable" class="table table-striped display nowrap" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.surname)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.activeDirectoryName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.department.name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.dispatcherOfDepartment)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.administrator)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.dispatcher)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.coordinator)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.signer)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.personInCharge)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.blocked)
+                    </th>
+                    <th class="all">Aktionen</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.surname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.activeDirectoryName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.department.name)
+                        </td>
+                        <td>
+                            @if (item.dispatcherOfDepartment.Count == 1)
+                            {
+                                foreach (var item2 in item.dispatcherOfDepartment)
+                                {
+                                    @Html.DisplayFor(modelItem => item2.name)
+                                }
+                            }
+                            else if (item.dispatcherOfDepartment.Count > 1)
+                            {
+                                int i = 1;
+                                foreach (var item2 in item.dispatcherOfDepartment)
+                                {
+                                    if (i < item.dispatcherOfDepartment.Count())
+                                    {
+                                        @Html.DisplayFor(modelItem => item2.name)<text>,</text>
+                                    }
+                                    else
+                                    {
+                                        @Html.DisplayFor(modelItem => item2.name)
+                                    }
+                                    i++;
+                                }
+                            }
+                            else
+                            {
+                                <text>keine Abteilung</text>
+                            }
+                        </td>
+                        <td>
+                            @if (@Html.DisplayTextFor(modelItem => item.administrator).ToString() == "True")
+                            {
+                                <span class="glyphicon glyphicon-ok"></span>
+                                <div style='display: none;'>true</div>
+                            }
+                            else
+                            {
+                                <span class="glyphicon glyphicon-remove"></span>
+                                <div style='display: none;'>false</div>
+                            }
+                        </td>
+                        <td>
+                            @if (@Html.DisplayTextFor(modelItem => item.dispatcher).ToString() == "True")
+                            {
+                                <span class="glyphicon glyphicon-ok"></span>
+                                <div style='display: none;'>true</div>
+                            }
+                            else
+                            {
+                                <span class="glyphicon glyphicon-remove"></span>
+                                <div style='display: none;'>false</div>
+                            }
+                        </td>
+                        <td>
+                            @if (@Html.DisplayTextFor(modelItem => item.coordinator).ToString() == "True")
+                            {
+                                <span class="glyphicon glyphicon-ok"></span>
+                                <div style='display: none;'>true</div>
+                            }
+                            else
+                            {
+                                <span class="glyphicon glyphicon-remove"></span>
+                                <div style='display: none;'>false</div>
+                            }
+                        </td>
+                        <td>
+                            @if (@Html.DisplayTextFor(modelItem => item.signer).ToString() == "True")
+                            {
+                                <span class="glyphicon glyphicon-ok"></span>
+                                <div style='display: none;'>true</div>
+                            }
+                            else
+                            {
+                                <span class="glyphicon glyphicon-remove"></span>
+                                <div style='display: none;'>false</div>
+                            }
+                        </td>
+                        <td>
+                            @if (@Html.DisplayTextFor(modelItem => item.personInCharge).ToString() == "True")
+                            {
+                                <span class="glyphicon glyphicon-ok"></span>
+                                <div style='display: none;'>true</div>
+                            }
+                            else
+                            {
+                                <span class="glyphicon glyphicon-remove"></span>
+                                <div style='display: none;'>false</div>
+                            }
+                        </td>
+                        <td>
+                            @if (@Html.DisplayTextFor(modelItem => item.blocked).ToString() == "True")
+                            {
+                                <span class="badge progress-bar-danger">Ja</span>
+                            }
+                            else
+                            {
+                                <span class="badge progress-bar-success">Nein</span>
+                            }
+                        </td>
+                        <td>
+                            @Html.ActionLink(" ", "EditUser", "CoreData", new {id = item.ID}, new {data_modal = "", @class = "btn btn-warning glyphicon glyphicon-pencil", @data_toggle = "popover", @data_content = "Bearbeiten"})
+                            @Html.ActionLink(" ", "DeleteUser", "CoreData", new {id = item.ID}, new {data_modal = "", @class = "btn btn-danger glyphicon glyphicon-trash", @data_toggle = "popover", @data_content = "Löschen" })
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

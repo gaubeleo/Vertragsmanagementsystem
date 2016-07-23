@@ -1,0 +1,92 @@
+[
+  {
+    "outputFileName": "Scripts/CoreData.min.js",
+    "inputFiles": [
+      "Scripts/CoreData.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/Contract.min.js",
+    "inputFiles": [
+      "Scripts/Contract.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/Site.min.css",
+    "inputFiles": [
+      "Content/Site.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/jquery.dataTables.yadcf.min.css",
+    "inputFiles": [
+      "Content/jquery.dataTables.yadcf.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/de.min.js",
+    "inputFiles": [
+      "Scripts/de.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.dataTables.yadcf.min.js",
+    "inputFiles": [
+      "Scripts/jquery.dataTables.yadcf.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/ContractCreate.min.js",
+    "inputFiles": [
+      "Scripts/ContractCreate.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/ContractEdit.min.js",
+    "inputFiles": [
+      "Scripts/ContractEdit.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/hint-tooltip.min.js",
+    "inputFiles": [
+      "Scripts/hint-tooltip.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/file-upload.min.js",
+    "inputFiles": [
+      "Scripts/file-upload.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/custom_validation.min.js",
+    "inputFiles": [
+      "Scripts/custom_validation.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jQueryValidateFixes.min.js",
+    "inputFiles": [
+      "Scripts/jQueryValidateFixes.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/Modals.min.js",
+    "inputFiles": [
+      "Scripts/Modals.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/Report.min.js",
+    "inputFiles": [
+      "Scripts/Report.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/Home.min.js",
+    "inputFiles": [
+      "Scripts/Home.js"
+    ]
+  }
+]

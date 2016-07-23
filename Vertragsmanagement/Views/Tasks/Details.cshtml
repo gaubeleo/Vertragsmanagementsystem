@@ -1,0 +1,42 @@
+﻿@model Vertragsmanagement.Models.Task
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Task</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.describtion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.describtion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contractID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contractID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.userID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.userID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

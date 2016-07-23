@@ -1,0 +1,157 @@
+.hide {
+	display: none;
+}
+
+.inuse, .ui-slider-range .inuse, .yadcf-filter-range-number-slider .inuse {
+	background: #8BBEF0;
+}
+
+.yadcf-filter-reset-button {
+	display: inline-block;
+}
+
+.yadcf-filter-reset-button.range-number-slider-reset-button{
+	position: relative;
+	top: -6px;	
+}
+
+.yadcf-filter {
+    display: block;
+    width: 300px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.yadcf-filter > option{
+    background: white;
+}
+
+.ui-autocomplete .ui-menu-item { 
+	font-size:13px;
+}
+
+#ui-datepicker-div { 
+	font-size:13px;
+}
+.yadcf-filter-wrapper {
+	display: inline-block;
+	white-space: nowrap;
+	margin-left: 2px;
+}
+
+.yadcf-filter-range-number {
+    display: block;
+    width: 300px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.yadcf-filter-range-number-seperator {
+}
+
+.yadcf-filter-range-date {
+    display: block;
+    width: 300px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.yadcf-filter-range-date-seperator {
+}
+
+.yadcf-filter-wrapper-inner {
+	display: inline-block;
+}
+
+.yadcf-number-slider-filter-wrapper-inner {
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 7px;
+}
+
+.yadcf-filter-range-number-slider .ui-slider-handle {
+	width: 10px;
+	height: 10px;
+	margin-top: 1px;
+}
+
+.yadcf-filter-range-number-slider .ui-slider-range {
+	position: relative;
+	height: 5px;
+}
+
+.yadcf-filter-range-number-slider {
+	height: 5px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.yadcf-filter-range-number-slider {
+    overflow: visible;
+}
+
+.yadcf-number-slider-filter-wrapper-inner .yadcf-filter-range-number-slider-min-tip {
+	font-size: 13px;
+	font-weight: normal;
+	position: absolute;
+	outline-style: none;
+}
+
+.yadcf-number-slider-filter-wrapper-inner .yadcf-filter-range-number-slider-max-tip {
+	font-size: 13px;
+	font-weight: normal;
+	position:absolute;
+	outline-style: none;
+}
+
+.yadcf-number-slider-filter-wrapper-inner .yadcf-filter-range-number-slider-min-tip-inner {
+	position:absolute;
+	top: 11px;
+}
+
+.yadcf-number-slider-filter-wrapper-inner .yadcf-filter-range-number-slider-max-tip-inner {
+	position:absolute;
+	top: 11px;
+}
+
+.yadcf-exclude-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.yadcf-label.small {
+	font-size: 10px;
+}

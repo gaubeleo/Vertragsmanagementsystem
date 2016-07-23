@@ -1,0 +1,217 @@
+﻿@model Vertragsmanagement.ViewModels.ContractViewModel
+
+@{
+    ViewBag.Title = "Detailansicht";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title"><b>Vertragsdetails</b></div>
+        </div>
+        <div class="panel-body">
+
+            <div id="EditContract" class="form-horizontal col-sm-offset-2">
+                @Html.ValidationSummary()
+                @Html.HiddenFor(model => model.contract.intID)
+
+                <fieldset disabled>
+
+                    <h3>Vertragsdaten</h3>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.extID, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.extID, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.extID, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.titel, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.titel, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.titel, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.species, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.speciesID, Model.selectSpecies, "Vertragsart wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.species, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.category, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.categoryID, Model.selectCategory, "Kategorie wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.category, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.subcategory, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.subcategoryID, Model.selectSubcategory, "Unterkategorie wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.subcategory, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.partner, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.partnerID, Model.selectPartner, "Vertragspartner wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.partner, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.partnerIs, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EnumDropDownListFor(model => model.contract.partnerIs, "bitte wählen", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.contract.partnerIs, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.locality, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.locality, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.contract.locality, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.remark, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.TextAreaFor(model => model.contract.remark, 5, 33, htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.remark, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <br />
+                    <h3>Verantwortliche</h3>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.signer, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.signerID, Model.selectSigner, "Unterzeichner wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.signer, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.personInCharge, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.personInChargeID, Model.selectPersonInCharge, "Verantwortlichen wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.personInCharge, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.mappedDepartment, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.mappedDepartmentID, Model.selectMappedDepartment, "Abteilung wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.mappedDepartment, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.observingDepartment, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.DropDownListFor(model => model.contract.observingDepartmentID, Model.selectObservingDepartment, "Abteilung wählen", htmlAttributes: new { @class = "form-control", @type = "text" })
+                            @Html.ValidationMessageFor(model => model.contract.observingDepartment, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <br />
+                    <h3>Kosten</h3>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.contractCosts, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.contractCosts, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.contractCosts, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.valueTax, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.valueTax, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.valueTax, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.paymentBegin, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.paymentBegin, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.paymentBegin, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.paymentIntervall, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.paymentIntervall, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.paymentIntervall, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <br />
+                    <h3>Fristen und Termine</h3>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.startDate, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.startDate, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.startDate, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.earliestNoticePeriod, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.earliestNoticePeriod, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.earliestNoticePeriod, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.noticePeriod, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.noticePeriod, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.noticePeriod, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.endDate, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.endDate, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.endDate, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.contractExtension, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.contractExtension, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.contractExtension, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.remindingDate, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.remindingDate, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.remindingDate, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.contract.escalationDate, htmlAttributes: new { @class = "col-sm-3 control-label" })
+                        <div class="col-sm-7">
+                            @Html.EditorFor(model => model.contract.escalationDate, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+                            @Html.ValidationMessageFor(model => model.contract.escalationDate, null, new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-7">
+                        @Html.ActionLink("Vertrag bearbeiten", "Edit", "Contract", new { id = Model.contract.intID }, new { @class = "btn btn-default" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Zurück zur Übersicht (ohne Speichern)", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Scripts/hint-tooltip.js")
+}

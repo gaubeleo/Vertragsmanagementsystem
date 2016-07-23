@@ -1,0 +1,45 @@
+﻿@model Vertragsmanagement.Models.ContractPartner
+
+@{
+    ViewBag.Title = "Vertragspartner löschen";
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title" id="myModalLabel">Vertragspartner löschen</h4>
+</div>
+
+<div class="modal-body">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.accountNumbre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.accountNumbre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+    </dl>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-footer">
+        @if (ViewBag.notDeletable)
+        {
+            <p class="text-danger">Dieser Vertragspartner ist aktiven Verträgen zugeordnet und kann deshalb nicht gelöscht werden!</p>
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" disabled="disabled" type="submit" value="Löschen" />
+        }
+        else
+        {
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" type="submit" value="Löschen" />
+        }
+    </div>
+}

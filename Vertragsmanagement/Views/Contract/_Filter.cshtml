@@ -1,0 +1,280 @@
+﻿@model Vertragsmanagement.ViewModels.IndexContractsViewModel
+
+<form>
+<fieldset>
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#Vertragsdaten" data-toggle="tab">Vertragsdaten</a></li>
+    <li role="presentation"><a href="#Verantwortliche" data-toggle="tab">Verantwortliche</a></li>
+    <li role="presentation"><a href="#Kosten" data-toggle="tab">Kosten</a></li>
+    <li role="presentation"><a href="#FristenundTermine" data-toggle="tab">Fristen und Termine</a></li>
+</ul>
+
+<section class="tab-content">
+<article class="tab-pane active" id="Vertragsdaten">
+    <div class="panel panel-default">
+        <div class="panel-body fixed-panel">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.intID)
+                        <input type="number" class="form-control" id="intnr" placeholder="Int. Vertragsnummer" disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.extID)
+                        <input type="number" class="form-control" id="extnr" placeholder="Ext. Vertragsnummer">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.titel)
+                        <input type="text" class="form-control" id="bez" placeholder="Bezeichnung">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.species)
+                        @Html.DropDownListFor(model => model.contract.species, Model.selectSpecies, "Vertragsart wählen", new {@class = "form-control"})
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.category)
+                        @Html.DropDownList("dropdowncategory", new SelectList(string.Empty, "Value", "Text"), "Kategorie wählen", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.subcategory)
+                        @Html.DropDownList("dropdownsubcategory", new SelectList(string.Empty, "Value", "Text"), "Unterkategorie wählen", new {@class = "form-control"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.partner)
+                        @Html.DropDownListFor(model => model.contract.partner.name, Model.selectPartner, "Vertragspartner wählen", new {@class = "form-control"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.partnerIs)
+                        @Html.EnumDropDownListFor(model => model.contract.partnerIs, "Vertragspartner ist ... wählen", new {@class = "form-control", disabled = "disabled"})
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.locality)
+                        <input type="text" class="form-control" id="loc" placeholder="Standort" disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.remark)
+                        <input type="text" class="form-control" id="bem" placeholder="Bemerkungen" disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.state)
+                        @*                        @Html.EnumDropDownListFor(model => model.contract.state, "", new { @class = "form-control"})*@
+                        
+                        <select class="form-control" id="status" preselect=@ViewBag.State>
+                            <option value="">Status wählen</option>
+                            <option value="aktiv">Aktiv</option>
+                            <option value="unvollständig">Unvollständig</option>
+                            <option value="gekündigt">Gekündigt</option>
+                            <option value="beendet">Beendet</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.contractValue)
+                        <span id="ges"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.otherFeatures)
+                        @Html.DropDownListFor(m => m.contract.otherFeatures, Model.selectOtherFeatures, "Weitere Merkmale wählen", new {@class = "form-control", disabled = "disabled"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.costCenterDivides)
+                        @Html.DropDownListFor(m => m.costcentre.describtion, Model.selectCostCenter, "Kostenstellen wählen", new {@class = "form-control", disabled = "disabled"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.mappedDepartment.mandant)
+                        @Html.DropDownListFor(m => m.contract.mappedDepartment.mandant.name, Model.selectMandant, "Mandant wählen", new {@class = "form-control", disabled = "disabled"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label class="checkbox-inline"><input type="checkbox" value="esk">Zeige nur eskalierte Verträge</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<article class="tab-pane" id="Verantwortliche">
+    <div class="panel panel-default">
+        <div class="panel-body fixed-panel">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.signer)
+                        @Html.DropDownListFor(model => model.contract.signer, Model.selectSigner, "Unterzeichner wählen", new {@class = "form-control"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.personInCharge)
+                        @Html.DropDownListFor(model => model.contract.personInCharge, Model.selectPersonInCharge, "sachlicher Verantwortlicher wählen", new {@class = "form-control", disabled = "disabled"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.mappedDepartment)
+                        @Html.DropDownListFor(model => model.contract.mappedDepartment, Model.selectMappedDepartment, "zugeordnete Abteilung wählen", new {@class = "form-control", disabled = "disabled"})
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.observingDepartment)
+                        @Html.DropDownListFor(model => model.contract.observingDepartment, Model.selectObservingDepartment, "überwachende Abteilung wählen", new {@class = "form-control"})
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<article class="tab-pane" id="Kosten">
+    <div class="panel panel-default">
+        <div class="panel-body fixed-panel">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.contractCosts)
+                        <span id="kos" disabled="disabled"></span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.valueTax)
+                        <input type="number" class="form-control" id="mwst" placeholder="Mehrwertsteuer" disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.paymentBegin)
+                            <span id="zbgvon" disabled="disabled"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.paymentIntervall)
+                        <input type="number" class="form-control" id="zim" placeholder="Zahlungsintervall in Monaten" disabled="disabled">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<article class="tab-pane" id="FristenundTermine">
+    <div class="panel panel-default">
+        <div class="panel-body fixed-panel">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.startDate)
+                            <span id="vbvon"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.earliestNoticePeriod)
+                        <input type="number" class="form-control" id="mim" placeholder="Mindestlaufzeit in Monaten" disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.noticePeriod)
+                        <input type="number" class="form-control" id="kit" placeholder="Kündigungsfrist in Tagen" disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.endDate)
+                            <span id="vevon" disabled="disabled"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.contract.contractExtension)
+                        <input type="number" class="form-control" id="avim" placeholder="Auto. Vertragsverlängerung in Monaten " disabled="disabled">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.remindingDate)
+                            <span id="ervon" disabled="disabled"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.escalationDate)
+                            <span id="esvon" disabled="disabled"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.creationDate)
+                            <span id="ersvon" disabled="disabled"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            @Html.LabelFor(m => m.contract.noticeDate)
+                            <span id="kdatvon" disabled="disabled"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+</section>
+
+<br/>
+<div class="row">
+    <button class="btn btn-info center-block" type="reset" id="reset">Suche zurücksetzen</button>
+</div>
+</fieldset>
+</form>

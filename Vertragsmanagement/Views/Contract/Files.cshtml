@@ -1,0 +1,52 @@
+﻿@model Vertragsmanagement.Models.Contract
+
+@{
+    ViewBag.Title = "Dokumente";
+}
+
+<div class="col-md-2">
+</div>
+<div class="col-md-8">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <div class="clearfix">
+                    <b>Dokumente zu Vertrag: @Model.extID @Model.titel</b>
+                    <div class="btn-group pull-right">
+                        @Html.ActionLink(" + Dokument hochladen", "Upload", new {id = Model.intID}, new {@class = "btn btn-success"})
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <table class="table table-responsive">
+                <tr>
+                    <th>#</th>
+                    <th>Bezeichnung</th>
+                    <th>Kategorie</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                @{ int i = 1;}
+                @foreach (var item in Model.documents)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@item.title</td>
+                        <td>@item.category</td>
+                        <td><a href="@item.link">Öffnen</a></td>
+                        <td align="right"><a href="~/Contract/DeleteFile/@Model.intID?fileID=@item.ID" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    </tr>
+                    i = i + 1;
+                }
+            </table>
+            <div class="form-group">
+                <div class="col-sm-12 text-center">
+                    @Html.ActionLink("Zurück zur Übersicht", "Index", "Contract", null, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-2">
+</div>

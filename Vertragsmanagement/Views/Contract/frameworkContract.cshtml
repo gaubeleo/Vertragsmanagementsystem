@@ -1,0 +1,69 @@
+﻿@model Vertragsmanagement.ViewModels.FrameworkContractViewModel
+@{
+    ViewBag.Title = "Rahmenvertrag";
+}
+<div class="col-md-2">
+</div>
+<div class="col-md-8">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <b>Dem Rahmenvertrag @Model.contract.titel untergeordnete Verträge zuordnen</b>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <b>Unterverträge</b>
+                            </div>
+                        </div>
+                        <table class="table table-responsive">
+                            <tr>
+                                <th>#</th>
+                                <th>Titel</th>
+                                <th>Unterzeichner</th>
+                                <th></th>
+                            </tr>
+                            @{ int i = 1; }
+                            @foreach (var item in Model.SubContractsOfContract)
+                            {
+                                <tr>
+                                    <td>@i</td>
+                                    <td>@item.titel</td>
+                                    <td>@item.signer.FullName</td>
+                                    <td align="right"><a href="~/Contract/DeleteFrameworkContractFromContract/@Model.contract.intID?subContractID=@item.intID" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a></td>
+                                </tr>
+                                i = i + 1;
+                            }
+                        </table>
+                    </div>
+                    @if (Model.allContracts.Count() != 0)
+                    {
+                        <form class="form-inline" action="/Contract/frameworkContract/@Model.contract.intID" method="post">
+                            <div class="form-group">
+                                <label>Vertrag hinzufügen: </label>
+                                <select class="form-control" id="subContractID" name="subContractID">
+                                    @foreach (var item in Model.allContracts)
+                                    {
+                                        <option value="@item.intID">@item.titel</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+                            </div>
+                            <div class="form-group pull-right">
+                                @Html.ActionLink("Zurück zur Übersicht", "Index", "Contract", null, new { @class = "btn btn-primary" })
+                            </div>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-2">
+</div>

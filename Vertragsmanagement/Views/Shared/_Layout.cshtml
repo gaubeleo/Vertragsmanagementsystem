@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Vertragsmanagement</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+</head>
+<body>
+<!-- modal placeholder-->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='myModalContent'>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">Vertragsmanagement</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Home" && ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">
+                    @Html.ActionLink("Übersicht", "Index", "Home")
+                </li>
+                <li>
+                <li class="dropdown @(ViewContext.RouteData.Values["Controller"].ToString() == "Contract" && ViewContext.RouteData.Values["Action"].ToString() != "Report" ? "active" : "")">
+                    <a class="dropdown-toggle" href="@Url.Action("Index", "Contract")">
+                        Vertragsverwaltung
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Contract" && ViewContext.RouteData.Values["Action"].ToString() == "Index" || ViewContext.RouteData.Values["Action"].ToString() == "Edit" || ViewContext.RouteData.Values["Action"].ToString() == "Details" || ViewContext.RouteData.Values["Action"].ToString() == "Files" ? "active" : "")">@Html.ActionLink("Übersicht", "Index", "Contract")</li>
+                        <li class="dropdown-header">Aufgaben</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Contract" && ViewContext.RouteData.Values["Action"].ToString() == "Create" ? "active" : "")">@Html.ActionLink("neuen Vertrag anlegen", "Create", "Contract")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Contract" && ViewContext.RouteData.Values["Action"].ToString() == "Import" ? "active" : "")">@Html.ActionLink("Import aus CSV Datei", "Import", "Contract")</li>
+                    </ul>
+                </li>
+                <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Contract" && ViewContext.RouteData.Values["Action"].ToString() == "Report" ? "active" : "")">
+                    @Html.ActionLink("Berichte", "Report", "Contract")
+                </li>
+                <li class="dropdown @(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" ? "active" : "")">
+                    <a class="dropdown-toggle" href="@Url.Action("Index", "CoreData")">
+                        Stammdatenverwaltung
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Firmenspezifisch</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "Departments" ? "active" : "")">@Html.ActionLink("Abteilungen", "Departments", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">@Html.ActionLink("Benutzer", "Index", "CoreData")</li>
+                        <li class="@((ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "CostCentres" || ViewContext.RouteData.Values["Action"].ToString() == "ImportCostCentre") ? "active" : "")">@Html.ActionLink("Kostenstellen", "CostCentres", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "Mandants" ? "active" : "")">@Html.ActionLink("Mandanten", "Mandants", "CoreData")</li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Vertragsspezifisch</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "ContractCategorys" ? "active" : "")">@Html.ActionLink("Vertragskategorien", "ContractCategorys", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "ContractSubcategorys" ? "active" : "")">@Html.ActionLink("Vertragsunterkategorien", "ContractSubcategorys", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "OtherFeatures" ? "active" : "")">@Html.ActionLink("Weitere Vertragsmerkmale", "OtherFeatures", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "ContractPartners" ? "active" : "")">@Html.ActionLink("Vertragspartner", "ContractPartners", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "ContractSpecies" ? "active" : "")">@Html.ActionLink("Vertragstypen", "ContractSpecies", "CoreData")</li>
+                        <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "CoreData" && ViewContext.RouteData.Values["Action"].ToString() == "deletedContracts" ? "active" : "")">@Html.ActionLink("gelöschte Verträge", "deletedContracts", "CoreData")</li>
+                    </ul>
+                </li>
+                <li class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Home" && ViewContext.RouteData.Values["Action"].ToString() == "Help" ? "active" : "")">
+                    @Html.ActionLink("Hilfe", "Help", "Home")
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-text">
+                    Eingeloggt als: @ViewBag.currentUser
+                </li>
+                <li>
+                    @Html.ActionLink("Abmelden", "SignOut", "Account")
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid body-content">
+    @RenderBody()
+</div>
+
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</body>
+</html>

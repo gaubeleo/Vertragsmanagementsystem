@@ -1,0 +1,154 @@
+﻿@model Vertragsmanagement.ViewModels.ReportContractsViewModel
+
+@{
+    ViewBag.Title = "Berichte";
+}
+
+<div class="col-md-12">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <b>Bitte Auswahl treffen und mit Aktualisieren bestätigen!</b>
+                </div>
+                <form class="form-inline" action="/Contract/Report" method="post">
+                    <div class="form-group">
+                        <select class="form-control col-md-3" id="mandantID" name="mandantID">
+                            @foreach (var item in Model.mandantenList)
+                            {
+                                <option value="@item.ID">@item.name</option>
+                            }
+                        </select>
+                        <select class="form-control  col-md-3" id="CostCentreID" name="CostCentreID">
+                            @foreach (var item in Model.costCentreList)
+                            {
+                                <option value="@item.ID">@item.describtion</option>
+                            }
+                        </select>
+                        <select class="form-control col-md-3" id="contracttypeID" name="typeID">
+                            @foreach (var item in Model.speciesList)
+                            {
+                                <option value="@item.ID">@item.name</option>
+                            }
+                        </select>
+                            @Html.DropDownList("dropdowncategory", new SelectList(string.Empty, "Value", "Text"), "Keine Kategorie gewählt", new { @class = "form-control" })
+                            @Html.DropDownList("dropdownsubcategory", new SelectList(string.Empty, "Value", "Text"), "Keine Unterkategorie gewählt", new { @class = "form-control" })
+                        <select class="form-control col-md-3" id="costtypeID" name="costTypeID">
+                            <option value="">Kein Kostentyp gewählt</option>
+                            <option value="0">Ausgabe</option>
+                            <option value="1">Einnahme</option>
+                        </select>
+                    </div>
+                    <button type="submit" name="dropdownsubmit" value="aktualisieren" class="btn btn-primary pull-right">Aktualisieren</button>
+                </form>
+            </div>
+            <div class="panel-body">
+                <div class="table">
+                    <table class="table table-striped display nowrap">
+                        <thead>
+                        <tr>
+                            <th>Mandant</th>
+                            <th>Kostenstelle</th>
+                            <th>Vertragsart</th>
+                            <th>Kategorie</th>
+                            <th>Unterkategorie</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>@Html.DisplayFor(m => m.mandantenList.Where(l => l.ID==(int) m.currentSelectedMandant).First().name)</td>
+                            <td>@Html.DisplayFor(m => m.costCentreList.Where(l => l.ID==(int) m.currentSelectedCostCentre).First().describtion)</td>
+                            <td>@Html.DisplayFor(m => m.speciesList.Where(l => l.ID==(int)m.currentSelectedType).First().name)</td>
+                            <td>@Html.DisplayFor(m => m.categoriesList.Where(l => l.ID==(int) m.currentSelectedCategory).First().name)</td>
+                            <td>@Html.DisplayFor(m => m.subcategoryList.Where(l => l.ID==(int) m.currentSelectedSubcategory).First().name)</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <b>Vertragskosten</b>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="table">
+                    <table id="ReportMandantsTable" class="table table-striped display nowrap">
+                        <thead>
+                        <tr>
+                            <th>
+                                @Html.Label("Mandant")
+                            </th>
+                            <th>
+                                @Html.Label("Kostenstelle")
+                            </th>
+                            <th>
+                                @Html.Label("Vertragsart")
+                            </th>
+                            <th>
+                                @Html.Label("Kategorie")
+                            </th>
+                            <th>
+                                @Html.Label("Unterkategorie")
+                            </th>
+                            <th>
+                                @Html.Label("Kostentyp")
+                            </th>
+                            <th>
+                                @Html.Label("Summe Verträge")
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var item in Model.rcc)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(m => item.mandant.name)</td>
+                                <td>@Html.DisplayFor(m => item.costCentre.describtion)</td>
+                                <td>@Html.DisplayFor(m => item.species.name)</td>
+                                <td>@Html.DisplayFor(m => item.category.name)</td>
+                                <td>@Html.DisplayFor(m => item.subcategory.name)</td>
+                                <td>@Html.DisplayFor(m => item.costOrRev)</td>
+                                <td align="right">@Html.DisplayFor(m => item.sum)</td>
+                            </tr>
+                        }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><b>Summe Ausgaben</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td align="right"><b>@Html.DisplayFor(m => m.gesSum)</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Summe Einnahmen</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td align="right"><b>@Html.DisplayFor(m => m.gesRev)</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Summe Gesamt</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td align="right"><b>@Html.DisplayFor(m => m.gesamt)</b></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/Scripts/Report.js")

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Vertragsmanagement.Models.Department>
+
+@{
+    ViewBag.Title = "Abteilungsübersicht";
+    Layout = "~/Views/CoreData/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">
+            <div class="clearfix">
+                <b>Abteilungsübersicht</b>
+                @Html.ActionLink("Abteilung erstellen", "CreateDepartment", "CoreData", null, new { data_modal = "", id = "btnCreate", @class = "btn btn-success pull-right" })
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="table-responsive">
+            <table id="DepartmentsTable" class="table table-striped display nowrap" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.ID)</th>
+                    <th>@Html.DisplayNameFor(model => model.name)</th>
+                    <th>@Html.DisplayNameFor(model => model.mandant)</th>
+                    <th class="all">Aktionen</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.mandant.name)
+                        </td>
+                        <td>
+                            @Html.ActionLink(" ", "responsiblePersonsDepartment", "CoreData", new { id = item.ID }, new { @class = "btn btn-primary glyphicon glyphicon-user", @data_toggle = "popover", @data_content = "Dispatcher/Koordinator hinzufügen"})
+                            @Html.ActionLink(" ", "EditDepartment", "CoreData", new {id = item.ID}, new {data_modal = "", @class = "btn btn-warning glyphicon glyphicon-pencil", @data_toggle = "popover", @data_content = "Bearbeiten" })
+                            @Html.ActionLink(" ", "DeleteDepartment", "CoreData", new {id = item.ID}, new {data_modal = "", @class = "btn btn-danger glyphicon glyphicon-trash", @data_toggle = "popover", @data_content = "Löschen" })
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

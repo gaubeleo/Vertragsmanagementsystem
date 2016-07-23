@@ -1,0 +1,1509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SQLDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ContractCategories">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ContractFeatures">
+          <Key>
+            <PropertyRef Name="ContractID" />
+            <PropertyRef Name="FeatureID" />
+          </Key>
+          <Property Name="ContractID" Type="int" Nullable="false" />
+          <Property Name="FeatureID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContractPartners">
+          <Key>
+            <PropertyRef Name="accountNumbre" />
+          </Key>
+          <Property Name="accountNumbre" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Contracts">
+          <Key>
+            <PropertyRef Name="intID" />
+          </Key>
+          <Property Name="intID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="extID" Type="int" />
+          <Property Name="titel" Type="nvarchar(max)" />
+          <Property Name="contractValue" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="contractCosts" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="paymentIntervall" Type="int" />
+          <Property Name="noticePeriod" Type="int" />
+          <Property Name="earliestNoticePeriod" Type="int" />
+          <Property Name="contractExtension" Type="int" />
+          <Property Name="valueTax" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="remark" Type="nvarchar(max)" />
+          <Property Name="state" Type="int" Nullable="false" />
+          <Property Name="categoryID" Type="int" />
+          <Property Name="subcategoryID" Type="int" />
+          <Property Name="speciesID" Type="int" />
+          <Property Name="signerID" Type="int" />
+          <Property Name="personInChargeID" Type="int" />
+          <Property Name="mappedDepartmentID" Type="int" />
+          <Property Name="observingDepartmentID" Type="int" />
+          <Property Name="partnerID" Type="nvarchar" MaxLength="128" />
+          <Property Name="paymentBegin" Type="datetime" />
+          <Property Name="startDate" Type="datetime" />
+          <Property Name="creationDate" Type="datetime" />
+          <Property Name="noticeDate" Type="datetime" />
+          <Property Name="endDate" Type="datetime" />
+          <Property Name="remindingDate" Type="datetime" />
+          <Property Name="escalationDate" Type="datetime" />
+          <Property Name="escalated" Type="bit" Nullable="false" />
+          <Property Name="reminded" Type="bit" Nullable="false" />
+          <Property Name="noticeReminded" Type="bit" Nullable="false" />
+          <Property Name="locality" Type="nvarchar(max)" />
+          <Property Name="partnerIs" Type="int" />
+          <Property Name="frameworkContractID" Type="int" />
+          <Property Name="isframeworkContract" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContractSpecies">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ContractSubcategories">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+          <Property Name="categoryID" Type="int" />
+        </EntityType>
+        <EntityType Name="CostCentreDivides">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="contractID" Type="int" Nullable="false" />
+          <Property Name="costCentreID" Type="int" Nullable="false" />
+          <Property Name="percentage" Type="real" Nullable="false" />
+          <Property Name="contract_intID" Type="int" />
+        </EntityType>
+        <EntityType Name="CostCentres">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="describtion" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="DepartmentCoordinators">
+          <Key>
+            <PropertyRef Name="DepartmentID" />
+            <PropertyRef Name="CoordinatorID" />
+          </Key>
+          <Property Name="DepartmentID" Type="int" Nullable="false" />
+          <Property Name="CoordinatorID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DepartmentDispatchers">
+          <Key>
+            <PropertyRef Name="DepartmentID" />
+            <PropertyRef Name="DispatcherID" />
+          </Key>
+          <Property Name="DepartmentID" Type="int" Nullable="false" />
+          <Property Name="DispatcherID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Departments">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+          <Property Name="mandantID" Type="int" />
+        </EntityType>
+        <EntityType Name="Documents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="title" Type="nvarchar(max)" />
+          <Property Name="link" Type="nvarchar(max)" />
+          <Property Name="Contract_intID" Type="int" />
+          <Property Name="category" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="MandantCoordinators">
+          <Key>
+            <PropertyRef Name="MandantID" />
+            <PropertyRef Name="CoordinatorID" />
+          </Key>
+          <Property Name="MandantID" Type="int" Nullable="false" />
+          <Property Name="CoordinatorID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Mandants">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="OtherFeatures">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="title" Type="nvarchar(max)" />
+          <Property Name="describtion" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="SpecialAuthorization">
+          <Key>
+            <PropertyRef Name="UserID" />
+            <PropertyRef Name="ContractID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="ContractID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tasks">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="describtion" Type="nvarchar(max)" />
+          <Property Name="contractID" Type="int" Nullable="false" />
+          <Property Name="deadline" Type="datetime" />
+        </EntityType>
+        <EntityType Name="UserContractAuthorization">
+          <Key>
+            <PropertyRef Name="ContractID" />
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="ContractID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UserMappedToTask">
+          <Key>
+            <PropertyRef Name="TaskID" />
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="TaskID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar(max)" />
+          <Property Name="surname" Type="nvarchar(max)" />
+          <Property Name="email" Type="nvarchar(max)" />
+          <Property Name="activeDirectoryName" Type="nvarchar(max)" />
+          <Property Name="departmentID" Type="int" />
+          <Property Name="administrator" Type="bit" Nullable="false" />
+          <Property Name="dispatcher" Type="bit" Nullable="false" />
+          <Property Name="coordinator" Type="bit" Nullable="false" />
+          <Property Name="signer" Type="bit" Nullable="false" />
+          <Property Name="personInCharge" Type="bit" Nullable="false" />
+          <Property Name="blocked" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_ContractFeatures_dbo_Contracts_ContractID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ContractFeatures" Type="Self.ContractFeatures" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="ContractFeatures">
+              <PropertyRef Name="ContractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ContractFeatures_dbo_OtherFeatures_FeatureID">
+          <End Role="OtherFeatures" Type="Self.OtherFeatures" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ContractFeatures" Type="Self.ContractFeatures" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OtherFeatures">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ContractFeatures">
+              <PropertyRef Name="FeatureID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractCategories_categoryID">
+          <End Role="ContractCategories" Type="Self.ContractCategories" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractCategories">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="categoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractPartners_partnerID">
+          <End Role="ContractPartners" Type="Self.ContractPartners" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractPartners">
+              <PropertyRef Name="accountNumbre" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="partnerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Contracts_frameworkContractID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="0..1" />
+          <End Role="Contracts1" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="Contracts1">
+              <PropertyRef Name="frameworkContractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID">
+          <End Role="ContractSpecies" Type="Self.ContractSpecies" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractSpecies">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="speciesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID">
+          <End Role="ContractSubcategories" Type="Self.ContractSubcategories" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractSubcategories">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="subcategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Departments_mappedDepartmentID">
+          <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="mappedDepartmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Departments_observingDepartmentID">
+          <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="observingDepartmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Users_personInChargeID">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="personInChargeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Users_signerID">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contracts">
+              <PropertyRef Name="signerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID">
+          <End Role="ContractCategories" Type="Self.ContractCategories" Multiplicity="0..1" />
+          <End Role="ContractSubcategories" Type="Self.ContractSubcategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractCategories">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ContractSubcategories">
+              <PropertyRef Name="categoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="0..1" />
+          <End Role="CostCentreDivides" Type="Self.CostCentreDivides" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="CostCentreDivides">
+              <PropertyRef Name="contract_intID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID">
+          <End Role="CostCentres" Type="Self.CostCentres" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="CostCentreDivides" Type="Self.CostCentreDivides" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CostCentres">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CostCentreDivides">
+              <PropertyRef Name="costCentreID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_DepartmentCoordinators_dbo_Departments_DepartmentID">
+          <End Role="Departments" Type="Self.Departments" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DepartmentCoordinators" Type="Self.DepartmentCoordinators" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DepartmentCoordinators">
+              <PropertyRef Name="DepartmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_DepartmentCoordinators_dbo_Users_CoordinatorID">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DepartmentCoordinators" Type="Self.DepartmentCoordinators" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DepartmentCoordinators">
+              <PropertyRef Name="CoordinatorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_DepartmentDispatchers_dbo_Departments_DepartmentID">
+          <End Role="Departments" Type="Self.Departments" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DepartmentDispatchers" Type="Self.DepartmentDispatchers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DepartmentDispatchers">
+              <PropertyRef Name="DepartmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_DepartmentDispatchers_dbo_Users_DispatcherID">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DepartmentDispatchers" Type="Self.DepartmentDispatchers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DepartmentDispatchers">
+              <PropertyRef Name="DispatcherID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Departments_dbo_Mandants_mandantID">
+          <End Role="Mandants" Type="Self.Mandants" Multiplicity="0..1" />
+          <End Role="Departments" Type="Self.Departments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mandants">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Departments">
+              <PropertyRef Name="mandantID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Documents_dbo_Contracts_Contract_intID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="0..1" />
+          <End Role="Documents" Type="Self.Documents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="Documents">
+              <PropertyRef Name="Contract_intID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MandantCoordinators_dbo_Mandants_MandantID">
+          <End Role="Mandants" Type="Self.Mandants" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MandantCoordinators" Type="Self.MandantCoordinators" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mandants">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MandantCoordinators">
+              <PropertyRef Name="MandantID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MandantCoordinators_dbo_Users_CoordinatorID">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MandantCoordinators" Type="Self.MandantCoordinators" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MandantCoordinators">
+              <PropertyRef Name="CoordinatorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_SpecialAuthorization_dbo_Contracts_ContractID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SpecialAuthorization" Type="Self.SpecialAuthorization" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="SpecialAuthorization">
+              <PropertyRef Name="ContractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_SpecialAuthorization_dbo_Users_UserID">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SpecialAuthorization" Type="Self.SpecialAuthorization" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="SpecialAuthorization">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Tasks_dbo_Contracts_contractID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="Tasks">
+              <PropertyRef Name="contractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_UserContractAuthorization_dbo_Contracts_ContractID">
+          <End Role="Contracts" Type="Self.Contracts" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="UserContractAuthorization" Type="Self.UserContractAuthorization" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contracts">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="UserContractAuthorization">
+              <PropertyRef Name="ContractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_UserContractAuthorization_dbo_Users_UserID">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="UserContractAuthorization" Type="Self.UserContractAuthorization" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="UserContractAuthorization">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_UserMappedToTask_dbo_Tasks_TaskID">
+          <End Role="Tasks" Type="Self.Tasks" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="UserMappedToTask" Type="Self.UserMappedToTask" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tasks">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="UserMappedToTask">
+              <PropertyRef Name="TaskID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_UserMappedToTask_dbo_Users_UserID">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="UserMappedToTask" Type="Self.UserMappedToTask" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="UserMappedToTask">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Users_dbo_Departments_departmentID">
+          <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="departmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SQLDBModelStoreContainer">
+          <EntitySet Name="ContractCategories" EntityType="Self.ContractCategories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ContractFeatures" EntityType="Self.ContractFeatures" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ContractPartners" EntityType="Self.ContractPartners" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Contracts" EntityType="Self.Contracts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ContractSpecies" EntityType="Self.ContractSpecies" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ContractSubcategories" EntityType="Self.ContractSubcategories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CostCentreDivides" EntityType="Self.CostCentreDivides" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CostCentres" EntityType="Self.CostCentres" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DepartmentCoordinators" EntityType="Self.DepartmentCoordinators" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DepartmentDispatchers" EntityType="Self.DepartmentDispatchers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Documents" EntityType="Self.Documents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MandantCoordinators" EntityType="Self.MandantCoordinators" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mandants" EntityType="Self.Mandants" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OtherFeatures" EntityType="Self.OtherFeatures" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SpecialAuthorization" EntityType="Self.SpecialAuthorization" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tasks" EntityType="Self.Tasks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserContractAuthorization" EntityType="Self.UserContractAuthorization" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserMappedToTask" EntityType="Self.UserMappedToTask" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_ContractFeatures_dbo_Contracts_ContractID" Association="Self.FK_dbo_ContractFeatures_dbo_Contracts_ContractID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="ContractFeatures" EntitySet="ContractFeatures" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ContractFeatures_dbo_OtherFeatures_FeatureID" Association="Self.FK_dbo_ContractFeatures_dbo_OtherFeatures_FeatureID">
+            <End Role="OtherFeatures" EntitySet="OtherFeatures" />
+            <End Role="ContractFeatures" EntitySet="ContractFeatures" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractCategories_categoryID" Association="Self.FK_dbo_Contracts_dbo_ContractCategories_categoryID">
+            <End Role="ContractCategories" EntitySet="ContractCategories" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractPartners_partnerID" Association="Self.FK_dbo_Contracts_dbo_ContractPartners_partnerID">
+            <End Role="ContractPartners" EntitySet="ContractPartners" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Contracts_frameworkContractID" Association="Self.FK_dbo_Contracts_dbo_Contracts_frameworkContractID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="Contracts1" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID" Association="Self.FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID">
+            <End Role="ContractSpecies" EntitySet="ContractSpecies" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID" Association="Self.FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID">
+            <End Role="ContractSubcategories" EntitySet="ContractSubcategories" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Departments_mappedDepartmentID" Association="Self.FK_dbo_Contracts_dbo_Departments_mappedDepartmentID">
+            <End Role="Departments" EntitySet="Departments" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Departments_observingDepartmentID" Association="Self.FK_dbo_Contracts_dbo_Departments_observingDepartmentID">
+            <End Role="Departments" EntitySet="Departments" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Users_personInChargeID" Association="Self.FK_dbo_Contracts_dbo_Users_personInChargeID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Users_signerID" Association="Self.FK_dbo_Contracts_dbo_Users_signerID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contracts" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID" Association="Self.FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID">
+            <End Role="ContractCategories" EntitySet="ContractCategories" />
+            <End Role="ContractSubcategories" EntitySet="ContractSubcategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID" Association="Self.FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="CostCentreDivides" EntitySet="CostCentreDivides" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID" Association="Self.FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID">
+            <End Role="CostCentres" EntitySet="CostCentres" />
+            <End Role="CostCentreDivides" EntitySet="CostCentreDivides" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_DepartmentCoordinators_dbo_Departments_DepartmentID" Association="Self.FK_dbo_DepartmentCoordinators_dbo_Departments_DepartmentID">
+            <End Role="Departments" EntitySet="Departments" />
+            <End Role="DepartmentCoordinators" EntitySet="DepartmentCoordinators" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_DepartmentCoordinators_dbo_Users_CoordinatorID" Association="Self.FK_dbo_DepartmentCoordinators_dbo_Users_CoordinatorID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="DepartmentCoordinators" EntitySet="DepartmentCoordinators" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_DepartmentDispatchers_dbo_Departments_DepartmentID" Association="Self.FK_dbo_DepartmentDispatchers_dbo_Departments_DepartmentID">
+            <End Role="Departments" EntitySet="Departments" />
+            <End Role="DepartmentDispatchers" EntitySet="DepartmentDispatchers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_DepartmentDispatchers_dbo_Users_DispatcherID" Association="Self.FK_dbo_DepartmentDispatchers_dbo_Users_DispatcherID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="DepartmentDispatchers" EntitySet="DepartmentDispatchers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Departments_dbo_Mandants_mandantID" Association="Self.FK_dbo_Departments_dbo_Mandants_mandantID">
+            <End Role="Mandants" EntitySet="Mandants" />
+            <End Role="Departments" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Documents_dbo_Contracts_Contract_intID" Association="Self.FK_dbo_Documents_dbo_Contracts_Contract_intID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="Documents" EntitySet="Documents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MandantCoordinators_dbo_Mandants_MandantID" Association="Self.FK_dbo_MandantCoordinators_dbo_Mandants_MandantID">
+            <End Role="Mandants" EntitySet="Mandants" />
+            <End Role="MandantCoordinators" EntitySet="MandantCoordinators" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MandantCoordinators_dbo_Users_CoordinatorID" Association="Self.FK_dbo_MandantCoordinators_dbo_Users_CoordinatorID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="MandantCoordinators" EntitySet="MandantCoordinators" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_SpecialAuthorization_dbo_Contracts_ContractID" Association="Self.FK_dbo_SpecialAuthorization_dbo_Contracts_ContractID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="SpecialAuthorization" EntitySet="SpecialAuthorization" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_SpecialAuthorization_dbo_Users_UserID" Association="Self.FK_dbo_SpecialAuthorization_dbo_Users_UserID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="SpecialAuthorization" EntitySet="SpecialAuthorization" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Tasks_dbo_Contracts_contractID" Association="Self.FK_dbo_Tasks_dbo_Contracts_contractID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="Tasks" EntitySet="Tasks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_UserContractAuthorization_dbo_Contracts_ContractID" Association="Self.FK_dbo_UserContractAuthorization_dbo_Contracts_ContractID">
+            <End Role="Contracts" EntitySet="Contracts" />
+            <End Role="UserContractAuthorization" EntitySet="UserContractAuthorization" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_UserContractAuthorization_dbo_Users_UserID" Association="Self.FK_dbo_UserContractAuthorization_dbo_Users_UserID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserContractAuthorization" EntitySet="UserContractAuthorization" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_UserMappedToTask_dbo_Tasks_TaskID" Association="Self.FK_dbo_UserMappedToTask_dbo_Tasks_TaskID">
+            <End Role="Tasks" EntitySet="Tasks" />
+            <End Role="UserMappedToTask" EntitySet="UserMappedToTask" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_UserMappedToTask_dbo_Users_UserID" Association="Self.FK_dbo_UserMappedToTask_dbo_Users_UserID">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserMappedToTask" EntitySet="UserMappedToTask" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Users_dbo_Departments_departmentID" Association="Self.FK_dbo_Users_dbo_Departments_departmentID">
+            <End Role="Departments" EntitySet="Departments" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SQLDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SQLDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ContractCategories" EntityType="SQLDBModel.ContractCategory" />
+          <EntitySet Name="ContractPartners" EntityType="SQLDBModel.ContractPartner" />
+          <EntitySet Name="Contracts" EntityType="SQLDBModel.Contract" />
+          <EntitySet Name="ContractSpecies" EntityType="SQLDBModel.ContractSpecy" />
+          <EntitySet Name="ContractSubcategories" EntityType="SQLDBModel.ContractSubcategory" />
+          <EntitySet Name="CostCentreDivides" EntityType="SQLDBModel.CostCentreDivide" />
+          <EntitySet Name="CostCentres" EntityType="SQLDBModel.CostCentre" />
+          <EntitySet Name="Departments" EntityType="SQLDBModel.Department" />
+          <EntitySet Name="Documents" EntityType="SQLDBModel.Document" />
+          <EntitySet Name="Mandants" EntityType="SQLDBModel.Mandant" />
+          <EntitySet Name="OtherFeatures" EntityType="SQLDBModel.OtherFeature" />
+          <EntitySet Name="Tasks" EntityType="SQLDBModel.Task" />
+          <EntitySet Name="Users" EntityType="SQLDBModel.User" />
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractCategories_categoryID" Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractCategories_categoryID">
+            <End Role="ContractCategory" EntitySet="ContractCategories" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID" Association="SQLDBModel.FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID">
+            <End Role="ContractCategory" EntitySet="ContractCategories" />
+            <End Role="ContractSubcategory" EntitySet="ContractSubcategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractPartners_partnerID" Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractPartners_partnerID">
+            <End Role="ContractPartner" EntitySet="ContractPartners" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Contracts_frameworkContractID" Association="SQLDBModel.FK_dbo_Contracts_dbo_Contracts_frameworkContractID">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="Contract1" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID" Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID">
+            <End Role="ContractSpecy" EntitySet="ContractSpecies" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID" Association="SQLDBModel.FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID">
+            <End Role="ContractSubcategory" EntitySet="ContractSubcategories" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Departments_mappedDepartmentID" Association="SQLDBModel.FK_dbo_Contracts_dbo_Departments_mappedDepartmentID">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Departments_observingDepartmentID" Association="SQLDBModel.FK_dbo_Contracts_dbo_Departments_observingDepartmentID">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Users_personInChargeID" Association="SQLDBModel.FK_dbo_Contracts_dbo_Users_personInChargeID">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Contracts_dbo_Users_signerID" Association="SQLDBModel.FK_dbo_Contracts_dbo_Users_signerID">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Contract" EntitySet="Contracts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID" Association="SQLDBModel.FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="CostCentreDivide" EntitySet="CostCentreDivides" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Documents_dbo_Contracts_Contract_intID" Association="SQLDBModel.FK_dbo_Documents_dbo_Contracts_Contract_intID">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="Document" EntitySet="Documents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Tasks_dbo_Contracts_contractID" Association="SQLDBModel.FK_dbo_Tasks_dbo_Contracts_contractID">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="Task" EntitySet="Tasks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID" Association="SQLDBModel.FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID">
+            <End Role="CostCentre" EntitySet="CostCentres" />
+            <End Role="CostCentreDivide" EntitySet="CostCentreDivides" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Departments_dbo_Mandants_mandantID" Association="SQLDBModel.FK_dbo_Departments_dbo_Mandants_mandantID">
+            <End Role="Mandant" EntitySet="Mandants" />
+            <End Role="Department" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Users_dbo_Departments_departmentID" Association="SQLDBModel.FK_dbo_Users_dbo_Departments_departmentID">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="ContractFeatures" Association="SQLDBModel.ContractFeatures">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="OtherFeature" EntitySet="OtherFeatures" />
+          </AssociationSet>
+          <AssociationSet Name="DepartmentCoordinators" Association="SQLDBModel.DepartmentCoordinators">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="DepartmentDispatchers" Association="SQLDBModel.DepartmentDispatchers">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="MandantCoordinators" Association="SQLDBModel.MandantCoordinators">
+            <End Role="Mandant" EntitySet="Mandants" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="SpecialAuthorization" Association="SQLDBModel.SpecialAuthorization">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="UserContractAuthorization" Association="SQLDBModel.UserContractAuthorization">
+            <End Role="Contract" EntitySet="Contracts" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="UserMappedToTask" Association="SQLDBModel.UserMappedToTask">
+            <End Role="Task" EntitySet="Tasks" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ContractCategory">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractCategories_categoryID" FromRole="ContractCategory" ToRole="Contract" />
+          <NavigationProperty Name="ContractSubcategories" Relationship="SQLDBModel.FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID" FromRole="ContractCategory" ToRole="ContractSubcategory" />
+        </EntityType>
+        <EntityType Name="ContractPartner">
+          <Key>
+            <PropertyRef Name="accountNumbre" />
+          </Key>
+          <Property Name="accountNumbre" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractPartners_partnerID" FromRole="ContractPartner" ToRole="Contract" />
+        </EntityType>
+        <EntityType Name="Contract">
+          <Key>
+            <PropertyRef Name="intID" />
+          </Key>
+          <Property Name="intID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="extID" Type="Int32" />
+          <Property Name="titel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="contractValue" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="contractCosts" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="paymentIntervall" Type="Int32" />
+          <Property Name="noticePeriod" Type="Int32" />
+          <Property Name="earliestNoticePeriod" Type="Int32" />
+          <Property Name="contractExtension" Type="Int32" />
+          <Property Name="valueTax" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="state" Type="Int32" Nullable="false" />
+          <Property Name="categoryID" Type="Int32" />
+          <Property Name="subcategoryID" Type="Int32" />
+          <Property Name="speciesID" Type="Int32" />
+          <Property Name="signerID" Type="Int32" />
+          <Property Name="personInChargeID" Type="Int32" />
+          <Property Name="mappedDepartmentID" Type="Int32" />
+          <Property Name="observingDepartmentID" Type="Int32" />
+          <Property Name="partnerID" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="paymentBegin" Type="DateTime" Precision="3" />
+          <Property Name="startDate" Type="DateTime" Precision="3" />
+          <Property Name="creationDate" Type="DateTime" Precision="3" />
+          <Property Name="noticeDate" Type="DateTime" Precision="3" />
+          <Property Name="endDate" Type="DateTime" Precision="3" />
+          <Property Name="remindingDate" Type="DateTime" Precision="3" />
+          <Property Name="escalationDate" Type="DateTime" Precision="3" />
+          <Property Name="escalated" Type="Boolean" Nullable="false" />
+          <Property Name="reminded" Type="Boolean" Nullable="false" />
+          <Property Name="noticeReminded" Type="Boolean" Nullable="false" />
+          <Property Name="locality" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="partnerIs" Type="Int32" />
+          <Property Name="frameworkContractID" Type="Int32" />
+          <Property Name="isframeworkContract" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="ContractCategory" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractCategories_categoryID" FromRole="Contract" ToRole="ContractCategory" />
+          <NavigationProperty Name="ContractPartner" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractPartners_partnerID" FromRole="Contract" ToRole="ContractPartner" />
+          <NavigationProperty Name="Contracts1" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Contracts_frameworkContractID" FromRole="Contract" ToRole="Contract1" />
+          <NavigationProperty Name="Contract1" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Contracts_frameworkContractID" FromRole="Contract1" ToRole="Contract" />
+          <NavigationProperty Name="ContractSpecy" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID" FromRole="Contract" ToRole="ContractSpecy" />
+          <NavigationProperty Name="ContractSubcategory" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID" FromRole="Contract" ToRole="ContractSubcategory" />
+          <NavigationProperty Name="Department" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Departments_mappedDepartmentID" FromRole="Contract" ToRole="Department" />
+          <NavigationProperty Name="Department1" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Departments_observingDepartmentID" FromRole="Contract" ToRole="Department" />
+          <NavigationProperty Name="User" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Users_personInChargeID" FromRole="Contract" ToRole="User" />
+          <NavigationProperty Name="User1" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Users_signerID" FromRole="Contract" ToRole="User" />
+          <NavigationProperty Name="CostCentreDivides" Relationship="SQLDBModel.FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID" FromRole="Contract" ToRole="CostCentreDivide" />
+          <NavigationProperty Name="Documents" Relationship="SQLDBModel.FK_dbo_Documents_dbo_Contracts_Contract_intID" FromRole="Contract" ToRole="Document" />
+          <NavigationProperty Name="Tasks" Relationship="SQLDBModel.FK_dbo_Tasks_dbo_Contracts_contractID" FromRole="Contract" ToRole="Task" />
+          <NavigationProperty Name="OtherFeatures" Relationship="SQLDBModel.ContractFeatures" FromRole="Contract" ToRole="OtherFeature" />
+          <NavigationProperty Name="Users" Relationship="SQLDBModel.SpecialAuthorization" FromRole="Contract" ToRole="User" />
+          <NavigationProperty Name="Users1" Relationship="SQLDBModel.UserContractAuthorization" FromRole="Contract" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ContractSpecy">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID" FromRole="ContractSpecy" ToRole="Contract" />
+        </EntityType>
+        <EntityType Name="ContractSubcategory">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="categoryID" Type="Int32" />
+          <NavigationProperty Name="ContractCategory" Relationship="SQLDBModel.FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID" FromRole="ContractSubcategory" ToRole="ContractCategory" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID" FromRole="ContractSubcategory" ToRole="Contract" />
+        </EntityType>
+        <EntityType Name="CostCentreDivide">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="contractID" Type="Int32" Nullable="false" />
+          <Property Name="costCentreID" Type="Int32" Nullable="false" />
+          <Property Name="percentage" Type="Single" Nullable="false" />
+          <Property Name="contract_intID" Type="Int32" />
+          <NavigationProperty Name="Contract" Relationship="SQLDBModel.FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID" FromRole="CostCentreDivide" ToRole="Contract" />
+          <NavigationProperty Name="CostCentre" Relationship="SQLDBModel.FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID" FromRole="CostCentreDivide" ToRole="CostCentre" />
+        </EntityType>
+        <EntityType Name="CostCentre">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="describtion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CostCentreDivides" Relationship="SQLDBModel.FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID" FromRole="CostCentre" ToRole="CostCentreDivide" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="mandantID" Type="Int32" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Departments_mappedDepartmentID" FromRole="Department" ToRole="Contract" />
+          <NavigationProperty Name="Contracts1" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Departments_observingDepartmentID" FromRole="Department" ToRole="Contract" />
+          <NavigationProperty Name="Mandant" Relationship="SQLDBModel.FK_dbo_Departments_dbo_Mandants_mandantID" FromRole="Department" ToRole="Mandant" />
+          <NavigationProperty Name="Users" Relationship="SQLDBModel.FK_dbo_Users_dbo_Departments_departmentID" FromRole="Department" ToRole="User" />
+          <NavigationProperty Name="Users1" Relationship="SQLDBModel.DepartmentCoordinators" FromRole="Department" ToRole="User" />
+          <NavigationProperty Name="Users2" Relationship="SQLDBModel.DepartmentDispatchers" FromRole="Department" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Document">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Contract_intID" Type="Int32" />
+          <Property Name="category" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contract" Relationship="SQLDBModel.FK_dbo_Documents_dbo_Contracts_Contract_intID" FromRole="Document" ToRole="Contract" />
+        </EntityType>
+        <EntityType Name="Mandant">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Departments" Relationship="SQLDBModel.FK_dbo_Departments_dbo_Mandants_mandantID" FromRole="Mandant" ToRole="Department" />
+          <NavigationProperty Name="Users" Relationship="SQLDBModel.MandantCoordinators" FromRole="Mandant" ToRole="User" />
+        </EntityType>
+        <EntityType Name="OtherFeature">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="describtion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.ContractFeatures" FromRole="OtherFeature" ToRole="Contract" />
+        </EntityType>
+        <EntityType Name="Task">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="describtion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="contractID" Type="Int32" Nullable="false" />
+          <Property Name="deadline" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Contract" Relationship="SQLDBModel.FK_dbo_Tasks_dbo_Contracts_contractID" FromRole="Task" ToRole="Contract" />
+          <NavigationProperty Name="Users" Relationship="SQLDBModel.UserMappedToTask" FromRole="Task" ToRole="User" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="activeDirectoryName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="departmentID" Type="Int32" />
+          <Property Name="administrator" Type="Boolean" Nullable="false" />
+          <Property Name="dispatcher" Type="Boolean" Nullable="false" />
+          <Property Name="coordinator" Type="Boolean" Nullable="false" />
+          <Property Name="signer" Type="Boolean" Nullable="false" />
+          <Property Name="personInCharge" Type="Boolean" Nullable="false" />
+          <Property Name="blocked" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Contracts" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Users_personInChargeID" FromRole="User" ToRole="Contract" />
+          <NavigationProperty Name="Contracts1" Relationship="SQLDBModel.FK_dbo_Contracts_dbo_Users_signerID" FromRole="User" ToRole="Contract" />
+          <NavigationProperty Name="Department" Relationship="SQLDBModel.FK_dbo_Users_dbo_Departments_departmentID" FromRole="User" ToRole="Department" />
+          <NavigationProperty Name="Departments" Relationship="SQLDBModel.DepartmentCoordinators" FromRole="User" ToRole="Department" />
+          <NavigationProperty Name="Departments1" Relationship="SQLDBModel.DepartmentDispatchers" FromRole="User" ToRole="Department" />
+          <NavigationProperty Name="Mandants" Relationship="SQLDBModel.MandantCoordinators" FromRole="User" ToRole="Mandant" />
+          <NavigationProperty Name="Contracts2" Relationship="SQLDBModel.SpecialAuthorization" FromRole="User" ToRole="Contract" />
+          <NavigationProperty Name="Contracts3" Relationship="SQLDBModel.UserContractAuthorization" FromRole="User" ToRole="Contract" />
+          <NavigationProperty Name="Tasks" Relationship="SQLDBModel.UserMappedToTask" FromRole="User" ToRole="Task" />
+        </EntityType>
+        <Association Name="FK_dbo_Contracts_dbo_ContractCategories_categoryID">
+          <End Type="SQLDBModel.ContractCategory" Role="ContractCategory" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractCategory">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="categoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ContractSubcategories_dbo_ContractCategories_categoryID">
+          <End Type="SQLDBModel.ContractCategory" Role="ContractCategory" Multiplicity="0..1" />
+          <End Type="SQLDBModel.ContractSubcategory" Role="ContractSubcategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractCategory">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ContractSubcategory">
+              <PropertyRef Name="categoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractPartners_partnerID">
+          <End Type="SQLDBModel.ContractPartner" Role="ContractPartner" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractPartner">
+              <PropertyRef Name="accountNumbre" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="partnerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Contracts_frameworkContractID">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contract">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="Contract1">
+              <PropertyRef Name="frameworkContractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractSpecies_contractSpeciesID">
+          <End Type="SQLDBModel.ContractSpecy" Role="ContractSpecy" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractSpecy">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="speciesID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_ContractSubcategories_subcategoryID">
+          <End Type="SQLDBModel.ContractSubcategory" Role="ContractSubcategory" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractSubcategory">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="subcategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Departments_mappedDepartmentID">
+          <End Type="SQLDBModel.Department" Role="Department" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="mappedDepartmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Departments_observingDepartmentID">
+          <End Type="SQLDBModel.Department" Role="Department" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="observingDepartmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Users_personInChargeID">
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="personInChargeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Contracts_dbo_Users_signerID">
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Contract">
+              <PropertyRef Name="signerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_CostCentreDivides_dbo_Contracts_contract_intID">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="0..1" />
+          <End Type="SQLDBModel.CostCentreDivide" Role="CostCentreDivide" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contract">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="CostCentreDivide">
+              <PropertyRef Name="contract_intID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Documents_dbo_Contracts_Contract_intID">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Document" Role="Document" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contract">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="Document">
+              <PropertyRef Name="Contract_intID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Tasks_dbo_Contracts_contractID">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="SQLDBModel.Task" Role="Task" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contract">
+              <PropertyRef Name="intID" />
+            </Principal>
+            <Dependent Role="Task">
+              <PropertyRef Name="contractID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_CostCentreDivides_dbo_CostCentres_costCentreID">
+          <End Type="SQLDBModel.CostCentre" Role="CostCentre" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="SQLDBModel.CostCentreDivide" Role="CostCentreDivide" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CostCentre">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CostCentreDivide">
+              <PropertyRef Name="costCentreID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Departments_dbo_Mandants_mandantID">
+          <End Type="SQLDBModel.Mandant" Role="Mandant" Multiplicity="0..1" />
+          <End Type="SQLDBModel.Department" Role="Department" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mandant">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Department">
+              <PropertyRef Name="mandantID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Users_dbo_Departments_departmentID">
+          <End Type="SQLDBModel.Department" Role="Department" Multiplicity="0..1" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="departmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ContractFeatures">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <End Type="SQLDBModel.OtherFeature" Role="OtherFeature" Multiplicity="*" />
+        </Association>
+        <Association Name="DepartmentCoordinators">
+          <End Type="SQLDBModel.Department" Role="Department" Multiplicity="*" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+        </Association>
+        <Association Name="DepartmentDispatchers">
+          <End Type="SQLDBModel.Department" Role="Department" Multiplicity="*" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+        </Association>
+        <Association Name="MandantCoordinators">
+          <End Type="SQLDBModel.Mandant" Role="Mandant" Multiplicity="*" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+        </Association>
+        <Association Name="SpecialAuthorization">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+        </Association>
+        <Association Name="UserContractAuthorization">
+          <End Type="SQLDBModel.Contract" Role="Contract" Multiplicity="*" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+        </Association>
+        <Association Name="UserMappedToTask">
+          <End Type="SQLDBModel.Task" Role="Task" Multiplicity="*" />
+          <End Type="SQLDBModel.User" Role="User" Multiplicity="*" />
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SQLDBModelStoreContainer" CdmEntityContainer="SQLDBEntities">
+          <EntitySetMapping Name="ContractCategories">
+            <EntityTypeMapping TypeName="SQLDBModel.ContractCategory">
+              <MappingFragment StoreEntitySet="ContractCategories">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ContractPartners">
+            <EntityTypeMapping TypeName="SQLDBModel.ContractPartner">
+              <MappingFragment StoreEntitySet="ContractPartners">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="accountNumbre" ColumnName="accountNumbre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contracts">
+            <EntityTypeMapping TypeName="SQLDBModel.Contract">
+              <MappingFragment StoreEntitySet="Contracts">
+                <ScalarProperty Name="isframeworkContract" ColumnName="isframeworkContract" />
+                <ScalarProperty Name="frameworkContractID" ColumnName="frameworkContractID" />
+                <ScalarProperty Name="partnerIs" ColumnName="partnerIs" />
+                <ScalarProperty Name="locality" ColumnName="locality" />
+                <ScalarProperty Name="noticeReminded" ColumnName="noticeReminded" />
+                <ScalarProperty Name="reminded" ColumnName="reminded" />
+                <ScalarProperty Name="escalated" ColumnName="escalated" />
+                <ScalarProperty Name="escalationDate" ColumnName="escalationDate" />
+                <ScalarProperty Name="remindingDate" ColumnName="remindingDate" />
+                <ScalarProperty Name="endDate" ColumnName="endDate" />
+                <ScalarProperty Name="noticeDate" ColumnName="noticeDate" />
+                <ScalarProperty Name="creationDate" ColumnName="creationDate" />
+                <ScalarProperty Name="startDate" ColumnName="startDate" />
+                <ScalarProperty Name="paymentBegin" ColumnName="paymentBegin" />
+                <ScalarProperty Name="partnerID" ColumnName="partnerID" />
+                <ScalarProperty Name="observingDepartmentID" ColumnName="observingDepartmentID" />
+                <ScalarProperty Name="mappedDepartmentID" ColumnName="mappedDepartmentID" />
+                <ScalarProperty Name="personInChargeID" ColumnName="personInChargeID" />
+                <ScalarProperty Name="signerID" ColumnName="signerID" />
+                <ScalarProperty Name="speciesID" ColumnName="speciesID" />
+                <ScalarProperty Name="subcategoryID" ColumnName="subcategoryID" />
+                <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+                <ScalarProperty Name="state" ColumnName="state" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="valueTax" ColumnName="valueTax" />
+                <ScalarProperty Name="contractExtension" ColumnName="contractExtension" />
+                <ScalarProperty Name="earliestNoticePeriod" ColumnName="earliestNoticePeriod" />
+                <ScalarProperty Name="noticePeriod" ColumnName="noticePeriod" />
+                <ScalarProperty Name="paymentIntervall" ColumnName="paymentIntervall" />
+                <ScalarProperty Name="contractCosts" ColumnName="contractCosts" />
+                <ScalarProperty Name="contractValue" ColumnName="contractValue" />
+                <ScalarProperty Name="titel" ColumnName="titel" />
+                <ScalarProperty Name="extID" ColumnName="extID" />
+                <ScalarProperty Name="intID" ColumnName="intID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ContractSpecies">
+            <EntityTypeMapping TypeName="SQLDBModel.ContractSpecy">
+              <MappingFragment StoreEntitySet="ContractSpecies">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ContractSubcategories">
+            <EntityTypeMapping TypeName="SQLDBModel.ContractSubcategory">
+              <MappingFragment StoreEntitySet="ContractSubcategories">
+                <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CostCentreDivides">
+            <EntityTypeMapping TypeName="SQLDBModel.CostCentreDivide">
+              <MappingFragment StoreEntitySet="CostCentreDivides">
+                <ScalarProperty Name="contract_intID" ColumnName="contract_intID" />
+                <ScalarProperty Name="percentage" ColumnName="percentage" />
+                <ScalarProperty Name="costCentreID" ColumnName="costCentreID" />
+                <ScalarProperty Name="contractID" ColumnName="contractID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CostCentres">
+            <EntityTypeMapping TypeName="SQLDBModel.CostCentre">
+              <MappingFragment StoreEntitySet="CostCentres">
+                <ScalarProperty Name="describtion" ColumnName="describtion" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="SQLDBModel.Department">
+              <MappingFragment StoreEntitySet="Departments">
+                <ScalarProperty Name="mandantID" ColumnName="mandantID" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Documents">
+            <EntityTypeMapping TypeName="SQLDBModel.Document">
+              <MappingFragment StoreEntitySet="Documents">
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="Contract_intID" ColumnName="Contract_intID" />
+                <ScalarProperty Name="link" ColumnName="link" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mandants">
+            <EntityTypeMapping TypeName="SQLDBModel.Mandant">
+              <MappingFragment StoreEntitySet="Mandants">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OtherFeatures">
+            <EntityTypeMapping TypeName="SQLDBModel.OtherFeature">
+              <MappingFragment StoreEntitySet="OtherFeatures">
+                <ScalarProperty Name="describtion" ColumnName="describtion" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tasks">
+            <EntityTypeMapping TypeName="SQLDBModel.Task">
+              <MappingFragment StoreEntitySet="Tasks">
+                <ScalarProperty Name="deadline" ColumnName="deadline" />
+                <ScalarProperty Name="contractID" ColumnName="contractID" />
+                <ScalarProperty Name="describtion" ColumnName="describtion" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="SQLDBModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="blocked" ColumnName="blocked" />
+                <ScalarProperty Name="personInCharge" ColumnName="personInCharge" />
+                <ScalarProperty Name="signer" ColumnName="signer" />
+                <ScalarProperty Name="coordinator" ColumnName="coordinator" />
+                <ScalarProperty Name="dispatcher" ColumnName="dispatcher" />
+                <ScalarProperty Name="administrator" ColumnName="administrator" />
+                <ScalarProperty Name="departmentID" ColumnName="departmentID" />
+                <ScalarProperty Name="activeDirectoryName" ColumnName="activeDirectoryName" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="surname" ColumnName="surname" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="ContractFeatures" TypeName="SQLDBModel.ContractFeatures" StoreEntitySet="ContractFeatures">
+            <EndProperty Name="OtherFeature">
+              <ScalarProperty Name="ID" ColumnName="FeatureID" />
+            </EndProperty>
+            <EndProperty Name="Contract">
+              <ScalarProperty Name="intID" ColumnName="ContractID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="DepartmentCoordinators" TypeName="SQLDBModel.DepartmentCoordinators" StoreEntitySet="DepartmentCoordinators">
+            <EndProperty Name="User">
+              <ScalarProperty Name="ID" ColumnName="CoordinatorID" />
+            </EndProperty>
+            <EndProperty Name="Department">
+              <ScalarProperty Name="ID" ColumnName="DepartmentID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="DepartmentDispatchers" TypeName="SQLDBModel.DepartmentDispatchers" StoreEntitySet="DepartmentDispatchers">
+            <EndProperty Name="User">
+              <ScalarProperty Name="ID" ColumnName="DispatcherID" />
+            </EndProperty>
+            <EndProperty Name="Department">
+              <ScalarProperty Name="ID" ColumnName="DepartmentID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="MandantCoordinators" TypeName="SQLDBModel.MandantCoordinators" StoreEntitySet="MandantCoordinators">
+            <EndProperty Name="User">
+              <ScalarProperty Name="ID" ColumnName="CoordinatorID" />
+            </EndProperty>
+            <EndProperty Name="Mandant">
+              <ScalarProperty Name="ID" ColumnName="MandantID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="SpecialAuthorization" TypeName="SQLDBModel.SpecialAuthorization" StoreEntitySet="SpecialAuthorization">
+            <EndProperty Name="User">
+              <ScalarProperty Name="ID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="Contract">
+              <ScalarProperty Name="intID" ColumnName="ContractID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="UserContractAuthorization" TypeName="SQLDBModel.UserContractAuthorization" StoreEntitySet="UserContractAuthorization">
+            <EndProperty Name="User">
+              <ScalarProperty Name="ID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="Contract">
+              <ScalarProperty Name="intID" ColumnName="ContractID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="UserMappedToTask" TypeName="SQLDBModel.UserMappedToTask" StoreEntitySet="UserMappedToTask">
+            <EndProperty Name="User">
+              <ScalarProperty Name="ID" ColumnName="UserID" />
+            </EndProperty>
+            <EndProperty Name="Task">
+              <ScalarProperty Name="ID" ColumnName="TaskID" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

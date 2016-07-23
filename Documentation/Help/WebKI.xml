@@ -1,0 +1,2062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title=" namespace" Url="html/96f28dfd-2c23-c332-ac2f-6930f1f93bf9.htm" />
+  <HelpKINode Title="AccountController class">
+    <HelpKINode Title="AccountController Class" Url="html/c7df3818-9ea2-be4d-0b1d-b9ad35ddefe6.htm" />
+    <HelpKINode Title="about AccountController class" Url="html/c7df3818-9ea2-be4d-0b1d-b9ad35ddefe6.htm" />
+    <HelpKINode Title="constructor" Url="html/26d98094-893b-26f2-bbd1-e614124820eb.htm" />
+    <HelpKINode Title="methods" Url="html/1142b555-97cc-112d-0e04-0eede3ce571e.htm" />
+    <HelpKINode Title="properties" Url="html/e047ee24-3f8e-4b66-3a53-ba87ef53a8f1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccountController.AccountController constructor" Url="html/26d98094-893b-26f2-bbd1-e614124820eb.htm" />
+  <HelpKINode Title="AccountController.SignIn method" Url="html/9c6270ba-b36f-3cd2-1bae-7a40407ed76a.htm" />
+  <HelpKINode Title="AccountController.SignOut method" Url="html/432a0688-288a-8775-4f52-1130e4ce4dae.htm" />
+  <HelpKINode Title="accountNumbre property">
+    <HelpKINode Title="ContractPartner.accountNumbre Property " Url="html/e7fdf1f5-aa98-5833-d243-22dcb98e339a.htm" />
+    <HelpKINode Title="ContractPartner.accountNumbre Property " Url="html/141f5d13-e508-8699-9aca-a17476ec55bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="activeDirectoryName property">
+    <HelpKINode Title="User.activeDirectoryName Property " Url="html/25d2bdcd-e668-5082-c956-a14cb7e233b0.htm" />
+    <HelpKINode Title="User.activeDirectoryName Property " Url="html/2f48d08c-2282-7cbe-75ce-42aceac35f97.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Add method" Url="html/4fc3655a-9d76-817f-4078-bf70e4a2dc6d.htm" />
+  <HelpKINode Title="AddTask method" Url="html/350f852c-8043-34fc-5fb7-4d2f12187024.htm" />
+  <HelpKINode Title="AddUsers method" Url="html/fa834de6-1221-4108-6ac6-26d2987b7ffe.htm" />
+  <HelpKINode Title="administrator property">
+    <HelpKINode Title="User.administrator Property " Url="html/7061c086-7837-3c97-b171-f9bfc5502fc7.htm" />
+    <HelpKINode Title="User.administrator Property " Url="html/0847a185-4f8b-816e-80f4-2d2353c16a2a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AfterDateAttribute class">
+    <HelpKINode Title="AfterDateAttribute Class" Url="html/2c2246c7-4d6f-753f-19c0-77b4a1e2b62e.htm" />
+    <HelpKINode Title="about AfterDateAttribute class" Url="html/2c2246c7-4d6f-753f-19c0-77b4a1e2b62e.htm" />
+    <HelpKINode Title="constructor" Url="html/5543d19a-112c-0959-b567-8090df28ed4e.htm" />
+    <HelpKINode Title="methods" Url="html/11aa8eee-dd1f-ac80-e73d-d1bdb68c2e62.htm" />
+    <HelpKINode Title="properties" Url="html/1431e209-e0dd-3d92-7eba-0c7e3bd3d0b5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AfterDateAttribute.AfterDateAttribute constructor" Url="html/5543d19a-112c-0959-b567-8090df28ed4e.htm" />
+  <HelpKINode Title="AfterDateAttribute.FormatErrorMessage method" Url="html/192895b4-34f6-a38a-b69f-a533236cf1f1.htm" />
+  <HelpKINode Title="AfterDateAttribute.GetClientValidationRules method" Url="html/aed89ad3-19f0-5a8d-ae61-c79b0253b7bd.htm" />
+  <HelpKINode Title="AfterDateAttribute.GetOtherDisplayName method" Url="html/809270d7-b00e-abc4-d25f-542af34d3816.htm" />
+  <HelpKINode Title="AfterDateAttribute.GetSecondComparable method" Url="html/4ae6baee-7777-58b4-c802-a49abf16b6d3.htm" />
+  <HelpKINode Title="AfterDateAttribute.IsValid method" Url="html/1b5ec3f1-584a-a66b-c46a-28cb18fea6af.htm" />
+  <HelpKINode Title="AfterDateAttribute.OtherProperty property" Url="html/d7135627-f269-77c1-7f2f-d634f3f5166b.htm" />
+  <HelpKINode Title="aktiv enumeration member" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="allContracts property" Url="html/f5f07cdd-b6af-b9b3-1482-ac4c59714920.htm" />
+  <HelpKINode Title="allCoordniators property">
+    <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.allCoordniators Property " Url="html/2fb586f5-49cf-64b4-93f7-3b91efb96060.htm" />
+    <HelpKINode Title="ResponsiblePersonsMandantViewModel.allCoordniators Property " Url="html/99de2b79-9502-02f4-440b-4590e8749119.htm" />
+  </HelpKINode>
+  <HelpKINode Title="allCostCentres property" Url="html/8685c477-f7a3-c1c8-613f-bdd610c560e0.htm" />
+  <HelpKINode Title="allDispatchers property" Url="html/92da07c3-cfef-9d6e-51b0-356ec79e96a7.htm" />
+  <HelpKINode Title="allOtherFeatures property" Url="html/5c23e692-c91e-b77b-ef4a-24b5290bbc98.htm" />
+  <HelpKINode Title="allUsers property" Url="html/8746bebb-2c1d-9dd1-6282-5b4c07849615.htm" />
+  <HelpKINode Title="AlwaysRequiredAttribute class">
+    <HelpKINode Title="AlwaysRequiredAttribute Class" Url="html/a974d743-49f6-b246-53fb-90c971173b30.htm" />
+    <HelpKINode Title="about AlwaysRequiredAttribute class" Url="html/a974d743-49f6-b246-53fb-90c971173b30.htm" />
+    <HelpKINode Title="constructor" Url="html/d2294dde-9ec1-5daa-890a-bacaf4a45cab.htm" />
+    <HelpKINode Title="methods" Url="html/335d29d8-5631-a11c-af75-d7061ddeaa78.htm" />
+    <HelpKINode Title="properties" Url="html/dace4d9e-7146-9254-073b-8c40e76437f6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AlwaysRequiredAttribute.AlwaysRequiredAttribute constructor" Url="html/d2294dde-9ec1-5daa-890a-bacaf4a45cab.htm" />
+  <HelpKINode Title="AlwaysRequiredAttribute.FormatErrorMessage method" Url="html/f65d3af5-b137-95a1-b68c-647bfdc39645.htm" />
+  <HelpKINode Title="AlwaysRequiredAttribute.GetClientValidationRules method" Url="html/e7ab9824-f343-9870-5430-1737d79a4e45.htm" />
+  <HelpKINode Title="AlwaysRequiredAttribute.IsValid method" Url="html/f6a9399a-4cd7-2c8c-d941-aad1862213b0.htm" />
+  <HelpKINode Title="Application_End method" Url="html/cdc7bd9d-26c2-55c6-54fe-e1562daa8e3c.htm" />
+  <HelpKINode Title="Application_Start method" Url="html/34923919-52a4-88f1-25cf-9652e07884bb.htm" />
+  <HelpKINode Title="assignContracts method" Url="html/cc29f2e1-e970-9bb6-a670-38c1876c78b0.htm" />
+  <HelpKINode Title="assignUsers method" Url="html/9965409f-1e02-c23b-cbf1-6f20edaa4edc.htm" />
+  <HelpKINode Title="Ausgabe enumeration member" Url="html/995e9e8a-c466-fd28-4c42-44ac3af401f9.htm" />
+  <HelpKINode Title="authorizedUsers property" Url="html/daa71a1f-f334-1a88-68c8-15cc024c28b2.htm" />
+  <HelpKINode Title="autoSend method" Url="html/38bf90bb-ee7e-1a0a-5b85-ac9a338563cd.htm" />
+  <HelpKINode Title="beendet enumeration member" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="BeforeDateAttribute class">
+    <HelpKINode Title="BeforeDateAttribute Class" Url="html/3804bd45-ccd5-290c-dd66-9e88e4c8ba5f.htm" />
+    <HelpKINode Title="about BeforeDateAttribute class" Url="html/3804bd45-ccd5-290c-dd66-9e88e4c8ba5f.htm" />
+    <HelpKINode Title="constructor" Url="html/d027c2e1-340a-78c1-a06c-94f5f9ab67e0.htm" />
+    <HelpKINode Title="methods" Url="html/765777e7-9f02-e5c7-3633-d0c208c57c75.htm" />
+    <HelpKINode Title="properties" Url="html/eb78b535-a105-8ae7-f1cc-a6c5fb22a776.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BeforeDateAttribute.BeforeDateAttribute constructor" Url="html/d027c2e1-340a-78c1-a06c-94f5f9ab67e0.htm" />
+  <HelpKINode Title="BeforeDateAttribute.FormatErrorMessage method" Url="html/9b5c9999-5bbe-e38d-1e17-f393785c461f.htm" />
+  <HelpKINode Title="BeforeDateAttribute.GetClientValidationRules method" Url="html/46dcaee2-7f9b-b7c7-20e0-e0cfe92b6a30.htm" />
+  <HelpKINode Title="BeforeDateAttribute.GetOtherDisplayName method" Url="html/3e472734-8170-fca1-4d87-4104c5e9c808.htm" />
+  <HelpKINode Title="BeforeDateAttribute.GetSecondComparable method" Url="html/bd097ece-be2d-4841-11be-eed610c6327a.htm" />
+  <HelpKINode Title="BeforeDateAttribute.IsValid method" Url="html/9eb42f43-42d4-0149-989b-35d48d6bbb0b.htm" />
+  <HelpKINode Title="BeforeDateAttribute.OtherProperty property" Url="html/553c3d6d-dbfc-e84a-2bec-6c9c7d5f0145.htm" />
+  <HelpKINode Title="BindModel method" Url="html/64dd2437-724c-f729-fd28-59f4cb558ee4.htm" />
+  <HelpKINode Title="blocked method" Url="html/39a465fa-8378-8f2c-b619-e0c107b86cfc.htm" />
+  <HelpKINode Title="blocked property">
+    <HelpKINode Title="User.blocked Property " Url="html/ec73097f-7f7f-7487-15a9-a1fecb2d9cfe.htm" />
+    <HelpKINode Title="User.blocked Property " Url="html/f25d572a-0b10-4544-a790-68659e1cbabd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BundleConfig class">
+    <HelpKINode Title="BundleConfig Class" Url="html/93fe8551-23f6-1770-c035-61e2a7b84291.htm" />
+    <HelpKINode Title="about BundleConfig class" Url="html/93fe8551-23f6-1770-c035-61e2a7b84291.htm" />
+    <HelpKINode Title="constructor" Url="html/3a518649-5d43-2b80-f6c4-342976a4bbb1.htm" />
+    <HelpKINode Title="methods" Url="html/c3a667aa-dd9c-f6b7-2bdc-e9e564e841e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BundleConfig.BundleConfig constructor" Url="html/3a518649-5d43-2b80-f6c4-342976a4bbb1.htm" />
+  <HelpKINode Title="BundleConfig.RegisterBundles method" Url="html/d9111a96-55fa-cf24-8bce-55cf6c08421f.htm" />
+  <HelpKINode Title="categories property" Url="html/fc6cabcf-d0d6-b66c-216b-c7a5770d91a4.htm" />
+  <HelpKINode Title="categoriesList field" Url="html/989553a1-cbe2-b41e-8864-20325fbeff68.htm" />
+  <HelpKINode Title="category property">
+    <HelpKINode Title="Contract.category Property " Url="html/0e34d578-dbbf-be47-1928-24a2982e9b6a.htm" />
+    <HelpKINode Title="ContractSubcategory.category Property " Url="html/5f495dc1-88ca-aee1-a1a1-78ce95873cd6.htm" />
+    <HelpKINode Title="Document.category Property " Url="html/50ed731c-f9f8-bf75-dfde-4495b71803df.htm" />
+    <HelpKINode Title="Document.category Property " Url="html/4acdf4d5-cd02-5687-b061-d232a79d8f63.htm" />
+    <HelpKINode Title="ReportContent.category Property " Url="html/8b62dffe-f332-9d66-8adf-5958133d1733.htm" />
+  </HelpKINode>
+  <HelpKINode Title="categoryID property">
+    <HelpKINode Title="Contract.categoryID Property " Url="html/17f26dbf-6151-ec2a-6b62-cd19f4a3a04f.htm" />
+    <HelpKINode Title="Contract.categoryID Property " Url="html/4b63ef0d-d4c6-e917-1a36-0d384d1510ad.htm" />
+    <HelpKINode Title="ContractSubcategory.categoryID Property " Url="html/03674e1d-41e3-afd8-edd2-66d08dc198a5.htm" />
+    <HelpKINode Title="ContractSubcategory.categoryID Property " Url="html/515fe419-bd26-713d-b8a9-0ac809afbc20.htm" />
+  </HelpKINode>
+  <HelpKINode Title="clear method" Url="html/aae9314e-aa3b-00bd-2ece-f0e1eed3f1e0.htm" />
+  <HelpKINode Title="Configuration method" Url="html/36aab93e-289e-b6ed-9972-fb6757a0b41b.htm" />
+  <HelpKINode Title="ConfigureAuth method" Url="html/6e961c8d-1c8e-f847-5f81-0d062b1406c6.htm" />
+  <HelpKINode Title="Contract class">
+    <HelpKINode Title="Contract Class" Url="html/1af621e5-acea-052e-6c51-41906f7bdd4e.htm" />
+    <HelpKINode Title="Contract Class" Url="html/038a410b-7354-5293-179e-bf5ead2f6546.htm" />
+    <HelpKINode Title="about Contract class" Url="html/038a410b-7354-5293-179e-bf5ead2f6546.htm" />
+    <HelpKINode Title="about Contract class" Url="html/1af621e5-acea-052e-6c51-41906f7bdd4e.htm" />
+    <HelpKINode Title="constructor" Url="html/24e24e6b-e7c2-d620-a726-4d3b257ae424.htm" />
+    <HelpKINode Title="constructor" Url="html/de6a49cc-6e1c-7aab-855f-1debdc7b514b.htm" />
+    <HelpKINode Title="methods" Url="html/7fd54260-a878-316e-4eb8-47d375addaf8.htm" />
+    <HelpKINode Title="methods" Url="html/23dfed85-9c3d-f10b-1c2b-3c3805d80bf4.htm" />
+    <HelpKINode Title="properties" Url="html/4011a79a-1391-9302-9df2-e17869244de8.htm" />
+    <HelpKINode Title="properties" Url="html/fe4e7f15-3e1e-4c47-3404-5e7c9aef4ca5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="contract field" Url="html/f10a4e6f-7095-90b5-f6be-e09ebd07256d.htm" />
+  <HelpKINode Title="Contract property">
+    <HelpKINode Title="CostCentreDivide.Contract Property " Url="html/09bf19d2-dab4-9b78-b4da-d179d46e3c09.htm" />
+    <HelpKINode Title="Document.Contract Property " Url="html/6bb66908-29e2-4445-f32c-3587daf09e4f.htm" />
+    <HelpKINode Title="Task.Contract Property " Url="html/95027d69-0212-4f5c-a7b4-bc1fba1ab21d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="contract property">
+    <HelpKINode Title="SpecialAuthorizationViewModel.contract Property " Url="html/b156b08e-fa14-eb25-67c2-06c115cc67d7.htm" />
+    <HelpKINode Title="OtherFeaturesViewModel.contract Property " Url="html/48f9aa62-dfa7-67ca-872a-7edff0d5b3c9.htm" />
+    <HelpKINode Title="ContractViewModel.contract Property " Url="html/bd9a2268-41f6-8d35-aa49-15f78bcf94ff.htm" />
+    <HelpKINode Title="CostCentreDivide.contract Property " Url="html/4b3fad8e-39b4-699d-018f-1dcb77f02361.htm" />
+    <HelpKINode Title="CostCentresViewModel.contract Property " Url="html/1accc910-5c90-28b1-8af8-1e9bbba47aef.htm" />
+    <HelpKINode Title="FrameworkContractViewModel.contract Property " Url="html/f9da2bd1-e180-d0a0-0029-ae099b94c457.htm" />
+    <HelpKINode Title="IndexContractsViewModel.contract Property " Url="html/1e995430-00a4-1660-aa24-9f3e70dc74c1.htm" />
+    <HelpKINode Title="ReportContractsViewModel.contract Property " Url="html/128e8b89-165f-288d-9617-f8ef47d4fc23.htm" />
+    <HelpKINode Title="Task.contract Property " Url="html/d662f345-cc5f-ffa5-d9e6-414e06ff8912.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.AddTask method" Url="html/350f852c-8043-34fc-5fb7-4d2f12187024.htm" />
+  <HelpKINode Title="Contract.assignUsers method" Url="html/9965409f-1e02-c23b-cbf1-6f20edaa4edc.htm" />
+  <HelpKINode Title="Contract.authorizedUsers property" Url="html/daa71a1f-f334-1a88-68c8-15cc024c28b2.htm" />
+  <HelpKINode Title="Contract.category property" Url="html/0e34d578-dbbf-be47-1928-24a2982e9b6a.htm" />
+  <HelpKINode Title="Contract.categoryID property">
+    <HelpKINode Title="Contract.categoryID Property " Url="html/17f26dbf-6151-ec2a-6b62-cd19f4a3a04f.htm" />
+    <HelpKINode Title="Contract.categoryID Property " Url="html/4b63ef0d-d4c6-e917-1a36-0d384d1510ad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.Contract constructor">
+    <HelpKINode Title="Contract Constructor " Url="html/de6a49cc-6e1c-7aab-855f-1debdc7b514b.htm" />
+    <HelpKINode Title="Contract Constructor " Url="html/24e24e6b-e7c2-d620-a726-4d3b257ae424.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.Contract1 property" Url="html/5125f0a1-31ce-1eaa-8451-e41414dc478f.htm" />
+  <HelpKINode Title="Contract.ContractCategory property" Url="html/271323a9-487c-11b3-12bb-50fa443cd184.htm" />
+  <HelpKINode Title="Contract.contractCosts property">
+    <HelpKINode Title="Contract.contractCosts Property " Url="html/15177536-4040-475b-d775-ba62564bad5d.htm" />
+    <HelpKINode Title="Contract.contractCosts Property " Url="html/934f85f6-a82c-a923-17be-3ab340d583e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.contractExtension property">
+    <HelpKINode Title="Contract.contractExtension Property " Url="html/54e62c55-85f1-5049-163d-bbdf5bc0c84d.htm" />
+    <HelpKINode Title="Contract.contractExtension Property " Url="html/2888d981-ed60-6d57-e800-214e03aeb17f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.ContractPartner property" Url="html/53cf0a46-45ba-5da1-2f45-cb2bd7727666.htm" />
+  <HelpKINode Title="Contract.Contracts1 property" Url="html/46b2328b-31f3-04b7-3651-62a514cbaebd.htm" />
+  <HelpKINode Title="Contract.ContractSpecy property" Url="html/e9bf629f-46ca-1fea-e5d9-8ce7d6acf88c.htm" />
+  <HelpKINode Title="Contract.ContractSubcategory property" Url="html/4aca16c4-bca5-7b6c-3474-ee497d87aece.htm" />
+  <HelpKINode Title="Contract.contractValue property">
+    <HelpKINode Title="Contract.contractValue Property " Url="html/b26de7ac-1525-42ec-a46e-4ccbd170f590.htm" />
+    <HelpKINode Title="Contract.contractValue Property " Url="html/548ea2af-8c7a-015a-3d22-2099c3faa3ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.costCenterDivides property" Url="html/d34b0692-7d62-cf97-662e-28ce8e5070e3.htm" />
+  <HelpKINode Title="Contract.CostCentreDivides property" Url="html/6f07cae7-d713-3501-5b64-cd50f2cf1cc2.htm" />
+  <HelpKINode Title="Contract.creationDate property">
+    <HelpKINode Title="Contract.creationDate Property " Url="html/876df71a-d680-5542-40a2-64604c10ad9c.htm" />
+    <HelpKINode Title="Contract.creationDate Property " Url="html/a8b4aaa6-be01-ec55-f7e8-7e544dde0d81.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.Department property" Url="html/252dc6c6-4b5d-4524-1be7-801173aefd31.htm" />
+  <HelpKINode Title="Contract.Department1 property" Url="html/14550a51-4f27-a498-1971-2cfc6a04ab60.htm" />
+  <HelpKINode Title="Contract.documents property" Url="html/7e60c7a5-1631-306b-bf79-2300b79375ea.htm" />
+  <HelpKINode Title="Contract.Documents property" Url="html/6fbea90d-e1f9-6e94-db60-4efa7c7bbec4.htm" />
+  <HelpKINode Title="Contract.earliestNoticePeriod property">
+    <HelpKINode Title="Contract.earliestNoticePeriod Property " Url="html/f8e290be-0b37-bd23-d051-86df817f938a.htm" />
+    <HelpKINode Title="Contract.earliestNoticePeriod Property " Url="html/efeb8016-b7ab-627f-6cd6-3f21c976173f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.endDate property">
+    <HelpKINode Title="Contract.endDate Property " Url="html/ee432893-81af-3687-44e8-cc2b104a4fc1.htm" />
+    <HelpKINode Title="Contract.endDate Property " Url="html/345d23ba-6609-1060-8be3-0555d495bb96.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.escalated property">
+    <HelpKINode Title="Contract.escalated Property " Url="html/b0166c36-fabb-a124-fa37-4dca32f320b1.htm" />
+    <HelpKINode Title="Contract.escalated Property " Url="html/3426f410-b384-7e4f-761a-2c3a95a24d6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.escalationDate property">
+    <HelpKINode Title="Contract.escalationDate Property " Url="html/20034a51-85ff-6771-0f27-8846d644e4ce.htm" />
+    <HelpKINode Title="Contract.escalationDate Property " Url="html/68bfe7bf-55f7-9e48-608f-b16f445d6fde.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.extID property">
+    <HelpKINode Title="Contract.extID Property " Url="html/4b3f66ee-2ddf-cc60-2e09-4fdbe28ba67d.htm" />
+    <HelpKINode Title="Contract.extID Property " Url="html/259bedc3-c263-86f7-38d4-fd03dea72318.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.frameworkContract property" Url="html/db65cd21-88c9-495c-40fd-ecd0e915cf34.htm" />
+  <HelpKINode Title="Contract.frameworkContractID property">
+    <HelpKINode Title="Contract.frameworkContractID Property " Url="html/6b277a70-f36f-4fc6-f400-be8515a91f55.htm" />
+    <HelpKINode Title="Contract.frameworkContractID Property " Url="html/d0039c29-b8d0-b2a4-9396-e0b8b7723c8c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.getRecipients method" Url="html/00d6f3fd-65b9-1b3f-b1f1-399ad0777ab5.htm" />
+  <HelpKINode Title="Contract.intID property">
+    <HelpKINode Title="Contract.intID Property " Url="html/04dcea79-f869-a116-b054-f326f927b546.htm" />
+    <HelpKINode Title="Contract.intID Property " Url="html/e273e81b-f354-eda1-25ab-d36aa5790f41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.isCompleted method" Url="html/a996bba3-b4a9-cfae-00d6-725c034d90d5.htm" />
+  <HelpKINode Title="Contract.isEnding method" Url="html/9cb0f6c5-899f-f70a-2a50-26f8fc1a592b.htm" />
+  <HelpKINode Title="Contract.isEscalating method" Url="html/469b3101-7989-9afe-befb-d954987bffd3.htm" />
+  <HelpKINode Title="Contract.isframeworkContract property">
+    <HelpKINode Title="Contract.isframeworkContract Property " Url="html/9bcb9192-aca3-d022-68dd-2f6afa1162ae.htm" />
+    <HelpKINode Title="Contract.isframeworkContract Property " Url="html/4b6229aa-2b6e-d5cc-bb10-b458288b1e95.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.isNoticing method" Url="html/e070a456-8ef2-e166-38dd-b185ccc9c4e0.htm" />
+  <HelpKINode Title="Contract.isReminding method" Url="html/42efe249-f8ca-2562-e275-70bbd94dd9bd.htm" />
+  <HelpKINode Title="Contract.isRenewing method" Url="html/8fabe9ac-9449-a1ad-9e79-92f274266269.htm" />
+  <HelpKINode Title="Contract.locality property">
+    <HelpKINode Title="Contract.locality Property " Url="html/59c1684d-55be-2999-8816-19749ab7e782.htm" />
+    <HelpKINode Title="Contract.locality Property " Url="html/4c5fba24-453b-5417-bccb-0a2a6be184ae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.mappedDepartment property" Url="html/20c73f84-c868-957b-70a7-574a93bb0ea4.htm" />
+  <HelpKINode Title="Contract.mappedDepartmentID property">
+    <HelpKINode Title="Contract.mappedDepartmentID Property " Url="html/eb268daa-c92d-c65b-03cf-a467868ec7ed.htm" />
+    <HelpKINode Title="Contract.mappedDepartmentID Property " Url="html/a29b54d2-be95-bad6-c0cd-f60346897819.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.noticeDate property">
+    <HelpKINode Title="Contract.noticeDate Property " Url="html/c95be2de-e72e-e34f-d1f5-50b194c8c768.htm" />
+    <HelpKINode Title="Contract.noticeDate Property " Url="html/98d8d5fd-b6a8-8448-5b0b-811c9eb1e805.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.noticePeriod property">
+    <HelpKINode Title="Contract.noticePeriod Property " Url="html/7a239b20-4669-e86d-f1ef-d4ef3d870078.htm" />
+    <HelpKINode Title="Contract.noticePeriod Property " Url="html/81659519-e930-edb3-4db0-c583879f819c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.noticeReminded property">
+    <HelpKINode Title="Contract.noticeReminded Property " Url="html/4a46a0ce-0bcc-40ce-2961-eb75f0786bba.htm" />
+    <HelpKINode Title="Contract.noticeReminded Property " Url="html/5affa7ba-1092-e540-871f-72b34ccba9d7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.observingDepartment property" Url="html/3654ed9d-7942-5806-f8a8-464badadfc40.htm" />
+  <HelpKINode Title="Contract.observingDepartmentID property">
+    <HelpKINode Title="Contract.observingDepartmentID Property " Url="html/ae80c6a8-71aa-ae91-1d79-3747a0e36abc.htm" />
+    <HelpKINode Title="Contract.observingDepartmentID Property " Url="html/0667429f-9977-7526-e559-885e9e385566.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.OtherFeatures property" Url="html/b842a9df-138e-dfa0-9fb9-b8d36f3ee43a.htm" />
+  <HelpKINode Title="Contract.otherFeatures property" Url="html/e3d7fde7-b7de-d485-2ceb-3cd598582a42.htm" />
+  <HelpKINode Title="Contract.partner property" Url="html/81c5b1cd-8424-ce88-4a6e-b79bf59c77a2.htm" />
+  <HelpKINode Title="Contract.partnerID property">
+    <HelpKINode Title="Contract.partnerID Property " Url="html/ad2231cd-ab83-37d3-558e-9e36b2f1ae2f.htm" />
+    <HelpKINode Title="Contract.partnerID Property " Url="html/3a73a71d-5274-5697-d333-9f115cbe4400.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.partnerIs property">
+    <HelpKINode Title="Contract.partnerIs Property " Url="html/582afcd8-8ac7-283d-bc28-76e0794e7960.htm" />
+    <HelpKINode Title="Contract.partnerIs Property " Url="html/2f8f1f16-ef00-d876-7c7e-d0d5b3c2a963.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.paymentBegin property">
+    <HelpKINode Title="Contract.paymentBegin Property " Url="html/c78e8cd1-2543-cf52-c9de-72a6ea461a1c.htm" />
+    <HelpKINode Title="Contract.paymentBegin Property " Url="html/3f91469e-e850-ba62-3eca-98071a7a5a86.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.paymentIntervall property">
+    <HelpKINode Title="Contract.paymentIntervall Property " Url="html/1fad3d7a-1eec-8643-65b8-52183033ac2b.htm" />
+    <HelpKINode Title="Contract.paymentIntervall Property " Url="html/eed8e6d6-dc2e-0228-b1ad-a934296e8988.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.personInCharge property" Url="html/e0535ef8-5279-29fd-f1c5-2d59d75e118b.htm" />
+  <HelpKINode Title="Contract.personInChargeID property">
+    <HelpKINode Title="Contract.personInChargeID Property " Url="html/af21f614-60c2-4285-312f-3f93418dcd58.htm" />
+    <HelpKINode Title="Contract.personInChargeID Property " Url="html/0ca5bfdb-088b-c0ae-7f36-fb6053c933f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.RecipientType enumeration" Url="html/a59830e9-efc4-a008-27c8-641fe84af714.htm" />
+  <HelpKINode Title="Contract.remark property">
+    <HelpKINode Title="Contract.remark Property " Url="html/3c042161-339d-6695-aa5a-c84a863e74ee.htm" />
+    <HelpKINode Title="Contract.remark Property " Url="html/40b1bfa0-17d5-474e-85da-e0860e99cd5f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.reminded property">
+    <HelpKINode Title="Contract.reminded Property " Url="html/fa3b8dec-28e7-89e1-1e47-44e3cd90cec4.htm" />
+    <HelpKINode Title="Contract.reminded Property " Url="html/afab4d20-536a-cef8-47c6-d0028220d123.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.remindingDate property">
+    <HelpKINode Title="Contract.remindingDate Property " Url="html/241f5bd7-0fde-c54a-6322-6e33f4e0ba34.htm" />
+    <HelpKINode Title="Contract.remindingDate Property " Url="html/b85220eb-f6e2-8709-d3b7-9286bae03e97.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.signer property" Url="html/79872062-c5cc-b225-1422-a3a491f79529.htm" />
+  <HelpKINode Title="Contract.signerID property">
+    <HelpKINode Title="Contract.signerID Property " Url="html/88b492d5-1655-b01a-43c0-586a18b1f17f.htm" />
+    <HelpKINode Title="Contract.signerID Property " Url="html/b9786da1-9b12-2c0a-a96a-68532188ab37.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.specialAuthorization property" Url="html/b1bf9c99-90cf-7bae-aaf9-999f9836cdc0.htm" />
+  <HelpKINode Title="Contract.species property" Url="html/cfeadf7c-4d42-599c-c1a0-2284252b3a96.htm" />
+  <HelpKINode Title="Contract.speciesID property">
+    <HelpKINode Title="Contract.speciesID Property " Url="html/2053d651-793d-d569-8765-c5ae53c46562.htm" />
+    <HelpKINode Title="Contract.speciesID Property " Url="html/3cf42351-e974-a1ee-2c42-067dcf90fb4d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.startDate property">
+    <HelpKINode Title="Contract.startDate Property " Url="html/7ccaf827-c414-0bf9-08f7-18888ed65590.htm" />
+    <HelpKINode Title="Contract.startDate Property " Url="html/6139ea1b-461a-f4d3-3e67-198d57af91e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.state property">
+    <HelpKINode Title="Contract.state Property " Url="html/76af708d-2d59-18a0-d43f-9c001ba680a0.htm" />
+    <HelpKINode Title="Contract.state Property " Url="html/1f426385-2c61-d432-363e-86299b6641fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.subcategory property" Url="html/7da2da7b-c3f1-87c6-f739-b5ab7ab7548c.htm" />
+  <HelpKINode Title="Contract.subcategoryID property">
+    <HelpKINode Title="Contract.subcategoryID Property " Url="html/7b768f06-db70-f232-3165-e622d27107af.htm" />
+    <HelpKINode Title="Contract.subcategoryID Property " Url="html/23f7ad5c-896f-ecad-ca3f-51a195e324c8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.subContracts property" Url="html/1a495ebd-5fe8-4984-7e84-9d8fde4db115.htm" />
+  <HelpKINode Title="Contract.Tasks property" Url="html/d75f3dcf-ad72-4cd9-75de-e8426aa373ac.htm" />
+  <HelpKINode Title="Contract.tasks property" Url="html/0de69c3a-e1a1-d981-732a-3c9b52c1bfca.htm" />
+  <HelpKINode Title="Contract.titel property">
+    <HelpKINode Title="Contract.titel Property " Url="html/33256caf-6737-4187-6d74-7f4512abe5fb.htm" />
+    <HelpKINode Title="Contract.titel Property " Url="html/93ca13a6-8193-6b38-e145-f7596949d1b6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract.User property" Url="html/582dd555-2245-37a7-d7f4-4d7113021edb.htm" />
+  <HelpKINode Title="Contract.User1 property" Url="html/4ac30c59-fcd1-086e-596c-6082648549cd.htm" />
+  <HelpKINode Title="Contract.Users property" Url="html/b258a304-b68d-f8bc-3ae1-0b62ab800ae1.htm" />
+  <HelpKINode Title="Contract.Users1 property" Url="html/92388391-c23b-f2ec-8cad-a613a6704e58.htm" />
+  <HelpKINode Title="Contract.valueTax property">
+    <HelpKINode Title="Contract.valueTax Property " Url="html/5de9b478-4b0b-85ea-40a3-cc73977a285c.htm" />
+    <HelpKINode Title="Contract.valueTax Property " Url="html/ad305248-dc12-5eda-4892-ef1f7fbf0e09.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contract1 property" Url="html/5125f0a1-31ce-1eaa-8451-e41414dc478f.htm" />
+  <HelpKINode Title="ContractCategories method" Url="html/36e89b2d-8c45-12c5-52a8-25a94eb15006.htm" />
+  <HelpKINode Title="ContractCategories property">
+    <HelpKINode Title="ContractDBContext.ContractCategories Property " Url="html/f38133f0-f172-0e94-1433-29ed1fbf0bde.htm" />
+    <HelpKINode Title="SQLDBEntities.ContractCategories Property " Url="html/69950e74-e856-da91-fb7c-7d74d6f72871.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractCategory class">
+    <HelpKINode Title="ContractCategory Class" Url="html/47b0e4a0-5ea2-a319-71a2-952428ca885b.htm" />
+    <HelpKINode Title="ContractCategory Class" Url="html/976a3a11-6555-a15d-3c81-52f83327970c.htm" />
+    <HelpKINode Title="about ContractCategory class" Url="html/47b0e4a0-5ea2-a319-71a2-952428ca885b.htm" />
+    <HelpKINode Title="about ContractCategory class" Url="html/976a3a11-6555-a15d-3c81-52f83327970c.htm" />
+    <HelpKINode Title="constructor" Url="html/dd7ddff3-31b2-0886-e4af-6b342b49463e.htm" />
+    <HelpKINode Title="constructor" Url="html/8f550230-7286-c446-2632-bb5d71f3e5e5.htm" />
+    <HelpKINode Title="methods" Url="html/3bcf2d53-d9ea-5647-a368-7001539675fd.htm" />
+    <HelpKINode Title="methods" Url="html/4ce2c247-84f0-6282-055c-8a573d00b233.htm" />
+    <HelpKINode Title="properties" Url="html/5e67ed42-26ba-58c1-cdc7-0a403b2defb4.htm" />
+    <HelpKINode Title="properties" Url="html/9d9ed85a-362f-0957-8bdd-8121b1502d61.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractCategory property">
+    <HelpKINode Title="Contract.ContractCategory Property " Url="html/271323a9-487c-11b3-12bb-50fa443cd184.htm" />
+    <HelpKINode Title="ContractSubcategory.ContractCategory Property " Url="html/fc9b3b95-70df-3af2-98e5-569e930f5366.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractCategory.ContractCategory constructor">
+    <HelpKINode Title="ContractCategory Constructor " Url="html/8f550230-7286-c446-2632-bb5d71f3e5e5.htm" />
+    <HelpKINode Title="ContractCategory Constructor " Url="html/dd7ddff3-31b2-0886-e4af-6b342b49463e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractCategory.Contracts property" Url="html/fcf6e2ff-bdff-509b-4eff-d3bfe59bfc48.htm" />
+  <HelpKINode Title="ContractCategory.ContractSubcategories property" Url="html/a2ad8c67-3692-923a-5602-75ad27023e66.htm" />
+  <HelpKINode Title="ContractCategory.ID property">
+    <HelpKINode Title="ContractCategory.ID Property " Url="html/0fb7e9fc-7bfe-4ac5-e1d7-985cc53fc7f7.htm" />
+    <HelpKINode Title="ContractCategory.ID Property " Url="html/bca128b5-f6bc-40b0-c508-2bdc6e97ecd9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractCategory.name property">
+    <HelpKINode Title="ContractCategory.name Property " Url="html/759f50c5-52d8-5c81-272f-b10f57cb4b39.htm" />
+    <HelpKINode Title="ContractCategory.name Property " Url="html/a14f8344-6694-a838-0db6-5f951254e32e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractCategorys method" Url="html/7a3db915-6983-30e3-ac0a-cb745ebd8d2c.htm" />
+  <HelpKINode Title="ContractController class">
+    <HelpKINode Title="ContractController Class" Url="html/cee0e35c-af64-5aa9-0cf8-874fcfc01cd6.htm" />
+    <HelpKINode Title="about ContractController class" Url="html/cee0e35c-af64-5aa9-0cf8-874fcfc01cd6.htm" />
+    <HelpKINode Title="constructor" Url="html/66ffed9a-46cc-8a65-e22a-553d6a497615.htm" />
+    <HelpKINode Title="methods" Url="html/358c271f-9c5d-f22d-bbd0-b2baceb0c345.htm" />
+    <HelpKINode Title="properties" Url="html/d5093071-d3e6-d335-fe32-4da6c97175ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractController.ContractCategories method" Url="html/36e89b2d-8c45-12c5-52a8-25a94eb15006.htm" />
+  <HelpKINode Title="ContractController.ContractController constructor" Url="html/66ffed9a-46cc-8a65-e22a-553d6a497615.htm" />
+  <HelpKINode Title="ContractController.ContractSubcategories method" Url="html/4033ec1a-14b3-d83e-a735-b066711d0cbc.htm" />
+  <HelpKINode Title="ContractController.costCentres method" Url="html/3781d6dc-9837-09a7-41ac-43ccdbd85774.htm" />
+  <HelpKINode Title="ContractController.Create method" Url="html/03105a7f-2316-6e71-4a3f-e8dc5bd8c623.htm" />
+  <HelpKINode Title="ContractController.Delete method" Url="html/7b7d850f-a955-d17c-f512-40cb82ddd0f0.htm" />
+  <HelpKINode Title="ContractController.DeleteConfirmed method" Url="html/9ced032f-de39-fbd3-8c6c-b94499bf3d60.htm" />
+  <HelpKINode Title="ContractController.DeleteCostCentreFromContract method" Url="html/2947551b-5731-efc1-f1a7-5d85fdef3791.htm" />
+  <HelpKINode Title="ContractController.DeleteFeatureFromContract method" Url="html/aa27caef-2689-bead-cbf3-32c92e191cc3.htm" />
+  <HelpKINode Title="ContractController.DeleteFile method" Url="html/92859fd1-a8e9-645a-3269-391a11954c10.htm" />
+  <HelpKINode Title="ContractController.DeleteFrameworkContractFromContract method" Url="html/49e84584-0ff8-17b9-db53-f327b2d0c117.htm" />
+  <HelpKINode Title="ContractController.DeleteSpecialAuthorizationFromContract method" Url="html/9636bc13-0f92-17e4-55bd-8e0da10e4c0a.htm" />
+  <HelpKINode Title="ContractController.Details method" Url="html/10c7080f-c649-2d86-b6e0-566f97665c8d.htm" />
+  <HelpKINode Title="ContractController.Dispose method" Url="html/af49bd87-0534-2ab7-47f3-61c24d4ebe80.htm" />
+  <HelpKINode Title="ContractController.Edit method" Url="html/f636e634-d2db-bd02-b168-26bc8de5aa1d.htm" />
+  <HelpKINode Title="ContractController.Files method" Url="html/77d6cbd0-7462-ca63-e628-b9eb77e2ed52.htm" />
+  <HelpKINode Title="ContractController.frameworkContract method" Url="html/49ba5cb9-a051-13f3-73eb-8e28c1ce6981.htm" />
+  <HelpKINode Title="ContractController.getCurrentUser method" Url="html/08d7057c-74bc-2c05-fc4c-44404e6d967b.htm" />
+  <HelpKINode Title="ContractController.Import method" Url="html/c4b4d5ec-40ea-52f7-d611-d361d2fcf3f7.htm" />
+  <HelpKINode Title="ContractController.importFailed method" Url="html/0d99a6a7-5ff0-f073-6294-ad0ae0c59ccf.htm" />
+  <HelpKINode Title="ContractController.Index method" Url="html/ceb2a20b-ad5f-0b62-053f-87c0827036ae.htm" />
+  <HelpKINode Title="ContractController.notAuthorized method" Url="html/e6b8c503-ea1e-29ea-da96-824aee1461e1.htm" />
+  <HelpKINode Title="ContractController.otherFeature method" Url="html/f9329771-a9f8-b900-e034-1331a9142ed8.htm" />
+  <HelpKINode Title="ContractController.Report method" Url="html/d15a02dd-e06b-66cc-092c-87810fc9381c.htm" />
+  <HelpKINode Title="ContractController.specialAuthorization method" Url="html/d8a163a5-955a-e9a5-24c8-3331d129e025.htm" />
+  <HelpKINode Title="ContractController.Upload method" Url="html/aa4f15de-0afb-567d-56de-a62a5c663acf.htm" />
+  <HelpKINode Title="contractCosts property">
+    <HelpKINode Title="Contract.contractCosts Property " Url="html/15177536-4040-475b-d775-ba62564bad5d.htm" />
+    <HelpKINode Title="Contract.contractCosts Property " Url="html/934f85f6-a82c-a923-17be-3ab340d583e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractDBContext class">
+    <HelpKINode Title="ContractDBContext Class" Url="html/a958d39a-af1a-173f-fd47-cf31ff77c793.htm" />
+    <HelpKINode Title="about ContractDBContext class" Url="html/a958d39a-af1a-173f-fd47-cf31ff77c793.htm" />
+    <HelpKINode Title="constructor" Url="html/37811e4b-ec6c-90e6-986e-fdb3b7586485.htm" />
+    <HelpKINode Title="methods" Url="html/be1947d8-6072-8145-8164-e062a21d2800.htm" />
+    <HelpKINode Title="properties" Url="html/4648178e-e5fc-ff40-0267-17d70f9061d3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractDBContext.ContractCategories property" Url="html/f38133f0-f172-0e94-1433-29ed1fbf0bde.htm" />
+  <HelpKINode Title="ContractDBContext.ContractDBContext constructor" Url="html/37811e4b-ec6c-90e6-986e-fdb3b7586485.htm" />
+  <HelpKINode Title="ContractDBContext.ContractPartners property" Url="html/81cfa27f-3456-9f8b-b0c7-8154bc902e46.htm" />
+  <HelpKINode Title="ContractDBContext.Contracts property" Url="html/acb1fc29-c18b-652a-a1a0-17601e0db9a2.htm" />
+  <HelpKINode Title="ContractDBContext.ContractSpecies property" Url="html/3aa03c41-ac6a-02da-e675-a3cf6d4e4b0c.htm" />
+  <HelpKINode Title="ContractDBContext.ContractSubcategories property" Url="html/abe4946c-db12-8f59-e356-4b659e4633c9.htm" />
+  <HelpKINode Title="ContractDBContext.CostCentreDivide property" Url="html/18e5a14a-6f0f-178b-0533-ff62eb7db7a9.htm" />
+  <HelpKINode Title="ContractDBContext.CostCentres property" Url="html/020bcdd8-a1a3-b5c3-bd5d-9c7a4d206c65.htm" />
+  <HelpKINode Title="ContractDBContext.Departments property" Url="html/9807377a-4f70-7a97-96e8-cf200551f33c.htm" />
+  <HelpKINode Title="ContractDBContext.Documents property" Url="html/82123126-9da5-7f26-e01f-78a250a13129.htm" />
+  <HelpKINode Title="ContractDBContext.Mandant property" Url="html/a43c0d81-ed41-5d49-ecf6-d875b1a7a702.htm" />
+  <HelpKINode Title="ContractDBContext.OnModelCreating method" Url="html/b9080c04-de2e-9c1b-02a5-487dafb12834.htm" />
+  <HelpKINode Title="ContractDBContext.OtherFeatures property" Url="html/4969d5c6-ba65-3ba3-1e91-40885fa5d7db.htm" />
+  <HelpKINode Title="ContractDBContext.Tasks property" Url="html/886f2d1b-f459-c22a-d7ef-94f66d0f8444.htm" />
+  <HelpKINode Title="ContractDBContext.Users property" Url="html/43cb741a-5a50-338e-7f73-3c63ca0c679b.htm" />
+  <HelpKINode Title="contractExtension property">
+    <HelpKINode Title="Contract.contractExtension Property " Url="html/2888d981-ed60-6d57-e800-214e03aeb17f.htm" />
+    <HelpKINode Title="Contract.contractExtension Property " Url="html/54e62c55-85f1-5049-163d-bbdf5bc0c84d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="contractHasFeature property" Url="html/1868dd0f-5950-c30d-f6c6-1563b9c35a4d.htm" />
+  <HelpKINode Title="contractID property">
+    <HelpKINode Title="CostCentreDivide.contractID Property " Url="html/3d00a990-39df-18e7-51e5-f9467239b1d9.htm" />
+    <HelpKINode Title="CostCentreDivide.contractID Property " Url="html/61cfbe21-b98f-d063-dac4-1cbbcd89ac83.htm" />
+    <HelpKINode Title="Task.contractID Property " Url="html/1c5b154c-2598-6ad7-9432-4ed4900ea5f2.htm" />
+    <HelpKINode Title="Task.contractID Property " Url="html/ba819936-295a-6fe7-0649-0542b9a7dc18.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractPartner class">
+    <HelpKINode Title="ContractPartner Class" Url="html/eb40cdab-7370-f869-606e-20e4ee832bcb.htm" />
+    <HelpKINode Title="ContractPartner Class" Url="html/155b95e6-03ce-5ec3-21b5-8ad6c2e8c6c0.htm" />
+    <HelpKINode Title="about ContractPartner class" Url="html/eb40cdab-7370-f869-606e-20e4ee832bcb.htm" />
+    <HelpKINode Title="about ContractPartner class" Url="html/155b95e6-03ce-5ec3-21b5-8ad6c2e8c6c0.htm" />
+    <HelpKINode Title="constructor" Url="html/b0cc7d65-9129-697d-3162-5a940b38e24c.htm" />
+    <HelpKINode Title="constructor" Url="html/95e805ad-b09f-41c4-9bd5-89c55d94c776.htm" />
+    <HelpKINode Title="methods" Url="html/944d418f-7127-1083-2d9a-302954d722e1.htm" />
+    <HelpKINode Title="methods" Url="html/6c5bb199-5437-a5b9-9968-90ce6cf7a5e1.htm" />
+    <HelpKINode Title="properties" Url="html/438cbb2a-627d-6273-7f7e-945e52797bad.htm" />
+    <HelpKINode Title="properties" Url="html/8d0101a4-42ab-337a-2354-12250da3ba93.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractPartner property" Url="html/53cf0a46-45ba-5da1-2f45-cb2bd7727666.htm" />
+  <HelpKINode Title="ContractPartner.accountNumbre property">
+    <HelpKINode Title="ContractPartner.accountNumbre Property " Url="html/141f5d13-e508-8699-9aca-a17476ec55bc.htm" />
+    <HelpKINode Title="ContractPartner.accountNumbre Property " Url="html/e7fdf1f5-aa98-5833-d243-22dcb98e339a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractPartner.ContractPartner constructor">
+    <HelpKINode Title="ContractPartner Constructor " Url="html/b0cc7d65-9129-697d-3162-5a940b38e24c.htm" />
+    <HelpKINode Title="ContractPartner Constructor " Url="html/95e805ad-b09f-41c4-9bd5-89c55d94c776.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractPartner.Contracts property" Url="html/c99392e5-3c23-f452-4ba0-0b74a801b10f.htm" />
+  <HelpKINode Title="ContractPartner.name property">
+    <HelpKINode Title="ContractPartner.name Property " Url="html/ea653566-8fdc-7539-5243-7b752afc9772.htm" />
+    <HelpKINode Title="ContractPartner.name Property " Url="html/df001870-9308-5e29-ac6a-5db723ca26d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractPartners method" Url="html/bb5f9e4b-7b14-e9cb-be9f-50d6c455bfc6.htm" />
+  <HelpKINode Title="ContractPartners property">
+    <HelpKINode Title="ContractDBContext.ContractPartners Property " Url="html/81cfa27f-3456-9f8b-b0c7-8154bc902e46.htm" />
+    <HelpKINode Title="SQLDBEntities.ContractPartners Property " Url="html/2eef7a92-d333-eabb-c9a7-1ff79ae14fee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contracts property">
+    <HelpKINode Title="ContractCategory.Contracts Property " Url="html/fcf6e2ff-bdff-509b-4eff-d3bfe59bfc48.htm" />
+    <HelpKINode Title="ContractDBContext.Contracts Property " Url="html/acb1fc29-c18b-652a-a1a0-17601e0db9a2.htm" />
+    <HelpKINode Title="ContractSpecy.Contracts Property " Url="html/0e2f6651-d931-06d2-4eb0-745b13586437.htm" />
+    <HelpKINode Title="OtherFeature.Contracts Property " Url="html/e4e4395b-f97e-3127-fed6-846a30cd571d.htm" />
+    <HelpKINode Title="SQLDBEntities.Contracts Property " Url="html/526958e9-e9f8-d50f-e2b9-52b1f5ad3e88.htm" />
+    <HelpKINode Title="ContractPartner.Contracts Property " Url="html/c99392e5-3c23-f452-4ba0-0b74a801b10f.htm" />
+    <HelpKINode Title="ContractSubcategory.Contracts Property " Url="html/2f071469-efdd-4211-7669-d0e67e2d0cd6.htm" />
+    <HelpKINode Title="Department.Contracts Property " Url="html/5464867b-9b54-5e51-b973-e5f4c4c13b3b.htm" />
+    <HelpKINode Title="User.Contracts Property " Url="html/7f64fc5a-fd05-e03c-a11a-051464678d21.htm" />
+  </HelpKINode>
+  <HelpKINode Title="contracts property">
+    <HelpKINode Title="IndexContractsViewModel.contracts Property " Url="html/9c73dd40-6e34-ce6a-5c24-929ce67a0678.htm" />
+    <HelpKINode Title="ReportContractsViewModel.contracts Property " Url="html/5b36b791-30f3-6b1e-3c1c-64659356954f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contracts1 property">
+    <HelpKINode Title="Contract.Contracts1 Property " Url="html/46b2328b-31f3-04b7-3651-62a514cbaebd.htm" />
+    <HelpKINode Title="Department.Contracts1 Property " Url="html/f28d41f8-0889-623f-03a5-54168db7457e.htm" />
+    <HelpKINode Title="User.Contracts1 Property " Url="html/a0b73027-4c56-d213-053d-76fe3a5cfa22.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contracts2 property" Url="html/5216033f-90dd-82c9-816d-2072969f2df6.htm" />
+  <HelpKINode Title="Contracts3 property" Url="html/f8f98ffd-5c3f-a7ed-7fb4-0023698a1cbb.htm" />
+  <HelpKINode Title="ContractSpecies class">
+    <HelpKINode Title="ContractSpecies Class" Url="html/2bd4c71c-3469-f4af-e748-a8c1037313b4.htm" />
+    <HelpKINode Title="about ContractSpecies class" Url="html/2bd4c71c-3469-f4af-e748-a8c1037313b4.htm" />
+    <HelpKINode Title="constructor" Url="html/8853cf65-2cbf-a109-61f0-de0cb80e9163.htm" />
+    <HelpKINode Title="methods" Url="html/31f831e7-11a5-45ef-e579-e3035a7da2d2.htm" />
+    <HelpKINode Title="properties" Url="html/56a2e3bc-6cc3-e42f-942a-e807c237e95c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSpecies method" Url="html/b6ce1ead-c6bc-d3c0-65cd-666880b31763.htm" />
+  <HelpKINode Title="ContractSpecies property">
+    <HelpKINode Title="ContractDBContext.ContractSpecies Property " Url="html/3aa03c41-ac6a-02da-e675-a3cf6d4e4b0c.htm" />
+    <HelpKINode Title="SQLDBEntities.ContractSpecies Property " Url="html/0b39a8b1-c8db-b471-01ea-fd3e92da2bcc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSpecies.ContractSpecies constructor" Url="html/8853cf65-2cbf-a109-61f0-de0cb80e9163.htm" />
+  <HelpKINode Title="ContractSpecies.ID property" Url="html/34a3e603-2f2f-d6db-04a1-ee825a040194.htm" />
+  <HelpKINode Title="ContractSpecies.name property" Url="html/e56beada-98f3-e711-0012-59252dfa5e23.htm" />
+  <HelpKINode Title="ContractSpecy class">
+    <HelpKINode Title="ContractSpecy Class" Url="html/28cd06b2-e57c-e688-949e-46944f59c8ce.htm" />
+    <HelpKINode Title="about ContractSpecy class" Url="html/28cd06b2-e57c-e688-949e-46944f59c8ce.htm" />
+    <HelpKINode Title="constructor" Url="html/cc2ed3b6-3883-a699-43fe-b741c51d7dbc.htm" />
+    <HelpKINode Title="methods" Url="html/ac49cbb3-30b0-1cff-35ff-7135c1cad9af.htm" />
+    <HelpKINode Title="properties" Url="html/815d9d44-dd81-3f16-934d-f359617b364f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSpecy property" Url="html/e9bf629f-46ca-1fea-e5d9-8ce7d6acf88c.htm" />
+  <HelpKINode Title="ContractSpecy.Contracts property" Url="html/0e2f6651-d931-06d2-4eb0-745b13586437.htm" />
+  <HelpKINode Title="ContractSpecy.ContractSpecy constructor" Url="html/cc2ed3b6-3883-a699-43fe-b741c51d7dbc.htm" />
+  <HelpKINode Title="ContractSpecy.ID property" Url="html/f20d444c-98de-f514-0e45-2af7b5004346.htm" />
+  <HelpKINode Title="ContractSpecy.name property" Url="html/9bcb3342-b1b8-1239-2d18-6ecc758f0499.htm" />
+  <HelpKINode Title="ContractSubcategories method" Url="html/4033ec1a-14b3-d83e-a735-b066711d0cbc.htm" />
+  <HelpKINode Title="ContractSubcategories property">
+    <HelpKINode Title="ContractCategory.ContractSubcategories Property " Url="html/a2ad8c67-3692-923a-5602-75ad27023e66.htm" />
+    <HelpKINode Title="ContractDBContext.ContractSubcategories Property " Url="html/abe4946c-db12-8f59-e356-4b659e4633c9.htm" />
+    <HelpKINode Title="SQLDBEntities.ContractSubcategories Property " Url="html/d6fb0926-6a42-3989-e548-4721e2d0147a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSubcategory class">
+    <HelpKINode Title="ContractSubcategory Class" Url="html/7edb5718-a61e-1d49-1eb7-92fa3343756b.htm" />
+    <HelpKINode Title="ContractSubcategory Class" Url="html/f7a4bbf0-66b9-9fd4-06e4-c0c0f7f1c17e.htm" />
+    <HelpKINode Title="about ContractSubcategory class" Url="html/7edb5718-a61e-1d49-1eb7-92fa3343756b.htm" />
+    <HelpKINode Title="about ContractSubcategory class" Url="html/f7a4bbf0-66b9-9fd4-06e4-c0c0f7f1c17e.htm" />
+    <HelpKINode Title="constructor" Url="html/b71d0059-3421-4638-e4e1-be12600035ce.htm" />
+    <HelpKINode Title="constructor" Url="html/c8119989-995c-d849-1c9f-d39f53f8745f.htm" />
+    <HelpKINode Title="methods" Url="html/e8caeda7-e054-fd92-c6c0-10a65a3f08dc.htm" />
+    <HelpKINode Title="methods" Url="html/b9bcd36d-74c5-87cc-4258-97a5e6225252.htm" />
+    <HelpKINode Title="properties" Url="html/7acfada2-bdac-f034-3001-17d9cdcf4a7a.htm" />
+    <HelpKINode Title="properties" Url="html/4357c548-9be3-5cea-fb4b-009225d5ed20.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSubcategory property" Url="html/4aca16c4-bca5-7b6c-3474-ee497d87aece.htm" />
+  <HelpKINode Title="ContractSubcategory.category property" Url="html/5f495dc1-88ca-aee1-a1a1-78ce95873cd6.htm" />
+  <HelpKINode Title="ContractSubcategory.categoryID property">
+    <HelpKINode Title="ContractSubcategory.categoryID Property " Url="html/515fe419-bd26-713d-b8a9-0ac809afbc20.htm" />
+    <HelpKINode Title="ContractSubcategory.categoryID Property " Url="html/03674e1d-41e3-afd8-edd2-66d08dc198a5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSubcategory.ContractCategory property" Url="html/fc9b3b95-70df-3af2-98e5-569e930f5366.htm" />
+  <HelpKINode Title="ContractSubcategory.Contracts property" Url="html/2f071469-efdd-4211-7669-d0e67e2d0cd6.htm" />
+  <HelpKINode Title="ContractSubcategory.ContractSubcategory constructor">
+    <HelpKINode Title="ContractSubcategory Constructor " Url="html/c8119989-995c-d849-1c9f-d39f53f8745f.htm" />
+    <HelpKINode Title="ContractSubcategory Constructor " Url="html/b71d0059-3421-4638-e4e1-be12600035ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSubcategory.ID property">
+    <HelpKINode Title="ContractSubcategory.ID Property " Url="html/692d7929-3984-d5b6-ade3-2bde2f6d3db4.htm" />
+    <HelpKINode Title="ContractSubcategory.ID Property " Url="html/ead760ad-d5d7-5a81-e303-ac5747c9ec51.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSubcategory.name property">
+    <HelpKINode Title="ContractSubcategory.name Property " Url="html/09af09b8-d016-d404-f9a0-c12c9dc88b1b.htm" />
+    <HelpKINode Title="ContractSubcategory.name Property " Url="html/d8e54d2a-4c75-b6fb-9610-506af77200e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractSubcategorys method" Url="html/58c33e62-fe7b-962d-73ed-7f3dcfb36d0b.htm" />
+  <HelpKINode Title="contractValue property">
+    <HelpKINode Title="Contract.contractValue Property " Url="html/548ea2af-8c7a-015a-3d22-2099c3faa3ab.htm" />
+    <HelpKINode Title="Contract.contractValue Property " Url="html/b26de7ac-1525-42ec-a46e-4ccbd170f590.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractViewModel class">
+    <HelpKINode Title="ContractViewModel Class" Url="html/af9a7caf-fb0c-8fcc-bb3b-55980eb130e4.htm" />
+    <HelpKINode Title="about ContractViewModel class" Url="html/af9a7caf-fb0c-8fcc-bb3b-55980eb130e4.htm" />
+    <HelpKINode Title="constructor" Url="html/14ff2fd7-5300-cc2c-216a-ae81afa70478.htm" />
+    <HelpKINode Title="methods" Url="html/229deeb9-98be-e439-6359-32fcae83f7d9.htm" />
+    <HelpKINode Title="properties" Url="html/2f3141b8-5e56-075b-22e7-3436c3f99b0c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContractViewModel.contract property" Url="html/bd9a2268-41f6-8d35-aa49-15f78bcf94ff.htm" />
+  <HelpKINode Title="ContractViewModel.ContractViewModel constructor" Url="html/14ff2fd7-5300-cc2c-216a-ae81afa70478.htm" />
+  <HelpKINode Title="ContractViewModel.PopulateDropDownLists method" Url="html/1a1eddba-8cf5-70fb-ba24-ac3672217248.htm" />
+  <HelpKINode Title="ContractViewModel.selectCategory property" Url="html/545085b8-8f03-f2cc-7311-e9013a537495.htm" />
+  <HelpKINode Title="ContractViewModel.selectCostCentre property" Url="html/0fa755ea-393b-117a-8d46-9500bc92aa6b.htm" />
+  <HelpKINode Title="ContractViewModel.selectMappedDepartment property" Url="html/b943cfc4-fdd3-9a5d-ba61-0ae082218c5e.htm" />
+  <HelpKINode Title="ContractViewModel.selectObservingDepartment property" Url="html/7117c1e3-e495-9b62-1193-d16fea177fc7.htm" />
+  <HelpKINode Title="ContractViewModel.selectPartner property" Url="html/e52352fb-b4e7-b1d1-a498-7f833230a6e3.htm" />
+  <HelpKINode Title="ContractViewModel.selectPersonInCharge property" Url="html/fb431ab2-1eaa-cdeb-c5df-426944169bbd.htm" />
+  <HelpKINode Title="ContractViewModel.selectSigner property" Url="html/763d8adc-947a-dbd0-4647-c96325df9e63.htm" />
+  <HelpKINode Title="ContractViewModel.selectSpecies property" Url="html/dbc9cf5e-3176-5c8a-08ac-236ffe4197db.htm" />
+  <HelpKINode Title="ContractViewModel.selectSubcategory property" Url="html/2f40cbcc-9f8e-aeb1-1999-fe2bb1c2412a.htm" />
+  <HelpKINode Title="Contract_intID property" Url="html/c9ac49c0-c0a1-a948-dc81-68e34717cf65.htm" />
+  <HelpKINode Title="contract_intID property" Url="html/8408de46-6d08-196e-c55f-676d2701f069.htm" />
+  <HelpKINode Title="coordinator property">
+    <HelpKINode Title="User.coordinator Property " Url="html/e21698f0-680f-f8ef-d5d1-e5baac504327.htm" />
+    <HelpKINode Title="User.coordinator Property " Url="html/5e90f122-6d71-481e-14c3-c63f8ed9a5c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="coordinatorOfDepartment property" Url="html/5e636780-aadf-cbd8-ee47-7ba6671cab5f.htm" />
+  <HelpKINode Title="coordinatorOfMandant property" Url="html/fda9dcc6-6b09-0a3f-8368-4fe3e4bda1db.htm" />
+  <HelpKINode Title="coordinators property">
+    <HelpKINode Title="Department.coordinators Property " Url="html/9390067a-12da-05cb-ea37-473251be132d.htm" />
+    <HelpKINode Title="Mandant.coordinators Property " Url="html/dc31d457-cb99-b0ad-b6e3-089770623b65.htm" />
+  </HelpKINode>
+  <HelpKINode Title="coordinatorsOfDepartment property" Url="html/ea13523c-d26f-37d6-444d-933f5598f993.htm" />
+  <HelpKINode Title="coordinatorsOfMandant property" Url="html/6c436430-3ea4-3774-017c-b44df97d9411.htm" />
+  <HelpKINode Title="CoreDataController class">
+    <HelpKINode Title="CoreDataController Class" Url="html/04d4464d-27b9-2a99-c558-3a6c2f7f6fd0.htm" />
+    <HelpKINode Title="about CoreDataController class" Url="html/04d4464d-27b9-2a99-c558-3a6c2f7f6fd0.htm" />
+    <HelpKINode Title="constructor" Url="html/a473df83-1338-aeb7-eb3f-51f3abc829e6.htm" />
+    <HelpKINode Title="methods" Url="html/b7d48768-60bf-5103-271e-a5a9e56c5294.htm" />
+    <HelpKINode Title="properties" Url="html/0acde028-248b-bfca-1689-369b8e8b11bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoreDataController.ContractCategorys method" Url="html/7a3db915-6983-30e3-ac0a-cb745ebd8d2c.htm" />
+  <HelpKINode Title="CoreDataController.ContractPartners method" Url="html/bb5f9e4b-7b14-e9cb-be9f-50d6c455bfc6.htm" />
+  <HelpKINode Title="CoreDataController.ContractSpecies method" Url="html/b6ce1ead-c6bc-d3c0-65cd-666880b31763.htm" />
+  <HelpKINode Title="CoreDataController.ContractSubcategorys method" Url="html/58c33e62-fe7b-962d-73ed-7f3dcfb36d0b.htm" />
+  <HelpKINode Title="CoreDataController.CoreDataController constructor" Url="html/a473df83-1338-aeb7-eb3f-51f3abc829e6.htm" />
+  <HelpKINode Title="CoreDataController.CostCentres method" Url="html/e7de563c-186c-e11e-4f5b-09d44bdd5482.htm" />
+  <HelpKINode Title="CoreDataController.CreateContractCategory method" Url="html/61503865-c5e8-9c32-f1fb-8fdce74d873c.htm" />
+  <HelpKINode Title="CoreDataController.CreateContractPartner method" Url="html/d82ca1d6-4579-6126-fbe4-d08229180051.htm" />
+  <HelpKINode Title="CoreDataController.CreateContractSpecie method" Url="html/af37667a-0407-6e9f-b963-aad485785f53.htm" />
+  <HelpKINode Title="CoreDataController.CreateContractSubcategory method" Url="html/3a019123-9eb4-502b-0851-86191598c09c.htm" />
+  <HelpKINode Title="CoreDataController.CreateCostCentre method" Url="html/533c98e5-2c6e-a396-81a1-8f124003673b.htm" />
+  <HelpKINode Title="CoreDataController.CreateDepartment method" Url="html/8a742321-2877-b096-cfbb-33e7826ebe5c.htm" />
+  <HelpKINode Title="CoreDataController.CreateMandant method" Url="html/4b8eaed8-1a39-1ebe-0fce-7d4a0d28ccc2.htm" />
+  <HelpKINode Title="CoreDataController.CreateOtherFeature method" Url="html/16516e6e-a5c6-ebb7-4637-356ec5c240d9.htm" />
+  <HelpKINode Title="CoreDataController.CreateUser method" Url="html/71e6d9e2-d8b9-701f-6280-369f81c5fb94.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedContractCategory method" Url="html/6488cf76-c781-a4bb-42ea-a682edb04cb8.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedContractPartner method" Url="html/fab2703e-1131-4a48-517f-9150140dc45a.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedContractSpecies method" Url="html/7ddaafeb-9dca-d37b-b131-6d516538b866.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedContractSubcategory method" Url="html/cb7c4a3a-3281-fbf9-65be-f0fd70a94d9e.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedCostCentre method" Url="html/f2c91c4d-34cb-9bd7-c142-be3270b00393.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedDepartment method" Url="html/8eeb5a45-eb48-9a2e-9c68-08edf68ab6f4.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedMandant method" Url="html/78459765-d853-8e40-d685-311514dbfd49.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedOtherFeature method" Url="html/067085be-dc78-d2a4-8fa9-f2e759a303d9.htm" />
+  <HelpKINode Title="CoreDataController.DeleteConfirmedUser method" Url="html/4b7d0176-f13e-d0d7-484e-672d66b0b73a.htm" />
+  <HelpKINode Title="CoreDataController.DeleteContractCategory method" Url="html/c3a56a6c-d496-dc40-e6b8-df9897e19319.htm" />
+  <HelpKINode Title="CoreDataController.DeleteContractPartner method" Url="html/513efaef-af11-8dd0-d024-049a04a61b6b.htm" />
+  <HelpKINode Title="CoreDataController.DeleteContractSpecies method" Url="html/86221f5d-584d-53ad-c37c-066a9b133e4e.htm" />
+  <HelpKINode Title="CoreDataController.DeleteContractSubcategory method" Url="html/5d72ca22-0e3f-b311-0279-f4c49919028b.htm" />
+  <HelpKINode Title="CoreDataController.DeleteCostCentre method" Url="html/7b1d3c09-2a0a-0e65-5431-03130ae0cc79.htm" />
+  <HelpKINode Title="CoreDataController.deletedContracts method" Url="html/48f460ae-4e53-dd0f-ed0c-86a64302696e.htm" />
+  <HelpKINode Title="CoreDataController.DeleteDepartment method" Url="html/6cde99e9-fdd3-442e-4e5e-a4c3d4e5a96e.htm" />
+  <HelpKINode Title="CoreDataController.DeleteMandant method" Url="html/36aed2ac-61b3-4e2f-f701-da3c2a83552a.htm" />
+  <HelpKINode Title="CoreDataController.DeleteOtherFeature method" Url="html/e20656ce-c2a5-c16e-8f53-d017ddc2b89c.htm" />
+  <HelpKINode Title="CoreDataController.DeleteResponsiblePersonFromDepartment method" Url="html/60752c77-5aac-60c0-9b61-0b7f1cc4a1c3.htm" />
+  <HelpKINode Title="CoreDataController.DeleteResponsiblePersonFromMandant method" Url="html/d3f6f620-5cab-0c71-ce08-2c44f48e0352.htm" />
+  <HelpKINode Title="CoreDataController.DeleteUser method" Url="html/99e0eb19-6075-0c00-8f4d-35a1a7f7cecc.htm" />
+  <HelpKINode Title="CoreDataController.Departments method" Url="html/f90ab05b-9d0c-b88a-7513-b0762c33f038.htm" />
+  <HelpKINode Title="CoreDataController.Dispose method" Url="html/3b3187bd-b8d4-883f-ff6a-0afa2caf6a6b.htm" />
+  <HelpKINode Title="CoreDataController.EditContractCategory method" Url="html/3223f704-5531-533f-090f-40077df1d023.htm" />
+  <HelpKINode Title="CoreDataController.EditContractPartner method" Url="html/f0ec610e-48b8-a2f8-a686-bbd1e3ac7e61.htm" />
+  <HelpKINode Title="CoreDataController.EditContractSpecies method" Url="html/fcb47e7b-a322-653d-99b0-24325dad80ed.htm" />
+  <HelpKINode Title="CoreDataController.EditContractSubcategory method" Url="html/4cf1f6b3-3070-edca-43d1-2655b8803095.htm" />
+  <HelpKINode Title="CoreDataController.EditCostCentre method" Url="html/c59f3dc7-5502-257d-64a6-8c8231c160d2.htm" />
+  <HelpKINode Title="CoreDataController.EditDepartment method" Url="html/9b4bef5a-f86f-cef5-2551-807a9f842472.htm" />
+  <HelpKINode Title="CoreDataController.EditMandant method" Url="html/13efe307-7ffd-6ec5-5a79-67de19e2e947.htm" />
+  <HelpKINode Title="CoreDataController.EditOtherFeature method" Url="html/e41c1605-1149-14d7-9673-dfe7f9fdc3db.htm" />
+  <HelpKINode Title="CoreDataController.EditUser method" Url="html/83c6d6b0-3b77-baf0-0336-e139c38a725e.htm" />
+  <HelpKINode Title="CoreDataController.getCurrentUser method" Url="html/92581663-18f6-3c32-95c1-ad896f61e12d.htm" />
+  <HelpKINode Title="CoreDataController.ImportCostCentre method" Url="html/6792f68a-8a68-018b-ab97-51f1ca336fa5.htm" />
+  <HelpKINode Title="CoreDataController.ImportCostCentreConfirmed method" Url="html/9c9249f2-cf1a-acfa-f876-a8772608c295.htm" />
+  <HelpKINode Title="CoreDataController.Index method" Url="html/b47c6f68-4dd6-5647-b3e2-8030dcf5c80b.htm" />
+  <HelpKINode Title="CoreDataController.Mandants method" Url="html/8e9a1543-b58a-c6aa-01a9-00a50742440a.htm" />
+  <HelpKINode Title="CoreDataController.noAdmin method" Url="html/6a5d46f8-2de6-6201-8f4a-9183c700fbec.htm" />
+  <HelpKINode Title="CoreDataController.OtherFeatures method" Url="html/f1700f0f-1c19-a0dd-fabe-608494b19e69.htm" />
+  <HelpKINode Title="CoreDataController.responsiblePersonsDepartment method" Url="html/cb612e94-8325-af82-c3e4-f8f7ec0fb52f.htm" />
+  <HelpKINode Title="CoreDataController.responsiblePersonsMandant method" Url="html/d15f72a4-b8f3-23ca-b377-b2005048e8b9.htm" />
+  <HelpKINode Title="CoreDataController.restoreContract method" Url="html/085dde58-b506-15c1-8644-a5b51612ff6c.htm" />
+  <HelpKINode Title="CoreDataViewModel class">
+    <HelpKINode Title="CoreDataViewModel Class" Url="html/6f12a886-c2af-4cc8-9aa4-858d565f4f14.htm" />
+    <HelpKINode Title="about CoreDataViewModel class" Url="html/6f12a886-c2af-4cc8-9aa4-858d565f4f14.htm" />
+    <HelpKINode Title="constructor" Url="html/16d2f07c-8be5-d155-4717-0060daaffcbe.htm" />
+    <HelpKINode Title="methods" Url="html/23561808-9e6f-73ab-a4bf-cec4af4db0a2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoreDataViewModel.CoreDataViewModel constructor" Url="html/16d2f07c-8be5-d155-4717-0060daaffcbe.htm" />
+  <HelpKINode Title="costCenterDivides property">
+    <HelpKINode Title="Contract.costCenterDivides Property " Url="html/d34b0692-7d62-cf97-662e-28ce8e5070e3.htm" />
+    <HelpKINode Title="CostCentre.costCenterDivides Property " Url="html/35aa273a-b03a-68bc-4eec-73af53789f64.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentre class">
+    <HelpKINode Title="CostCentre Class" Url="html/2735c710-b84f-eb2d-b5e3-a1289642233d.htm" />
+    <HelpKINode Title="CostCentre Class" Url="html/3e67afaf-f1fd-a2b3-75db-bcc60c083bbd.htm" />
+    <HelpKINode Title="about CostCentre class" Url="html/3e67afaf-f1fd-a2b3-75db-bcc60c083bbd.htm" />
+    <HelpKINode Title="about CostCentre class" Url="html/2735c710-b84f-eb2d-b5e3-a1289642233d.htm" />
+    <HelpKINode Title="constructor" Url="html/ffa0502e-7170-2ada-6cda-a8cc24aedd78.htm" />
+    <HelpKINode Title="constructor" Url="html/9bb847bf-5842-1d27-f6c5-308bf1f5f088.htm" />
+    <HelpKINode Title="methods" Url="html/01e225fb-efdb-0a58-fd59-188f5c5e6bd8.htm" />
+    <HelpKINode Title="methods" Url="html/40e47e28-6499-bf08-8c49-d5669b829768.htm" />
+    <HelpKINode Title="properties" Url="html/3b89d39c-ad30-be24-451a-45a446b746ac.htm" />
+    <HelpKINode Title="properties" Url="html/d8140f7e-45ea-c4b9-66f6-32dfd13dd809.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentre property" Url="html/cb3c8e8d-16cc-52e2-5f13-af70e40d0f11.htm" />
+  <HelpKINode Title="costCentre property">
+    <HelpKINode Title="CostCentreDivide.costCentre Property " Url="html/917c1d2a-12b8-07c4-3764-7505b55f8c9c.htm" />
+    <HelpKINode Title="ReportContent.costCentre Property " Url="html/ed6c31aa-6e32-d6b8-6441-1d0fd64137fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="costcentre property" Url="html/b182201c-9845-7318-3082-144dd46ff310.htm" />
+  <HelpKINode Title="CostCentre.costCenterDivides property" Url="html/35aa273a-b03a-68bc-4eec-73af53789f64.htm" />
+  <HelpKINode Title="CostCentre.CostCentre constructor">
+    <HelpKINode Title="CostCentre Constructor " Url="html/9bb847bf-5842-1d27-f6c5-308bf1f5f088.htm" />
+    <HelpKINode Title="CostCentre Constructor " Url="html/ffa0502e-7170-2ada-6cda-a8cc24aedd78.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentre.CostCentreDivides property" Url="html/d5a7fec4-93bc-4198-e27b-d6a156a632c5.htm" />
+  <HelpKINode Title="CostCentre.describtion property">
+    <HelpKINode Title="CostCentre.describtion Property " Url="html/a59c7cb9-591e-84d3-c4fb-6317d35273de.htm" />
+    <HelpKINode Title="CostCentre.describtion Property " Url="html/65cb001a-b36f-a72c-8c5f-4a33ff57459c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentre.Divide property" Url="html/ab861286-ce36-28de-f08a-df1fd5e787c4.htm" />
+  <HelpKINode Title="CostCentre.ID property">
+    <HelpKINode Title="CostCentre.ID Property " Url="html/7d367659-5cc7-b878-3605-60c82aaa1b21.htm" />
+    <HelpKINode Title="CostCentre.ID Property " Url="html/f0b5d769-69bb-8e14-8b64-3b17c6b86a3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivide class">
+    <HelpKINode Title="CostCentreDivide Class" Url="html/dc17309a-af5c-ab12-6d3b-23131f73589d.htm" />
+    <HelpKINode Title="CostCentreDivide Class" Url="html/d6404927-7172-fb29-2779-02160ac62856.htm" />
+    <HelpKINode Title="about CostCentreDivide class" Url="html/dc17309a-af5c-ab12-6d3b-23131f73589d.htm" />
+    <HelpKINode Title="about CostCentreDivide class" Url="html/d6404927-7172-fb29-2779-02160ac62856.htm" />
+    <HelpKINode Title="constructor" Url="html/62913d57-9eca-516d-15e3-b4d778ff8fe6.htm" />
+    <HelpKINode Title="constructor" Url="html/fa82eb45-9e73-1d80-b483-1231ddecfaab.htm" />
+    <HelpKINode Title="methods" Url="html/040f2e62-54d4-a8cc-2e4f-51ab910c5403.htm" />
+    <HelpKINode Title="methods" Url="html/afcd1f4f-ebdb-c09c-35c5-b6c4aa607358.htm" />
+    <HelpKINode Title="properties" Url="html/09801590-31d6-345a-94ae-9b2b1de11b2a.htm" />
+    <HelpKINode Title="properties" Url="html/0063be4a-aa94-a676-c747-266bbbd4e38a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivide property" Url="html/18e5a14a-6f0f-178b-0533-ff62eb7db7a9.htm" />
+  <HelpKINode Title="CostCentreDivide.contract property" Url="html/4b3fad8e-39b4-699d-018f-1dcb77f02361.htm" />
+  <HelpKINode Title="CostCentreDivide.Contract property" Url="html/09bf19d2-dab4-9b78-b4da-d179d46e3c09.htm" />
+  <HelpKINode Title="CostCentreDivide.contractID property">
+    <HelpKINode Title="CostCentreDivide.contractID Property " Url="html/61cfbe21-b98f-d063-dac4-1cbbcd89ac83.htm" />
+    <HelpKINode Title="CostCentreDivide.contractID Property " Url="html/3d00a990-39df-18e7-51e5-f9467239b1d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivide.contract_intID property" Url="html/8408de46-6d08-196e-c55f-676d2701f069.htm" />
+  <HelpKINode Title="CostCentreDivide.CostCentre property" Url="html/cb3c8e8d-16cc-52e2-5f13-af70e40d0f11.htm" />
+  <HelpKINode Title="CostCentreDivide.costCentre property" Url="html/917c1d2a-12b8-07c4-3764-7505b55f8c9c.htm" />
+  <HelpKINode Title="CostCentreDivide.CostCentreDivide constructor">
+    <HelpKINode Title="CostCentreDivide Constructor " Url="html/62913d57-9eca-516d-15e3-b4d778ff8fe6.htm" />
+    <HelpKINode Title="CostCentreDivide Constructor " Url="html/fa82eb45-9e73-1d80-b483-1231ddecfaab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivide.costCentreID property">
+    <HelpKINode Title="CostCentreDivide.costCentreID Property " Url="html/cd574f5e-d3d8-a7e7-9314-c8df335d346c.htm" />
+    <HelpKINode Title="CostCentreDivide.costCentreID Property " Url="html/dc70cc18-ffd5-baf6-2c2e-30a62c9c61d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivide.ID property">
+    <HelpKINode Title="CostCentreDivide.ID Property " Url="html/a4c04a2c-4e1f-987a-eafe-79439b139870.htm" />
+    <HelpKINode Title="CostCentreDivide.ID Property " Url="html/8d55e0f3-438e-d872-e45b-8347a0b6b4e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivide.percentage property">
+    <HelpKINode Title="CostCentreDivide.percentage Property " Url="html/5b467ec6-d6db-d707-55b2-e309c0589536.htm" />
+    <HelpKINode Title="CostCentreDivide.percentage Property " Url="html/1f3a2def-af2d-17f3-f48e-bab122f87362.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentreDivides property">
+    <HelpKINode Title="Contract.CostCentreDivides Property " Url="html/6f07cae7-d713-3501-5b64-cd50f2cf1cc2.htm" />
+    <HelpKINode Title="CostCentre.CostCentreDivides Property " Url="html/d5a7fec4-93bc-4198-e27b-d6a156a632c5.htm" />
+    <HelpKINode Title="SQLDBEntities.CostCentreDivides Property " Url="html/73c438b5-ef6a-261d-8e9d-496720855c56.htm" />
+  </HelpKINode>
+  <HelpKINode Title="costCentreID property">
+    <HelpKINode Title="CostCentreDivide.costCentreID Property " Url="html/dc70cc18-ffd5-baf6-2c2e-30a62c9c61d0.htm" />
+    <HelpKINode Title="CostCentreDivide.costCentreID Property " Url="html/cd574f5e-d3d8-a7e7-9314-c8df335d346c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="costCentreList field" Url="html/ba865984-4ab9-6473-79e2-72c131baa1c9.htm" />
+  <HelpKINode Title="CostCentres method" Url="html/e7de563c-186c-e11e-4f5b-09d44bdd5482.htm" />
+  <HelpKINode Title="costCentres method" Url="html/3781d6dc-9837-09a7-41ac-43ccdbd85774.htm" />
+  <HelpKINode Title="costCentres property" Url="html/ed89aad1-79c2-8f03-d81c-263c8142b17e.htm" />
+  <HelpKINode Title="CostCentres property">
+    <HelpKINode Title="ContractDBContext.CostCentres Property " Url="html/020bcdd8-a1a3-b5c3-bd5d-9c7a4d206c65.htm" />
+    <HelpKINode Title="SQLDBEntities.CostCentres Property " Url="html/5085492d-c154-2a60-8f20-0bf84b6d6245.htm" />
+  </HelpKINode>
+  <HelpKINode Title="costCentresOfContract property" Url="html/33051c7d-cf2c-27f1-a728-798fcda6ecc5.htm" />
+  <HelpKINode Title="CostCentresViewModel class">
+    <HelpKINode Title="CostCentresViewModel Class" Url="html/6930a781-361a-73fc-700e-242fd0e64514.htm" />
+    <HelpKINode Title="about CostCentresViewModel class" Url="html/6930a781-361a-73fc-700e-242fd0e64514.htm" />
+    <HelpKINode Title="constructor" Url="html/c16ab350-cdbc-f67a-f9f1-f4e99e4956bf.htm" />
+    <HelpKINode Title="methods" Url="html/f3386d32-9fbb-ae34-a3fc-b3fa67074532.htm" />
+    <HelpKINode Title="properties" Url="html/a87558b0-1735-69e3-4d09-0276d729c3e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostCentresViewModel.allCostCentres property" Url="html/8685c477-f7a3-c1c8-613f-bdd610c560e0.htm" />
+  <HelpKINode Title="CostCentresViewModel.contract property" Url="html/1accc910-5c90-28b1-8af8-1e9bbba47aef.htm" />
+  <HelpKINode Title="CostCentresViewModel.costCentresOfContract property" Url="html/33051c7d-cf2c-27f1-a728-798fcda6ecc5.htm" />
+  <HelpKINode Title="CostCentresViewModel.CostCentresViewModel constructor" Url="html/c16ab350-cdbc-f67a-f9f1-f4e99e4956bf.htm" />
+  <HelpKINode Title="CostCentresViewModel.PopulateLists method" Url="html/3d37b7b0-832d-140a-6279-f7aa96626229.htm" />
+  <HelpKINode Title="costOrRev enumeration" Url="html/995e9e8a-c466-fd28-4c42-44ac3af401f9.htm" />
+  <HelpKINode Title="costOrRev property" Url="html/1588be72-2172-233e-d133-f1ac9a088976.htm" />
+  <HelpKINode Title="costTypeList field" Url="html/911e1f19-4acd-6fe6-fc12-5e41518daf48.htm" />
+  <HelpKINode Title="Create method" Url="html/03105a7f-2316-6e71-4a3f-e8dc5bd8c623.htm" />
+  <HelpKINode Title="CreateContractCategory method" Url="html/61503865-c5e8-9c32-f1fb-8fdce74d873c.htm" />
+  <HelpKINode Title="CreateContractPartner method" Url="html/d82ca1d6-4579-6126-fbe4-d08229180051.htm" />
+  <HelpKINode Title="CreateContractSpecie method" Url="html/af37667a-0407-6e9f-b963-aad485785f53.htm" />
+  <HelpKINode Title="CreateContractSubcategory method" Url="html/3a019123-9eb4-502b-0851-86191598c09c.htm" />
+  <HelpKINode Title="CreateCostCentre method" Url="html/533c98e5-2c6e-a396-81a1-8f124003673b.htm" />
+  <HelpKINode Title="CreateDepartment method" Url="html/8a742321-2877-b096-cfbb-33e7826ebe5c.htm" />
+  <HelpKINode Title="CreateMandant method" Url="html/4b8eaed8-1a39-1ebe-0fce-7d4a0d28ccc2.htm" />
+  <HelpKINode Title="CreateOtherFeature method" Url="html/16516e6e-a5c6-ebb7-4637-356ec5c240d9.htm" />
+  <HelpKINode Title="CreateUser method" Url="html/71e6d9e2-d8b9-701f-6280-369f81c5fb94.htm" />
+  <HelpKINode Title="creationDate property">
+    <HelpKINode Title="Contract.creationDate Property " Url="html/a8b4aaa6-be01-ec55-f7e8-7e544dde0d81.htm" />
+    <HelpKINode Title="Contract.creationDate Property " Url="html/876df71a-d680-5542-40a2-64604c10ad9c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="currentSelectedCategory property" Url="html/692f6848-784f-2cf9-9544-f7fae852f0c2.htm" />
+  <HelpKINode Title="currentSelectedCostCentre property" Url="html/28e51fb0-3b9b-f9af-5c26-5fd5867e0a95.htm" />
+  <HelpKINode Title="currentSelectedCostType property" Url="html/50654c9f-ac89-25df-1c1e-76632fb5e788.htm" />
+  <HelpKINode Title="currentSelectedMandant property" Url="html/804b813b-2561-4c8e-d0c4-94a537676cf0.htm" />
+  <HelpKINode Title="currentSelectedSubcategory property" Url="html/0bbf1d5a-4ce1-c7e6-3409-72c0a62112f4.htm" />
+  <HelpKINode Title="currentSelectedType property" Url="html/e4cbabb8-6dc0-cf8b-2075-7f49f8aad729.htm" />
+  <HelpKINode Title="deadline property">
+    <HelpKINode Title="Task.deadline Property " Url="html/bb61a286-60ed-f2d6-bc8d-a3253b90f80c.htm" />
+    <HelpKINode Title="Task.deadline Property " Url="html/c2513472-9df9-2ba4-1394-85a1546a25a1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Debitor enumeration member" Url="html/308a06bb-c797-0af2-86b2-53f324002959.htm" />
+  <HelpKINode Title="DecimalModelBinder class">
+    <HelpKINode Title="DecimalModelBinder Class" Url="html/cfb91f48-f378-8eb0-f5b9-7fd9dddfef9a.htm" />
+    <HelpKINode Title="about DecimalModelBinder class" Url="html/cfb91f48-f378-8eb0-f5b9-7fd9dddfef9a.htm" />
+    <HelpKINode Title="constructor" Url="html/f72012fd-95d9-8f5a-da72-55303bd009d8.htm" />
+    <HelpKINode Title="methods" Url="html/b6a9decd-2fe3-37f1-db5c-7789c1d0e50b.htm" />
+    <HelpKINode Title="properties" Url="html/49dd92e9-5d89-033c-2be9-d825a6945744.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecimalModelBinder.BindModel method" Url="html/64dd2437-724c-f729-fd28-59f4cb558ee4.htm" />
+  <HelpKINode Title="DecimalModelBinder.DecimalModelBinder constructor" Url="html/f72012fd-95d9-8f5a-da72-55303bd009d8.htm" />
+  <HelpKINode Title="Delete method" Url="html/7b7d850f-a955-d17c-f512-40cb82ddd0f0.htm" />
+  <HelpKINode Title="DeleteConfirmed method" Url="html/9ced032f-de39-fbd3-8c6c-b94499bf3d60.htm" />
+  <HelpKINode Title="DeleteConfirmedContractCategory method" Url="html/6488cf76-c781-a4bb-42ea-a682edb04cb8.htm" />
+  <HelpKINode Title="DeleteConfirmedContractPartner method" Url="html/fab2703e-1131-4a48-517f-9150140dc45a.htm" />
+  <HelpKINode Title="DeleteConfirmedContractSpecies method" Url="html/7ddaafeb-9dca-d37b-b131-6d516538b866.htm" />
+  <HelpKINode Title="DeleteConfirmedContractSubcategory method" Url="html/cb7c4a3a-3281-fbf9-65be-f0fd70a94d9e.htm" />
+  <HelpKINode Title="DeleteConfirmedCostCentre method" Url="html/f2c91c4d-34cb-9bd7-c142-be3270b00393.htm" />
+  <HelpKINode Title="DeleteConfirmedDepartment method" Url="html/8eeb5a45-eb48-9a2e-9c68-08edf68ab6f4.htm" />
+  <HelpKINode Title="DeleteConfirmedMandant method" Url="html/78459765-d853-8e40-d685-311514dbfd49.htm" />
+  <HelpKINode Title="DeleteConfirmedOtherFeature method" Url="html/067085be-dc78-d2a4-8fa9-f2e759a303d9.htm" />
+  <HelpKINode Title="DeleteConfirmedUser method" Url="html/4b7d0176-f13e-d0d7-484e-672d66b0b73a.htm" />
+  <HelpKINode Title="DeleteContractCategory method" Url="html/c3a56a6c-d496-dc40-e6b8-df9897e19319.htm" />
+  <HelpKINode Title="DeleteContractPartner method" Url="html/513efaef-af11-8dd0-d024-049a04a61b6b.htm" />
+  <HelpKINode Title="DeleteContractSpecies method" Url="html/86221f5d-584d-53ad-c37c-066a9b133e4e.htm" />
+  <HelpKINode Title="DeleteContractSubcategory method" Url="html/5d72ca22-0e3f-b311-0279-f4c49919028b.htm" />
+  <HelpKINode Title="DeleteCostCentre method" Url="html/7b1d3c09-2a0a-0e65-5431-03130ae0cc79.htm" />
+  <HelpKINode Title="DeleteCostCentreFromContract method" Url="html/2947551b-5731-efc1-f1a7-5d85fdef3791.htm" />
+  <HelpKINode Title="deletedContracts method" Url="html/48f460ae-4e53-dd0f-ed0c-86a64302696e.htm" />
+  <HelpKINode Title="DeleteDepartment method" Url="html/6cde99e9-fdd3-442e-4e5e-a4c3d4e5a96e.htm" />
+  <HelpKINode Title="DeleteFeatureFromContract method" Url="html/aa27caef-2689-bead-cbf3-32c92e191cc3.htm" />
+  <HelpKINode Title="DeleteFile method" Url="html/92859fd1-a8e9-645a-3269-391a11954c10.htm" />
+  <HelpKINode Title="DeleteFrameworkContractFromContract method" Url="html/49e84584-0ff8-17b9-db53-f327b2d0c117.htm" />
+  <HelpKINode Title="DeleteMandant method" Url="html/36aed2ac-61b3-4e2f-f701-da3c2a83552a.htm" />
+  <HelpKINode Title="DeleteOtherFeature method" Url="html/e20656ce-c2a5-c16e-8f53-d017ddc2b89c.htm" />
+  <HelpKINode Title="DeleteResponsiblePersonFromDepartment method" Url="html/60752c77-5aac-60c0-9b61-0b7f1cc4a1c3.htm" />
+  <HelpKINode Title="DeleteResponsiblePersonFromMandant method" Url="html/d3f6f620-5cab-0c71-ce08-2c44f48e0352.htm" />
+  <HelpKINode Title="DeleteSpecialAuthorizationFromContract method" Url="html/9636bc13-0f92-17e4-55bd-8e0da10e4c0a.htm" />
+  <HelpKINode Title="deleteTask method" Url="html/f1a20c85-452c-aded-cb7d-64df2818a77d.htm" />
+  <HelpKINode Title="DeleteUser method">
+    <HelpKINode Title="CoreDataController.DeleteUser Method " Url="html/99e0eb19-6075-0c00-8f4d-35a1a7f7cecc.htm" />
+    <HelpKINode Title="UsersController.DeleteUser Method " Url="html/2bd4569a-eb27-2f95-2877-05c1e0f69a1a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department class">
+    <HelpKINode Title="Department Class" Url="html/180a7463-0485-425c-783a-0812839cbf2b.htm" />
+    <HelpKINode Title="Department Class" Url="html/cdeb7501-f388-0c78-1766-6984bd3cf4d2.htm" />
+    <HelpKINode Title="about Department class" Url="html/180a7463-0485-425c-783a-0812839cbf2b.htm" />
+    <HelpKINode Title="about Department class" Url="html/cdeb7501-f388-0c78-1766-6984bd3cf4d2.htm" />
+    <HelpKINode Title="constructor" Url="html/6e73c754-cc5a-c6da-254e-2f3344514d76.htm" />
+    <HelpKINode Title="constructor" Url="html/9a43619d-5339-ff31-ba1f-df086561a6f1.htm" />
+    <HelpKINode Title="methods" Url="html/9949e7ed-9730-4775-db37-8b271f336f5c.htm" />
+    <HelpKINode Title="methods" Url="html/b59e3c21-d79a-ae87-cb93-2cae9a34bf44.htm" />
+    <HelpKINode Title="properties" Url="html/2c96fbd3-9a91-3341-9d09-87112c89d79e.htm" />
+    <HelpKINode Title="properties" Url="html/dd3dd0a7-e816-c2c2-1beb-be52b0542c03.htm" />
+  </HelpKINode>
+  <HelpKINode Title="department property">
+    <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.department Property " Url="html/64a81e6d-7cf6-11f5-3b6c-0807cc50de46.htm" />
+    <HelpKINode Title="User.department Property " Url="html/32af217d-7a15-7455-4fa1-82635c687ee6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department property">
+    <HelpKINode Title="Contract.Department Property " Url="html/252dc6c6-4b5d-4524-1be7-801173aefd31.htm" />
+    <HelpKINode Title="User.Department Property " Url="html/5126548e-02e5-fff2-e1f3-a8cea4d7ca77.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department.Contracts property" Url="html/5464867b-9b54-5e51-b973-e5f4c4c13b3b.htm" />
+  <HelpKINode Title="Department.Contracts1 property" Url="html/f28d41f8-0889-623f-03a5-54168db7457e.htm" />
+  <HelpKINode Title="Department.coordinators property" Url="html/9390067a-12da-05cb-ea37-473251be132d.htm" />
+  <HelpKINode Title="Department.Department constructor">
+    <HelpKINode Title="Department Constructor " Url="html/9a43619d-5339-ff31-ba1f-df086561a6f1.htm" />
+    <HelpKINode Title="Department Constructor " Url="html/6e73c754-cc5a-c6da-254e-2f3344514d76.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department.dispatchers property" Url="html/0247e548-5289-6922-16f2-3efba4f1cfb7.htm" />
+  <HelpKINode Title="Department.ID property">
+    <HelpKINode Title="Department.ID Property " Url="html/2cad924a-0a75-3e4f-6dee-61b06ba43f33.htm" />
+    <HelpKINode Title="Department.ID Property " Url="html/98d4b059-f5a0-7528-a3a1-c8a24951f388.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department.Mandant property" Url="html/b00dff01-b233-1a4b-606d-04a9ed6fd5cc.htm" />
+  <HelpKINode Title="Department.mandant property" Url="html/990c092a-b166-dccd-2fc0-8f50844aece7.htm" />
+  <HelpKINode Title="Department.mandantID property">
+    <HelpKINode Title="Department.mandantID Property " Url="html/64803a7c-c551-ea04-e8e0-6f720d6b14b6.htm" />
+    <HelpKINode Title="Department.mandantID Property " Url="html/80bb0e44-759f-7806-7133-6255ed09ec6a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department.name property">
+    <HelpKINode Title="Department.name Property " Url="html/cd59f65d-3c7e-9833-459d-75522b3ff7ed.htm" />
+    <HelpKINode Title="Department.name Property " Url="html/f1532d46-a2be-c5d4-0366-30b14f5e8914.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Department.Users property" Url="html/3a0f1cfd-4a17-c58c-d1fb-23517c184cf5.htm" />
+  <HelpKINode Title="Department.Users1 property" Url="html/57bfaecf-7f0c-3df9-3e3e-3fc7f55f6eba.htm" />
+  <HelpKINode Title="Department.Users2 property" Url="html/22180efb-e153-d134-830e-1bbadd5a087c.htm" />
+  <HelpKINode Title="Department1 property" Url="html/14550a51-4f27-a498-1971-2cfc6a04ab60.htm" />
+  <HelpKINode Title="DepartmentChoiceMail class">
+    <HelpKINode Title="DepartmentChoiceMail Class" Url="html/b59c32f1-ee2e-864b-c3b4-fa0d4ca65256.htm" />
+    <HelpKINode Title="about DepartmentChoiceMail class" Url="html/b59c32f1-ee2e-864b-c3b4-fa0d4ca65256.htm" />
+    <HelpKINode Title="constructor" Url="html/379de0de-73d2-b4a7-d655-5a1ba55a1900.htm" />
+    <HelpKINode Title="fields" Url="html/91d99b1f-91f1-63f5-afe2-9f2315040325.htm" />
+    <HelpKINode Title="methods" Url="html/0a553c55-0819-064a-eb74-98420a107cb1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DepartmentChoiceMail.DepartmentChoiceMail constructor" Url="html/379de0de-73d2-b4a7-d655-5a1ba55a1900.htm" />
+  <HelpKINode Title="DepartmentChoiceMail.setText method" Url="html/c1e0d010-71e4-2753-5134-e49ea5a68cef.htm" />
+  <HelpKINode Title="departmentID property">
+    <HelpKINode Title="User.departmentID Property " Url="html/e5b579e8-39f9-2e5d-72ae-89e2fdaa2c8d.htm" />
+    <HelpKINode Title="User.departmentID Property " Url="html/a50b444d-759a-e41b-c6ee-75c0d7d67076.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Departments method" Url="html/f90ab05b-9d0c-b88a-7513-b0762c33f038.htm" />
+  <HelpKINode Title="Departments property">
+    <HelpKINode Title="ContractDBContext.Departments Property " Url="html/9807377a-4f70-7a97-96e8-cf200551f33c.htm" />
+    <HelpKINode Title="Mandant.Departments Property " Url="html/337c841e-2734-e0c0-ba9d-89378d41e7f1.htm" />
+    <HelpKINode Title="SQLDBEntities.Departments Property " Url="html/227ce448-9b30-0b5d-2207-6e227241c7ae.htm" />
+    <HelpKINode Title="User.Departments Property " Url="html/7c915928-d5e1-de6d-ce27-32e61b5ea2e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Departments1 property" Url="html/3a5ecf81-4d6c-00a4-2984-5916976ea6b6.htm" />
+  <HelpKINode Title="describtion property">
+    <HelpKINode Title="CostCentre.describtion Property " Url="html/65cb001a-b36f-a72c-8c5f-4a33ff57459c.htm" />
+    <HelpKINode Title="CostCentre.describtion Property " Url="html/a59c7cb9-591e-84d3-c4fb-6317d35273de.htm" />
+    <HelpKINode Title="OtherFeature.describtion Property " Url="html/b05a5ce8-d4c5-b45f-8a08-b31026c1a198.htm" />
+    <HelpKINode Title="OtherFeature.describtion Property " Url="html/06a781f3-aeba-2085-7d09-bcb0d646e7d1.htm" />
+    <HelpKINode Title="Task.describtion Property " Url="html/8daed124-a98c-cc0c-382c-8326d1b1012f.htm" />
+    <HelpKINode Title="Task.describtion Property " Url="html/f772cb31-5be8-c9a8-f139-b35f8870da70.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Description class">
+    <HelpKINode Title="fields" Url="html/bfa2afbd-0bb6-2b38-4513-c914b422660b.htm" />
+    <HelpKINode Title="methods" Url="html/1c065011-234b-59e3-01d5-fbffd502bbf8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Details method" Url="html/10c7080f-c649-2d86-b6e0-566f97665c8d.htm" />
+  <HelpKINode Title="Dispatcher field" Url="html/6adff5fd-239c-ebc3-96e6-2c4557a5de6e.htm" />
+  <HelpKINode Title="dispatcher property">
+    <HelpKINode Title="User.dispatcher Property " Url="html/d9c09b2b-c366-8e07-082b-6222e8835e19.htm" />
+    <HelpKINode Title="User.dispatcher Property " Url="html/b648e104-a1eb-9396-9fe2-24c5674a6324.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DispatcherMail class">
+    <HelpKINode Title="DispatcherMail Class" Url="html/467ed4a0-c5f1-14c3-2a57-a13f8ebf3123.htm" />
+    <HelpKINode Title="about DispatcherMail class" Url="html/467ed4a0-c5f1-14c3-2a57-a13f8ebf3123.htm" />
+    <HelpKINode Title="constructor" Url="html/95f1d1ca-1290-75fe-5b05-569edcb73c2b.htm" />
+    <HelpKINode Title="fields" Url="html/008c45fe-e29d-5f14-c23a-c1745fa406be.htm" />
+    <HelpKINode Title="methods" Url="html/e009f550-82ce-ca10-c7e2-b8147d972021.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DispatcherMail.autoSend method" Url="html/38bf90bb-ee7e-1a0a-5b85-ac9a338563cd.htm" />
+  <HelpKINode Title="DispatcherMail.DispatcherMail constructor" Url="html/95f1d1ca-1290-75fe-5b05-569edcb73c2b.htm" />
+  <HelpKINode Title="DispatcherMail.setText method" Url="html/2a334fe0-e29e-f07e-4d7e-14395f37f78b.htm" />
+  <HelpKINode Title="dispatcherOfDepartment property" Url="html/eb82a902-b16c-c3d0-c60f-fa332909273a.htm" />
+  <HelpKINode Title="dispatchers enumeration member" Url="html/a59830e9-efc4-a008-27c8-641fe84af714.htm" />
+  <HelpKINode Title="dispatchers property" Url="html/0247e548-5289-6922-16f2-3efba4f1cfb7.htm" />
+  <HelpKINode Title="dispatchersOfDepartment property" Url="html/c6685cd8-6b1f-d231-0844-8e24612c649d.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="ContractController.Dispose Method " Url="html/af49bd87-0534-2ab7-47f3-61c24d4ebe80.htm" />
+    <HelpKINode Title="CoreDataController.Dispose Method " Url="html/3b3187bd-b8d4-883f-ff6a-0afa2caf6a6b.htm" />
+    <HelpKINode Title="UsersController.Dispose Method " Url="html/28db0d60-b7f5-e0f7-1082-6b643d2b105a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Divide property" Url="html/ab861286-ce36-28de-f08a-df1fd5e787c4.htm" />
+  <HelpKINode Title="divide property" Url="html/93aa92ae-ac1f-e946-e731-ffa5e83b3b7b.htm" />
+  <HelpKINode Title="Document class">
+    <HelpKINode Title="Document Class" Url="html/aa18583d-f825-6aa6-891a-e10ddaa8622c.htm" />
+    <HelpKINode Title="Document Class" Url="html/2abdd8a9-b39a-4212-dcc4-4ca73444ed0c.htm" />
+    <HelpKINode Title="about Document class" Url="html/2abdd8a9-b39a-4212-dcc4-4ca73444ed0c.htm" />
+    <HelpKINode Title="about Document class" Url="html/aa18583d-f825-6aa6-891a-e10ddaa8622c.htm" />
+    <HelpKINode Title="constructor" Url="html/cfeb30a1-0716-c530-3419-26adb18e2592.htm" />
+    <HelpKINode Title="constructor" Url="html/d48fc41c-0094-b74e-6f2f-d01ee6cf56fa.htm" />
+    <HelpKINode Title="methods" Url="html/e71073e3-2dc3-8a5f-211a-a7f889db6a45.htm" />
+    <HelpKINode Title="methods" Url="html/d3d1cf16-6c1b-41f2-7b11-01f23bbe2cff.htm" />
+    <HelpKINode Title="properties" Url="html/dca417ab-fcd6-781d-97ac-ff463c4afe40.htm" />
+    <HelpKINode Title="properties" Url="html/b81acc3f-4e90-91ca-d037-51172202f425.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.category property">
+    <HelpKINode Title="Document.category Property " Url="html/50ed731c-f9f8-bf75-dfde-4495b71803df.htm" />
+    <HelpKINode Title="Document.category Property " Url="html/4acdf4d5-cd02-5687-b061-d232a79d8f63.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.Contract property" Url="html/6bb66908-29e2-4445-f32c-3587daf09e4f.htm" />
+  <HelpKINode Title="Document.Contract_intID property" Url="html/c9ac49c0-c0a1-a948-dc81-68e34717cf65.htm" />
+  <HelpKINode Title="Document.Document constructor">
+    <HelpKINode Title="Document Constructor " Url="html/d48fc41c-0094-b74e-6f2f-d01ee6cf56fa.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/cfeb30a1-0716-c530-3419-26adb18e2592.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.ID property">
+    <HelpKINode Title="Document.ID Property " Url="html/e3e5f86f-aca8-f584-8f08-1c8b8f898a64.htm" />
+    <HelpKINode Title="Document.ID Property " Url="html/cb351102-2dd9-674c-0570-737652269ecc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.link property">
+    <HelpKINode Title="Document.link Property " Url="html/df99e273-39fb-968d-8ca3-0f9cd4903bf3.htm" />
+    <HelpKINode Title="Document.link Property " Url="html/2fc75091-0c90-0e7b-eccf-9c99aa14ef20.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.title property">
+    <HelpKINode Title="Document.title Property " Url="html/c5fa7295-c4da-9985-d8d6-7576745e8d01.htm" />
+    <HelpKINode Title="Document.title Property " Url="html/ae43dfb9-6a6a-60de-0f69-88591397b0bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Documents property">
+    <HelpKINode Title="Contract.Documents Property " Url="html/6fbea90d-e1f9-6e94-db60-4efa7c7bbec4.htm" />
+    <HelpKINode Title="ContractDBContext.Documents Property " Url="html/82123126-9da5-7f26-e01f-78a250a13129.htm" />
+    <HelpKINode Title="SQLDBEntities.Documents Property " Url="html/5cbb28dc-54dd-27cd-f438-d2af27df6a9d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="documents property" Url="html/7e60c7a5-1631-306b-bf79-2300b79375ea.htm" />
+  <HelpKINode Title="Down method">
+    <HelpKINode Title="Initial.Down Method " Url="html/197b385e-6594-a57d-7cae-b6a4fd7c4608.htm" />
+    <HelpKINode Title="_1.Down Method " Url="html/fc4cfc28-9f11-cb1b-db8e-1edb8caa1b90.htm" />
+    <HelpKINode Title="_10.Down Method " Url="html/40fbf3e7-7c4a-5184-95e6-6156841aef6c.htm" />
+    <HelpKINode Title="_2.Down Method " Url="html/7ecf8281-01f8-46c5-54a6-a8c71c36cd8b.htm" />
+    <HelpKINode Title="_3.Down Method " Url="html/91238dc5-2365-39ae-c23b-02470b6ba35c.htm" />
+    <HelpKINode Title="_8.Down Method " Url="html/7f0ad833-18c1-a388-80bf-d566bc7f5543.htm" />
+    <HelpKINode Title="_9.Down Method " Url="html/29c6c27f-e22f-35d9-393c-87f8622e09da.htm" />
+  </HelpKINode>
+  <HelpKINode Title="earliestNoticePeriod property">
+    <HelpKINode Title="Contract.earliestNoticePeriod Property " Url="html/f8e290be-0b37-bd23-d051-86df817f938a.htm" />
+    <HelpKINode Title="Contract.earliestNoticePeriod Property " Url="html/efeb8016-b7ab-627f-6cd6-3f21c976173f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Edit method" Url="html/f636e634-d2db-bd02-b168-26bc8de5aa1d.htm" />
+  <HelpKINode Title="EditContractCategory method" Url="html/3223f704-5531-533f-090f-40077df1d023.htm" />
+  <HelpKINode Title="EditContractPartner method" Url="html/f0ec610e-48b8-a2f8-a686-bbd1e3ac7e61.htm" />
+  <HelpKINode Title="EditContractSpecies method" Url="html/fcb47e7b-a322-653d-99b0-24325dad80ed.htm" />
+  <HelpKINode Title="EditContractSubcategory method" Url="html/4cf1f6b3-3070-edca-43d1-2655b8803095.htm" />
+  <HelpKINode Title="EditCostCentre method" Url="html/c59f3dc7-5502-257d-64a6-8c8231c160d2.htm" />
+  <HelpKINode Title="EditDepartment method" Url="html/9b4bef5a-f86f-cef5-2551-807a9f842472.htm" />
+  <HelpKINode Title="EditMandant method" Url="html/13efe307-7ffd-6ec5-5a79-67de19e2e947.htm" />
+  <HelpKINode Title="EditOtherFeature method" Url="html/e41c1605-1149-14d7-9673-dfe7f9fdc3db.htm" />
+  <HelpKINode Title="EditUser method" Url="html/83c6d6b0-3b77-baf0-0336-e139c38a725e.htm" />
+  <HelpKINode Title="Einnahme enumeration member" Url="html/995e9e8a-c466-fd28-4c42-44ac3af401f9.htm" />
+  <HelpKINode Title="email property">
+    <HelpKINode Title="User.email Property " Url="html/8e75b361-9818-c41b-6f9a-84dc70d07c0d.htm" />
+    <HelpKINode Title="User.email Property " Url="html/4ca4582b-9e66-3315-903a-e57255ca6b26.htm" />
+  </HelpKINode>
+  <HelpKINode Title="endDate property">
+    <HelpKINode Title="Contract.endDate Property " Url="html/345d23ba-6609-1060-8be3-0555d495bb96.htm" />
+    <HelpKINode Title="Contract.endDate Property " Url="html/ee432893-81af-3687-44e8-cc2b104a4fc1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="equals method" Url="html/42d6bd1d-487b-ebf1-e9a3-7131c4208c90.htm" />
+  <HelpKINode Title="escalated property">
+    <HelpKINode Title="Contract.escalated Property " Url="html/3426f410-b384-7e4f-761a-2c3a95a24d6f.htm" />
+    <HelpKINode Title="Contract.escalated Property " Url="html/b0166c36-fabb-a124-fa37-4dca32f320b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Escalation field" Url="html/3487b433-c1a2-a11b-2621-e271b9504753.htm" />
+  <HelpKINode Title="escalationDate property">
+    <HelpKINode Title="Contract.escalationDate Property " Url="html/68bfe7bf-55f7-9e48-608f-b16f445d6fde.htm" />
+    <HelpKINode Title="Contract.escalationDate Property " Url="html/20034a51-85ff-6771-0f27-8846d644e4ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EscalationMail class">
+    <HelpKINode Title="EscalationMail Class" Url="html/1d5cf671-2cb2-2e82-b528-7502c064ef74.htm" />
+    <HelpKINode Title="about EscalationMail class" Url="html/1d5cf671-2cb2-2e82-b528-7502c064ef74.htm" />
+    <HelpKINode Title="constructor" Url="html/34c96a58-0016-993d-56b0-c3021f029d9b.htm" />
+    <HelpKINode Title="fields" Url="html/12491b07-8fa4-1564-ff19-88604f38d6e4.htm" />
+    <HelpKINode Title="methods" Url="html/89dfa73b-2262-eee1-f124-d8fb45263163.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EscalationMail.EscalationMail constructor" Url="html/34c96a58-0016-993d-56b0-c3021f029d9b.htm" />
+  <HelpKINode Title="Everyone enumeration member" Url="html/a59830e9-efc4-a008-27c8-641fe84af714.htm" />
+  <HelpKINode Title="extID property">
+    <HelpKINode Title="Contract.extID Property " Url="html/259bedc3-c263-86f7-38d4-fd03dea72318.htm" />
+    <HelpKINode Title="Contract.extID Property " Url="html/4b3f66ee-2ddf-cc60-2e09-4fdbe28ba67d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Files method" Url="html/77d6cbd0-7462-ca63-e628-b9eb77e2ed52.htm" />
+  <HelpKINode Title="FilterConfig class">
+    <HelpKINode Title="FilterConfig Class" Url="html/b7280768-273a-4b24-69cb-0eaf59d782b1.htm" />
+    <HelpKINode Title="about FilterConfig class" Url="html/b7280768-273a-4b24-69cb-0eaf59d782b1.htm" />
+    <HelpKINode Title="constructor" Url="html/1f2a42ce-ef16-4ddd-3590-3bd92b7d49b9.htm" />
+    <HelpKINode Title="methods" Url="html/34eec062-1e06-c3d5-c7fe-e026bd8cf92c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilterConfig.FilterConfig constructor" Url="html/1f2a42ce-ef16-4ddd-3590-3bd92b7d49b9.htm" />
+  <HelpKINode Title="FilterConfig.RegisterGlobalFilters method" Url="html/53734ea4-f28b-2811-1742-93d2ece4855f.htm" />
+  <HelpKINode Title="fo method" Url="html/87172dca-5129-419b-9b22-84e36cce86f3.htm" />
+  <HelpKINode Title="FormatErrorMessage method">
+    <HelpKINode Title="AfterDateAttribute.FormatErrorMessage Method " Url="html/192895b4-34f6-a38a-b69f-a533236cf1f1.htm" />
+    <HelpKINode Title="AlwaysRequiredAttribute.FormatErrorMessage Method " Url="html/f65d3af5-b137-95a1-b68c-647bfdc39645.htm" />
+    <HelpKINode Title="BeforeDateAttribute.FormatErrorMessage Method " Url="html/9b5c9999-5bbe-e38d-1e17-f393785c461f.htm" />
+    <HelpKINode Title="RequiredIfDispatcherAttribute.FormatErrorMessage Method " Url="html/47832306-c5bf-31ef-a5a4-d866ffe0da17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="frameworkContract method" Url="html/49ba5cb9-a051-13f3-73eb-8e28c1ce6981.htm" />
+  <HelpKINode Title="frameworkContract property" Url="html/db65cd21-88c9-495c-40fd-ecd0e915cf34.htm" />
+  <HelpKINode Title="frameworkContractID property">
+    <HelpKINode Title="Contract.frameworkContractID Property " Url="html/d0039c29-b8d0-b2a4-9396-e0b8b7723c8c.htm" />
+    <HelpKINode Title="Contract.frameworkContractID Property " Url="html/6b277a70-f36f-4fc6-f400-be8515a91f55.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FrameworkContractViewModel class">
+    <HelpKINode Title="FrameworkContractViewModel Class" Url="html/21ec0139-2f13-9f0d-ee60-1f989f831b29.htm" />
+    <HelpKINode Title="about FrameworkContractViewModel class" Url="html/21ec0139-2f13-9f0d-ee60-1f989f831b29.htm" />
+    <HelpKINode Title="constructor" Url="html/bfd1bd9b-02b0-0629-ca43-ce024b8f792c.htm" />
+    <HelpKINode Title="methods" Url="html/149ca5d2-b79a-4d41-9afa-7647687a2ae0.htm" />
+    <HelpKINode Title="properties" Url="html/e1d5c0fe-db4d-5e40-c451-f2f80f7a47f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FrameworkContractViewModel.allContracts property" Url="html/f5f07cdd-b6af-b9b3-1482-ac4c59714920.htm" />
+  <HelpKINode Title="FrameworkContractViewModel.contract property" Url="html/f9da2bd1-e180-d0a0-0029-ae099b94c457.htm" />
+  <HelpKINode Title="FrameworkContractViewModel.FrameworkContractViewModel constructor" Url="html/bfd1bd9b-02b0-0629-ca43-ce024b8f792c.htm" />
+  <HelpKINode Title="FrameworkContractViewModel.PopulateLists method" Url="html/144ece5a-b04a-1cdb-8c96-4bc7df6c560f.htm" />
+  <HelpKINode Title="FrameworkContractViewModel.SubContractsOfContract property" Url="html/666fa25c-2607-c625-204e-c39327649fcf.htm" />
+  <HelpKINode Title="FullName property" Url="html/27b38320-4fa5-0fb9-3c7c-9923c2740d0c.htm" />
+  <HelpKINode Title="gek&#252;ndigt enumeration member" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="gel&#246;scht enumeration member" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="gesamt field" Url="html/e209dc28-bb70-e8b5-eba8-3dcc87a7d51d.htm" />
+  <HelpKINode Title="gesRev field" Url="html/37b59d71-1951-c0f7-4944-17dd70a984fe.htm" />
+  <HelpKINode Title="gesSum field" Url="html/e8f02dd3-6988-6260-6c4e-9ad08ce9af3b.htm" />
+  <HelpKINode Title="GetClientValidationRules method">
+    <HelpKINode Title="AfterDateAttribute.GetClientValidationRules Method " Url="html/aed89ad3-19f0-5a8d-ae61-c79b0253b7bd.htm" />
+    <HelpKINode Title="AlwaysRequiredAttribute.GetClientValidationRules Method " Url="html/e7ab9824-f343-9870-5430-1737d79a4e45.htm" />
+    <HelpKINode Title="BeforeDateAttribute.GetClientValidationRules Method " Url="html/46dcaee2-7f9b-b7c7-20e0-e0cfe92b6a30.htm" />
+    <HelpKINode Title="RequiredIfDispatcherAttribute.GetClientValidationRules Method " Url="html/a356fd3a-b418-0799-4f2d-33dbfd06f5c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getCurrentUser method">
+    <HelpKINode Title="ContractController.getCurrentUser Method " Url="html/08d7057c-74bc-2c05-fc4c-44404e6d967b.htm" />
+    <HelpKINode Title="CoreDataController.getCurrentUser Method " Url="html/92581663-18f6-3c32-95c1-ad896f61e12d.htm" />
+    <HelpKINode Title="HomeController.getCurrentUser Method " Url="html/9745f4ae-a096-0914-e79a-90fbee1c3d29.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getEmail method" Url="html/d46732f1-b990-6b8a-e4b1-810da05ed5e9.htm" />
+  <HelpKINode Title="GetOtherDisplayName method">
+    <HelpKINode Title="AfterDateAttribute.GetOtherDisplayName Method " Url="html/809270d7-b00e-abc4-d25f-542af34d3816.htm" />
+    <HelpKINode Title="BeforeDateAttribute.GetOtherDisplayName Method " Url="html/3e472734-8170-fca1-4d87-4104c5e9c808.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getRecipients method" Url="html/00d6f3fd-65b9-1b3f-b1f1-399ad0777ab5.htm" />
+  <HelpKINode Title="GetSecondComparable method">
+    <HelpKINode Title="AfterDateAttribute.GetSecondComparable Method " Url="html/4ae6baee-7777-58b4-c802-a49abf16b6d3.htm" />
+    <HelpKINode Title="BeforeDateAttribute.GetSecondComparable Method " Url="html/bd097ece-be2d-4841-11be-eed610c6327a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetUser method" Url="html/73e0d486-9736-a70e-45e4-90c3dd1746c4.htm" />
+  <HelpKINode Title="GetUsers method" Url="html/73bdc62f-0c16-9e1a-33dc-1336a85b9b9e.htm" />
+  <HelpKINode Title="HangfireBootstrapper class">
+    <HelpKINode Title="HangfireBootstrapper Class" Url="html/99d2e7ff-843e-fda8-0949-856a9a3eda04.htm" />
+    <HelpKINode Title="about HangfireBootstrapper class" Url="html/99d2e7ff-843e-fda8-0949-856a9a3eda04.htm" />
+    <HelpKINode Title="fields" Url="html/04de5fad-06a0-0a52-aeeb-59d7fe872fb5.htm" />
+    <HelpKINode Title="methods" Url="html/662e4de4-4a31-af25-7e9a-be9d4a711750.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HangfireBootstrapper.fo method" Url="html/87172dca-5129-419b-9b22-84e36cce86f3.htm" />
+  <HelpKINode Title="HangfireBootstrapper.Instance field" Url="html/74a29edf-cf4a-587d-78e7-cbedba49ccb5.htm" />
+  <HelpKINode Title="HangfireBootstrapper.Start method" Url="html/b707c897-a3bc-ff48-9339-5e3ee176f314.htm" />
+  <HelpKINode Title="HangfireBootstrapper.Stop method" Url="html/079ca31e-5c33-c45c-8ae9-e092c7d02549.htm" />
+  <HelpKINode Title="Help method" Url="html/df81ce2b-5db2-d1b0-2417-f69ef5442ed0.htm" />
+  <HelpKINode Title="HomeController class">
+    <HelpKINode Title="HomeController Class" Url="html/8e6f571c-f763-55d1-69be-927e7703591d.htm" />
+    <HelpKINode Title="about HomeController class" Url="html/8e6f571c-f763-55d1-69be-927e7703591d.htm" />
+    <HelpKINode Title="constructor" Url="html/7a249a14-8b99-d84c-cc13-310a3393beee.htm" />
+    <HelpKINode Title="methods" Url="html/d6479ae7-1878-f470-cb13-cc9f4fcb8506.htm" />
+    <HelpKINode Title="properties" Url="html/571991e5-9c2a-c389-8447-ad36f7a222ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HomeController.blocked method" Url="html/39a465fa-8378-8f2c-b619-e0c107b86cfc.htm" />
+  <HelpKINode Title="HomeController.deleteTask method" Url="html/f1a20c85-452c-aded-cb7d-64df2818a77d.htm" />
+  <HelpKINode Title="HomeController.getCurrentUser method" Url="html/9745f4ae-a096-0914-e79a-90fbee1c3d29.htm" />
+  <HelpKINode Title="HomeController.Help method" Url="html/df81ce2b-5db2-d1b0-2417-f69ef5442ed0.htm" />
+  <HelpKINode Title="HomeController.HomeController constructor" Url="html/7a249a14-8b99-d84c-cc13-310a3393beee.htm" />
+  <HelpKINode Title="HomeController.Index method" Url="html/8f7ebb17-0c44-b6b1-35c3-107c00b31047.htm" />
+  <HelpKINode Title="HomeController.SignIn method" Url="html/76aeaf90-697e-1c5a-0586-740dcc000d42.htm" />
+  <HelpKINode Title="ID property">
+    <HelpKINode Title="ContractCategory.ID Property " Url="html/bca128b5-f6bc-40b0-c508-2bdc6e97ecd9.htm" />
+    <HelpKINode Title="ContractCategory.ID Property " Url="html/0fb7e9fc-7bfe-4ac5-e1d7-985cc53fc7f7.htm" />
+    <HelpKINode Title="ContractSpecies.ID Property " Url="html/34a3e603-2f2f-d6db-04a1-ee825a040194.htm" />
+    <HelpKINode Title="ContractSpecy.ID Property " Url="html/f20d444c-98de-f514-0e45-2af7b5004346.htm" />
+    <HelpKINode Title="ContractSubcategory.ID Property " Url="html/692d7929-3984-d5b6-ade3-2bde2f6d3db4.htm" />
+    <HelpKINode Title="ContractSubcategory.ID Property " Url="html/ead760ad-d5d7-5a81-e303-ac5747c9ec51.htm" />
+    <HelpKINode Title="CostCentre.ID Property " Url="html/7d367659-5cc7-b878-3605-60c82aaa1b21.htm" />
+    <HelpKINode Title="CostCentre.ID Property " Url="html/f0b5d769-69bb-8e14-8b64-3b17c6b86a3a.htm" />
+    <HelpKINode Title="CostCentreDivide.ID Property " Url="html/a4c04a2c-4e1f-987a-eafe-79439b139870.htm" />
+    <HelpKINode Title="CostCentreDivide.ID Property " Url="html/8d55e0f3-438e-d872-e45b-8347a0b6b4e9.htm" />
+    <HelpKINode Title="Department.ID Property " Url="html/98d4b059-f5a0-7528-a3a1-c8a24951f388.htm" />
+    <HelpKINode Title="Department.ID Property " Url="html/2cad924a-0a75-3e4f-6dee-61b06ba43f33.htm" />
+    <HelpKINode Title="Document.ID Property " Url="html/cb351102-2dd9-674c-0570-737652269ecc.htm" />
+    <HelpKINode Title="Document.ID Property " Url="html/e3e5f86f-aca8-f584-8f08-1c8b8f898a64.htm" />
+    <HelpKINode Title="Mandant.ID Property " Url="html/8935427d-eef1-9c68-a056-6ce1f08c0c2c.htm" />
+    <HelpKINode Title="Mandant.ID Property " Url="html/8334b879-2711-6b8e-bd6a-133562ba7202.htm" />
+    <HelpKINode Title="OtherFeature.ID Property " Url="html/30936480-74e6-d357-8d01-a5435b8e9132.htm" />
+    <HelpKINode Title="OtherFeature.ID Property " Url="html/78af25f1-a8e0-f32d-11a2-83a408229eb5.htm" />
+    <HelpKINode Title="Task.ID Property " Url="html/bf311990-10f8-54be-f05a-e39ba1d1ba02.htm" />
+    <HelpKINode Title="Task.ID Property " Url="html/e3bfaf82-5981-51db-1c94-b78b7005835d.htm" />
+    <HelpKINode Title="User.ID Property " Url="html/bb21d1b2-6988-e0d4-36dc-11da0c41d28a.htm" />
+    <HelpKINode Title="User.ID Property " Url="html/f3e02f7a-04f1-4f37-aa7e-1b764def4ef2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Import method" Url="html/c4b4d5ec-40ea-52f7-d611-d361d2fcf3f7.htm" />
+  <HelpKINode Title="ImportCostCentre method" Url="html/6792f68a-8a68-018b-ab97-51f1ca336fa5.htm" />
+  <HelpKINode Title="ImportCostCentreConfirmed method" Url="html/9c9249f2-cf1a-acfa-f876-a8772608c295.htm" />
+  <HelpKINode Title="importFailed method" Url="html/0d99a6a7-5ff0-f073-6294-ad0ae0c59ccf.htm" />
+  <HelpKINode Title="Index method">
+    <HelpKINode Title="ContractController.Index Method " Url="html/ceb2a20b-ad5f-0b62-053f-87c0827036ae.htm" />
+    <HelpKINode Title="CoreDataController.Index Method " Url="html/b47c6f68-4dd6-5647-b3e2-8030dcf5c80b.htm" />
+    <HelpKINode Title="HomeController.Index Method " Url="html/8f7ebb17-0c44-b6b1-35c3-107c00b31047.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexContractsViewModel class">
+    <HelpKINode Title="IndexContractsViewModel Class" Url="html/031eec12-7275-cdd9-72d9-90043ab6617f.htm" />
+    <HelpKINode Title="about IndexContractsViewModel class" Url="html/031eec12-7275-cdd9-72d9-90043ab6617f.htm" />
+    <HelpKINode Title="constructor" Url="html/4cf8ba4b-40b1-e619-fb17-d4e8c846c675.htm" />
+    <HelpKINode Title="methods" Url="html/4f46c1b6-f7c4-697e-5a85-6aaafe87af2b.htm" />
+    <HelpKINode Title="properties" Url="html/b79fb33a-1194-4c8a-59b1-f187651f5869.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexContractsViewModel.contract property" Url="html/1e995430-00a4-1660-aa24-9f3e70dc74c1.htm" />
+  <HelpKINode Title="IndexContractsViewModel.contracts property" Url="html/9c73dd40-6e34-ce6a-5c24-929ce67a0678.htm" />
+  <HelpKINode Title="IndexContractsViewModel.costcentre property" Url="html/b182201c-9845-7318-3082-144dd46ff310.htm" />
+  <HelpKINode Title="IndexContractsViewModel.IndexContractsViewModel constructor" Url="html/4cf8ba4b-40b1-e619-fb17-d4e8c846c675.htm" />
+  <HelpKINode Title="IndexContractsViewModel.PopulateContractList method" Url="html/2bea957f-6e2b-bd4a-9a7e-ed5d2406ac08.htm" />
+  <HelpKINode Title="IndexContractsViewModel.PopulateDropDownLists method" Url="html/0cf06bd6-c7eb-0f50-0394-8d1521048b8f.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectCategory property" Url="html/b74a42d8-f080-75d8-849f-32060ee14326.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectCostCenter property" Url="html/a3ac2903-563e-b4be-2e71-09b97037364d.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectCostCentre property" Url="html/fa8693e4-b266-2ab5-4e7b-699f51a24547.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectMandant property" Url="html/c4655283-b759-fda6-09e2-61dc76addd9f.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectMappedDepartment property" Url="html/2c09d998-91dd-f86c-3dc4-5ae4afe8b271.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectObservingDepartment property" Url="html/5abe9316-9586-ae62-b423-bbe80315a110.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectOtherFeatures property" Url="html/5f15add5-0425-b3f8-8e2c-d0f64bcf4e97.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectPartner property" Url="html/89b5e970-f0da-7343-62f8-72933c4ba851.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectPersonInCharge property" Url="html/8abcc0fc-ab66-31ac-26d7-347a1b50c637.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectSigner property" Url="html/fbb6422c-1c4d-7271-5df9-3efd1779cdd7.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectSpecies property" Url="html/f1f980d5-247e-de9a-aad5-a8e4ad21b001.htm" />
+  <HelpKINode Title="IndexContractsViewModel.selectSubcategory property" Url="html/373b4a1e-59d9-a187-a99e-c4dbf7d31ec3.htm" />
+  <HelpKINode Title="Initial class">
+    <HelpKINode Title="Initial Class" Url="html/07a49187-6f60-afc9-9399-c4cae7cae59a.htm" />
+    <HelpKINode Title="about Initial class" Url="html/07a49187-6f60-afc9-9399-c4cae7cae59a.htm" />
+    <HelpKINode Title="constructor" Url="html/ef4d2886-ceec-2546-43a3-3b303f24caca.htm" />
+    <HelpKINode Title="methods" Url="html/a1c0ce72-2201-ae06-8464-e6be18ad2672.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Initial.Down method" Url="html/197b385e-6594-a57d-7cae-b6a4fd7c4608.htm" />
+  <HelpKINode Title="Initial.Initial constructor" Url="html/ef4d2886-ceec-2546-43a3-3b303f24caca.htm" />
+  <HelpKINode Title="Initial.Up method" Url="html/dab40254-3a8c-4980-5123-a3e5c5621ae7.htm" />
+  <HelpKINode Title="Instance field" Url="html/74a29edf-cf4a-587d-78e7-cbedba49ccb5.htm" />
+  <HelpKINode Title="intID property">
+    <HelpKINode Title="Contract.intID Property " Url="html/04dcea79-f869-a116-b054-f326f927b546.htm" />
+    <HelpKINode Title="Contract.intID Property " Url="html/e273e81b-f354-eda1-25ab-d36aa5790f41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="isCompleted method" Url="html/a996bba3-b4a9-cfae-00d6-725c034d90d5.htm" />
+  <HelpKINode Title="isEnding method" Url="html/9cb0f6c5-899f-f70a-2a50-26f8fc1a592b.htm" />
+  <HelpKINode Title="isEscalating method" Url="html/469b3101-7989-9afe-befb-d954987bffd3.htm" />
+  <HelpKINode Title="isframeworkContract property">
+    <HelpKINode Title="Contract.isframeworkContract Property " Url="html/9bcb9192-aca3-d022-68dd-2f6afa1162ae.htm" />
+    <HelpKINode Title="Contract.isframeworkContract Property " Url="html/4b6229aa-2b6e-d5cc-bb10-b458288b1e95.htm" />
+  </HelpKINode>
+  <HelpKINode Title="isNoticing method" Url="html/e070a456-8ef2-e166-38dd-b185ccc9c4e0.htm" />
+  <HelpKINode Title="isReminding method" Url="html/42efe249-f8ca-2562-e275-70bbd94dd9bd.htm" />
+  <HelpKINode Title="isRenewing method" Url="html/8fabe9ac-9449-a1ad-9e79-92f274266269.htm" />
+  <HelpKINode Title="IsValid method">
+    <HelpKINode Title="AfterDateAttribute.IsValid Method " Url="html/1b5ec3f1-584a-a66b-c46a-28cb18fea6af.htm" />
+    <HelpKINode Title="AlwaysRequiredAttribute.IsValid Method " Url="html/f6a9399a-4cd7-2c8c-d941-aad1862213b0.htm" />
+    <HelpKINode Title="BeforeDateAttribute.IsValid Method " Url="html/9eb42f43-42d4-0149-989b-35d48d6bbb0b.htm" />
+    <HelpKINode Title="RequiredIfDispatcherAttribute.IsValid Method " Url="html/46fac950-8637-9d43-0f89-ebc4d5b11be7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Kreditor enumeration member" Url="html/308a06bb-c797-0af2-86b2-53f324002959.htm" />
+  <HelpKINode Title="link field" Url="html/14e0351a-76a5-3cc3-4631-0b269e260890.htm" />
+  <HelpKINode Title="link property">
+    <HelpKINode Title="Document.link Property " Url="html/2fc75091-0c90-0e7b-eccf-9c99aa14ef20.htm" />
+    <HelpKINode Title="Document.link Property " Url="html/df99e273-39fb-968d-8ca3-0f9cd4903bf3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="locality property">
+    <HelpKINode Title="Contract.locality Property " Url="html/4c5fba24-453b-5417-bccb-0a2a6be184ae.htm" />
+    <HelpKINode Title="Contract.locality Property " Url="html/59c1684d-55be-2999-8816-19749ab7e782.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mail class">
+    <HelpKINode Title="Mail Class" Url="html/1bbc1517-582c-7721-3cbb-aa88538ff344.htm" />
+    <HelpKINode Title="about Mail class" Url="html/1bbc1517-582c-7721-3cbb-aa88538ff344.htm" />
+    <HelpKINode Title="constructor" Url="html/44a35b90-6367-52ff-4f2b-5848e410c20f.htm" />
+    <HelpKINode Title="fields" Url="html/4adc5508-1906-410d-0553-522bec255cbf.htm" />
+    <HelpKINode Title="methods" Url="html/0dd13e44-9002-43bc-be53-d0706e50b8a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mail.Add method" Url="html/4fc3655a-9d76-817f-4078-bf70e4a2dc6d.htm" />
+  <HelpKINode Title="Mail.clear method" Url="html/aae9314e-aa3b-00bd-2ece-f0e1eed3f1e0.htm" />
+  <HelpKINode Title="Mail.contract field" Url="html/f10a4e6f-7095-90b5-f6be-e09ebd07256d.htm" />
+  <HelpKINode Title="Mail.link field" Url="html/14e0351a-76a5-3cc3-4631-0b269e260890.htm" />
+  <HelpKINode Title="Mail.Mail constructor" Url="html/44a35b90-6367-52ff-4f2b-5848e410c20f.htm" />
+  <HelpKINode Title="Mail.send method" Url="html/217996ee-4992-124b-8172-c8529b0f1e03.htm" />
+  <HelpKINode Title="Mail.setSubject method" Url="html/634be2ab-0f79-5f6b-f9e8-29d96d0d35f1.htm" />
+  <HelpKINode Title="Mail.setText method" Url="html/b8ba7def-74cf-94ea-bdd5-03bf25068c1e.htm" />
+  <HelpKINode Title="Manager class">
+    <HelpKINode Title="Manager Class" Url="html/0348f335-fb38-3721-70ac-9cf9c1adca8a.htm" />
+    <HelpKINode Title="about Manager class" Url="html/0348f335-fb38-3721-70ac-9cf9c1adca8a.htm" />
+    <HelpKINode Title="constructor" Url="html/a628e73c-c3d3-8742-0411-49ffd3e88afb.htm" />
+    <HelpKINode Title="methods" Url="html/fdd0807e-00a4-db99-d296-d3580d1fa6fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Manager.Manager constructor" Url="html/a628e73c-c3d3-8742-0411-49ffd3e88afb.htm" />
+  <HelpKINode Title="Mandant class">
+    <HelpKINode Title="Mandant Class" Url="html/7a1b4291-617b-04ca-f88b-1082de8a94d4.htm" />
+    <HelpKINode Title="Mandant Class" Url="html/9953f98a-cbe4-f9e1-468a-7db72aa7a12e.htm" />
+    <HelpKINode Title="about Mandant class" Url="html/7a1b4291-617b-04ca-f88b-1082de8a94d4.htm" />
+    <HelpKINode Title="about Mandant class" Url="html/9953f98a-cbe4-f9e1-468a-7db72aa7a12e.htm" />
+    <HelpKINode Title="constructor" Url="html/1a3e4e2b-b82a-5a45-1af7-de36733a7fae.htm" />
+    <HelpKINode Title="constructor" Url="html/10e15d8b-1f27-7b12-9f18-8b6d52e596de.htm" />
+    <HelpKINode Title="methods" Url="html/514cd14d-2dae-f61a-1033-a88d7ee96197.htm" />
+    <HelpKINode Title="methods" Url="html/8ceda4ca-899f-aa0a-c2e2-3fa88b4b163d.htm" />
+    <HelpKINode Title="properties" Url="html/6793a60b-65d4-5af5-800e-152edc9333cd.htm" />
+    <HelpKINode Title="properties" Url="html/5b6e815a-8e1c-32ee-f1e0-c30c4362ce0b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="mandant property">
+    <HelpKINode Title="Department.mandant Property " Url="html/990c092a-b166-dccd-2fc0-8f50844aece7.htm" />
+    <HelpKINode Title="ReportContent.mandant Property " Url="html/869103e7-b1d6-3724-bf28-e42516e4d134.htm" />
+    <HelpKINode Title="ResponsiblePersonsMandantViewModel.mandant Property " Url="html/911fd127-3bee-8e77-e4e0-1f08246d4b86.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mandant property">
+    <HelpKINode Title="Department.Mandant Property " Url="html/b00dff01-b233-1a4b-606d-04a9ed6fd5cc.htm" />
+    <HelpKINode Title="ContractDBContext.Mandant Property " Url="html/a43c0d81-ed41-5d49-ecf6-d875b1a7a702.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mandant.coordinators property" Url="html/dc31d457-cb99-b0ad-b6e3-089770623b65.htm" />
+  <HelpKINode Title="Mandant.Departments property" Url="html/337c841e-2734-e0c0-ba9d-89378d41e7f1.htm" />
+  <HelpKINode Title="Mandant.ID property">
+    <HelpKINode Title="Mandant.ID Property " Url="html/8935427d-eef1-9c68-a056-6ce1f08c0c2c.htm" />
+    <HelpKINode Title="Mandant.ID Property " Url="html/8334b879-2711-6b8e-bd6a-133562ba7202.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mandant.Mandant constructor">
+    <HelpKINode Title="Mandant Constructor " Url="html/10e15d8b-1f27-7b12-9f18-8b6d52e596de.htm" />
+    <HelpKINode Title="Mandant Constructor " Url="html/1a3e4e2b-b82a-5a45-1af7-de36733a7fae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mandant.name property">
+    <HelpKINode Title="Mandant.name Property " Url="html/3fbb0752-4552-0de9-06fa-ee828882fc17.htm" />
+    <HelpKINode Title="Mandant.name Property " Url="html/ccf195d6-9add-4387-6391-b00035784bc0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mandant.Users property" Url="html/cd7517d7-1c6d-8629-5ee8-f83a9e723da1.htm" />
+  <HelpKINode Title="mandanten property" Url="html/9401aba5-9636-5191-734d-54a84e237255.htm" />
+  <HelpKINode Title="mandantenList field" Url="html/475f3174-d565-649f-0b71-8cca29a03b3b.htm" />
+  <HelpKINode Title="mandantID property">
+    <HelpKINode Title="Department.mandantID Property " Url="html/64803a7c-c551-ea04-e8e0-6f720d6b14b6.htm" />
+    <HelpKINode Title="Department.mandantID Property " Url="html/80bb0e44-759f-7806-7133-6255ed09ec6a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mandants method" Url="html/8e9a1543-b58a-c6aa-01a9-00a50742440a.htm" />
+  <HelpKINode Title="Mandants property">
+    <HelpKINode Title="SQLDBEntities.Mandants Property " Url="html/c5d18c9d-66d3-59cf-2e7a-55251ea02573.htm" />
+    <HelpKINode Title="User.Mandants Property " Url="html/2125c2bd-a08a-c7e0-5328-ab85a851b6fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="mappedDepartment property" Url="html/20c73f84-c868-957b-70a7-574a93bb0ea4.htm" />
+  <HelpKINode Title="mappedDepartmentID property">
+    <HelpKINode Title="Contract.mappedDepartmentID Property " Url="html/eb268daa-c92d-c65b-03cf-a467868ec7ed.htm" />
+    <HelpKINode Title="Contract.mappedDepartmentID Property " Url="html/a29b54d2-be95-bad6-c0cd-f60346897819.htm" />
+  </HelpKINode>
+  <HelpKINode Title="mappedUsers property" Url="html/67ee4e3d-cad8-d6eb-8f03-cf5e93a7af88.htm" />
+  <HelpKINode Title="MvcApplication class">
+    <HelpKINode Title="MvcApplication Class" Url="html/f142410c-4555-c642-f27f-50523497394c.htm" />
+    <HelpKINode Title="about MvcApplication class" Url="html/f142410c-4555-c642-f27f-50523497394c.htm" />
+    <HelpKINode Title="constructor" Url="html/f7610a03-a788-b6cd-ca2d-08eefa3c568a.htm" />
+    <HelpKINode Title="events" Url="html/95ba6de3-7cd3-cac8-87cf-7ce96cb0decd.htm" />
+    <HelpKINode Title="methods" Url="html/7a91e74f-cd66-c7d0-ff9e-d21af9519b64.htm" />
+    <HelpKINode Title="properties" Url="html/253e2034-7472-20c5-ba59-76cce976cd66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MvcApplication.Application_End method" Url="html/cdc7bd9d-26c2-55c6-54fe-e1562daa8e3c.htm" />
+  <HelpKINode Title="MvcApplication.Application_Start method" Url="html/34923919-52a4-88f1-25cf-9652e07884bb.htm" />
+  <HelpKINode Title="MvcApplication.MvcApplication constructor" Url="html/f7610a03-a788-b6cd-ca2d-08eefa3c568a.htm" />
+  <HelpKINode Title="name property">
+    <HelpKINode Title="ContractCategory.name Property " Url="html/759f50c5-52d8-5c81-272f-b10f57cb4b39.htm" />
+    <HelpKINode Title="ContractCategory.name Property " Url="html/a14f8344-6694-a838-0db6-5f951254e32e.htm" />
+    <HelpKINode Title="ContractPartner.name Property " Url="html/df001870-9308-5e29-ac6a-5db723ca26d9.htm" />
+    <HelpKINode Title="ContractPartner.name Property " Url="html/ea653566-8fdc-7539-5243-7b752afc9772.htm" />
+    <HelpKINode Title="ContractSpecies.name Property " Url="html/e56beada-98f3-e711-0012-59252dfa5e23.htm" />
+    <HelpKINode Title="ContractSpecy.name Property " Url="html/9bcb3342-b1b8-1239-2d18-6ecc758f0499.htm" />
+    <HelpKINode Title="ContractSubcategory.name Property " Url="html/09af09b8-d016-d404-f9a0-c12c9dc88b1b.htm" />
+    <HelpKINode Title="ContractSubcategory.name Property " Url="html/d8e54d2a-4c75-b6fb-9610-506af77200e5.htm" />
+    <HelpKINode Title="Department.name Property " Url="html/f1532d46-a2be-c5d4-0366-30b14f5e8914.htm" />
+    <HelpKINode Title="Department.name Property " Url="html/cd59f65d-3c7e-9833-459d-75522b3ff7ed.htm" />
+    <HelpKINode Title="Mandant.name Property " Url="html/ccf195d6-9add-4387-6391-b00035784bc0.htm" />
+    <HelpKINode Title="Mandant.name Property " Url="html/3fbb0752-4552-0de9-06fa-ee828882fc17.htm" />
+    <HelpKINode Title="User.name Property " Url="html/3c38d272-6d97-83d3-07fb-f8a6f87a8b3c.htm" />
+    <HelpKINode Title="User.name Property " Url="html/91c6d7c0-72b4-1c2d-6a21-c7712e1cf863.htm" />
+  </HelpKINode>
+  <HelpKINode Title="noAdmin method" Url="html/6a5d46f8-2de6-6201-8f4a-9183c700fbec.htm" />
+  <HelpKINode Title="notAuthorized method" Url="html/e6b8c503-ea1e-29ea-da96-824aee1461e1.htm" />
+  <HelpKINode Title="noticeDate property">
+    <HelpKINode Title="Contract.noticeDate Property " Url="html/c95be2de-e72e-e34f-d1f5-50b194c8c768.htm" />
+    <HelpKINode Title="Contract.noticeDate Property " Url="html/98d8d5fd-b6a8-8448-5b0b-811c9eb1e805.htm" />
+  </HelpKINode>
+  <HelpKINode Title="noticePeriod property">
+    <HelpKINode Title="Contract.noticePeriod Property " Url="html/81659519-e930-edb3-4db0-c583879f819c.htm" />
+    <HelpKINode Title="Contract.noticePeriod Property " Url="html/7a239b20-4669-e86d-f1ef-d4ef3d870078.htm" />
+  </HelpKINode>
+  <HelpKINode Title="noticeReminded property">
+    <HelpKINode Title="Contract.noticeReminded Property " Url="html/5affa7ba-1092-e540-871f-72b34ccba9d7.htm" />
+    <HelpKINode Title="Contract.noticeReminded Property " Url="html/4a46a0ce-0bcc-40ce-2961-eb75f0786bba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="observingDepartment property" Url="html/3654ed9d-7942-5806-f8a8-464badadfc40.htm" />
+  <HelpKINode Title="ObservingDepartmentChoice field" Url="html/ee9e89c8-bcd6-32d3-1dac-3330a5b3dd00.htm" />
+  <HelpKINode Title="observingDepartmentID property">
+    <HelpKINode Title="Contract.observingDepartmentID Property " Url="html/0667429f-9977-7526-e559-885e9e385566.htm" />
+    <HelpKINode Title="Contract.observingDepartmentID Property " Url="html/ae80c6a8-71aa-ae91-1d79-3747a0e36abc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnModelCreating method">
+    <HelpKINode Title="ContractDBContext.OnModelCreating Method " Url="html/b9080c04-de2e-9c1b-02a5-487dafb12834.htm" />
+    <HelpKINode Title="SQLDBEntities.OnModelCreating Method " Url="html/767f5023-ff5e-bc1c-be9d-77f482402a7f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherFeature class">
+    <HelpKINode Title="OtherFeature Class" Url="html/b601bfc1-848c-28be-a5fd-f38f3ae664d7.htm" />
+    <HelpKINode Title="OtherFeature Class" Url="html/2c453ad3-852a-ba35-fddd-fcaf5dfc1da8.htm" />
+    <HelpKINode Title="about OtherFeature class" Url="html/2c453ad3-852a-ba35-fddd-fcaf5dfc1da8.htm" />
+    <HelpKINode Title="about OtherFeature class" Url="html/b601bfc1-848c-28be-a5fd-f38f3ae664d7.htm" />
+    <HelpKINode Title="constructor" Url="html/0fb2dbc1-b805-0673-5778-c066357224d5.htm" />
+    <HelpKINode Title="constructor" Url="html/9bc1d373-6bb2-fc2f-5f2d-1242ba99d79b.htm" />
+    <HelpKINode Title="methods" Url="html/21bd3c72-502a-d397-a38a-9b8bc61bf048.htm" />
+    <HelpKINode Title="methods" Url="html/c05d99c7-03f4-8254-d923-e6133605f6da.htm" />
+    <HelpKINode Title="properties" Url="html/28ab1720-a72e-318f-9222-435186870bf1.htm" />
+    <HelpKINode Title="properties" Url="html/fc24e8dc-a170-e973-a408-e08ac8a5d9d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="otherFeature method" Url="html/f9329771-a9f8-b900-e034-1331a9142ed8.htm" />
+  <HelpKINode Title="OtherFeature.contractHasFeature property" Url="html/1868dd0f-5950-c30d-f6c6-1563b9c35a4d.htm" />
+  <HelpKINode Title="OtherFeature.Contracts property" Url="html/e4e4395b-f97e-3127-fed6-846a30cd571d.htm" />
+  <HelpKINode Title="OtherFeature.describtion property">
+    <HelpKINode Title="OtherFeature.describtion Property " Url="html/06a781f3-aeba-2085-7d09-bcb0d646e7d1.htm" />
+    <HelpKINode Title="OtherFeature.describtion Property " Url="html/b05a5ce8-d4c5-b45f-8a08-b31026c1a198.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherFeature.ID property">
+    <HelpKINode Title="OtherFeature.ID Property " Url="html/78af25f1-a8e0-f32d-11a2-83a408229eb5.htm" />
+    <HelpKINode Title="OtherFeature.ID Property " Url="html/30936480-74e6-d357-8d01-a5435b8e9132.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherFeature.OtherFeature constructor">
+    <HelpKINode Title="OtherFeature Constructor " Url="html/0fb2dbc1-b805-0673-5778-c066357224d5.htm" />
+    <HelpKINode Title="OtherFeature Constructor " Url="html/9bc1d373-6bb2-fc2f-5f2d-1242ba99d79b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherFeature.title property">
+    <HelpKINode Title="OtherFeature.title Property " Url="html/23f2707d-e576-5028-9fb5-bcf5de78c89b.htm" />
+    <HelpKINode Title="OtherFeature.title Property " Url="html/065e10da-0b01-1e32-940d-02e598bc87ae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherFeatures method" Url="html/f1700f0f-1c19-a0dd-fabe-608494b19e69.htm" />
+  <HelpKINode Title="OtherFeatures property">
+    <HelpKINode Title="Contract.OtherFeatures Property " Url="html/b842a9df-138e-dfa0-9fb9-b8d36f3ee43a.htm" />
+    <HelpKINode Title="SQLDBEntities.OtherFeatures Property " Url="html/8013aa17-3b48-c074-aeec-ada398b457f5.htm" />
+    <HelpKINode Title="ContractDBContext.OtherFeatures Property " Url="html/4969d5c6-ba65-3ba3-1e91-40885fa5d7db.htm" />
+  </HelpKINode>
+  <HelpKINode Title="otherFeatures property" Url="html/e3d7fde7-b7de-d485-2ceb-3cd598582a42.htm" />
+  <HelpKINode Title="otherFeaturesOfContract property" Url="html/5a06fc19-75c2-7150-e1b1-6ab2c999238d.htm" />
+  <HelpKINode Title="OtherFeaturesViewModel class">
+    <HelpKINode Title="OtherFeaturesViewModel Class" Url="html/77d31e16-c43d-003a-5dea-d16eab77c6a7.htm" />
+    <HelpKINode Title="about OtherFeaturesViewModel class" Url="html/77d31e16-c43d-003a-5dea-d16eab77c6a7.htm" />
+    <HelpKINode Title="constructor" Url="html/1c09dc66-9d98-7f90-5bcb-732555e63b2f.htm" />
+    <HelpKINode Title="methods" Url="html/846debb2-6916-5e87-d2d9-592dc1658f5e.htm" />
+    <HelpKINode Title="properties" Url="html/90b9b2fd-e9db-91cf-6e01-d87908f0f48f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherFeaturesViewModel.allOtherFeatures property" Url="html/5c23e692-c91e-b77b-ef4a-24b5290bbc98.htm" />
+  <HelpKINode Title="OtherFeaturesViewModel.contract property" Url="html/48f9aa62-dfa7-67ca-872a-7edff0d5b3c9.htm" />
+  <HelpKINode Title="OtherFeaturesViewModel.otherFeaturesOfContract property" Url="html/5a06fc19-75c2-7150-e1b1-6ab2c999238d.htm" />
+  <HelpKINode Title="OtherFeaturesViewModel.OtherFeaturesViewModel constructor" Url="html/1c09dc66-9d98-7f90-5bcb-732555e63b2f.htm" />
+  <HelpKINode Title="OtherFeaturesViewModel.PopulateLists method" Url="html/14af88b3-f221-9e12-c9c0-94860589578e.htm" />
+  <HelpKINode Title="OtherProperty property">
+    <HelpKINode Title="AfterDateAttribute.OtherProperty Property " Url="html/d7135627-f269-77c1-7f2f-d634f3f5166b.htm" />
+    <HelpKINode Title="BeforeDateAttribute.OtherProperty Property " Url="html/553c3d6d-dbfc-e84a-2bec-6c9c7d5f0145.htm" />
+  </HelpKINode>
+  <HelpKINode Title="partner property" Url="html/81c5b1cd-8424-ce88-4a6e-b79bf59c77a2.htm" />
+  <HelpKINode Title="partnerID property">
+    <HelpKINode Title="Contract.partnerID Property " Url="html/ad2231cd-ab83-37d3-558e-9e36b2f1ae2f.htm" />
+    <HelpKINode Title="Contract.partnerID Property " Url="html/3a73a71d-5274-5697-d333-9f115cbe4400.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PartnerIs enumeration" Url="html/308a06bb-c797-0af2-86b2-53f324002959.htm" />
+  <HelpKINode Title="partnerIs property">
+    <HelpKINode Title="Contract.partnerIs Property " Url="html/582afcd8-8ac7-283d-bc28-76e0794e7960.htm" />
+    <HelpKINode Title="Contract.partnerIs Property " Url="html/2f8f1f16-ef00-d876-7c7e-d0d5b3c2a963.htm" />
+  </HelpKINode>
+  <HelpKINode Title="paymentBegin property">
+    <HelpKINode Title="Contract.paymentBegin Property " Url="html/3f91469e-e850-ba62-3eca-98071a7a5a86.htm" />
+    <HelpKINode Title="Contract.paymentBegin Property " Url="html/c78e8cd1-2543-cf52-c9de-72a6ea461a1c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="paymentIntervall property">
+    <HelpKINode Title="Contract.paymentIntervall Property " Url="html/1fad3d7a-1eec-8643-65b8-52183033ac2b.htm" />
+    <HelpKINode Title="Contract.paymentIntervall Property " Url="html/eed8e6d6-dc2e-0228-b1ad-a934296e8988.htm" />
+  </HelpKINode>
+  <HelpKINode Title="percentage property">
+    <HelpKINode Title="CostCentreDivide.percentage Property " Url="html/5b467ec6-d6db-d707-55b2-e309c0589536.htm" />
+    <HelpKINode Title="CostCentreDivide.percentage Property " Url="html/1f3a2def-af2d-17f3-f48e-bab122f87362.htm" />
+  </HelpKINode>
+  <HelpKINode Title="personInCharge enumeration member" Url="html/a59830e9-efc4-a008-27c8-641fe84af714.htm" />
+  <HelpKINode Title="PersonInCharge field" Url="html/3e28350c-18a6-f844-72ab-17d40b4ad67a.htm" />
+  <HelpKINode Title="personInCharge property">
+    <HelpKINode Title="Contract.personInCharge Property " Url="html/e0535ef8-5279-29fd-f1c5-2d59d75e118b.htm" />
+    <HelpKINode Title="User.personInCharge Property " Url="html/01fdefa0-4b77-f1b2-c478-3a64ab38bc9a.htm" />
+    <HelpKINode Title="User.personInCharge Property " Url="html/3bd1ea65-d8fa-ef88-0849-6cc43fdad80b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="personInChargeID property">
+    <HelpKINode Title="Contract.personInChargeID Property " Url="html/af21f614-60c2-4285-312f-3f93418dcd58.htm" />
+    <HelpKINode Title="Contract.personInChargeID Property " Url="html/0ca5bfdb-088b-c0ae-7f36-fb6053c933f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PopulateContractList method" Url="html/2bea957f-6e2b-bd4a-9a7e-ed5d2406ac08.htm" />
+  <HelpKINode Title="PopulateDropDownLists method">
+    <HelpKINode Title="ContractViewModel.PopulateDropDownLists Method " Url="html/1a1eddba-8cf5-70fb-ba24-ac3672217248.htm" />
+    <HelpKINode Title="IndexContractsViewModel.PopulateDropDownLists Method " Url="html/0cf06bd6-c7eb-0f50-0394-8d1521048b8f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PopulateLists method">
+    <HelpKINode Title="CostCentresViewModel.PopulateLists Method " Url="html/3d37b7b0-832d-140a-6279-f7aa96626229.htm" />
+    <HelpKINode Title="FrameworkContractViewModel.PopulateLists Method " Url="html/144ece5a-b04a-1cdb-8c96-4bc7df6c560f.htm" />
+    <HelpKINode Title="OtherFeaturesViewModel.PopulateLists Method " Url="html/14af88b3-f221-9e12-c9c0-94860589578e.htm" />
+    <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.PopulateLists Method " Url="html/aca12d9f-716b-64e2-327f-eb4d31d21ae8.htm" />
+    <HelpKINode Title="ResponsiblePersonsMandantViewModel.PopulateLists Method " Url="html/a9d01382-5ffe-ad71-40aa-e603928a3e11.htm" />
+    <HelpKINode Title="SpecialAuthorizationViewModel.PopulateLists Method " Url="html/da2982d2-50b7-d690-41f2-1e130da83927.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PostUser method" Url="html/04213462-4ff7-4dec-68bc-bb08150c9d40.htm" />
+  <HelpKINode Title="PutUser method" Url="html/97cf71eb-74ed-3292-f56a-f0b337b6bf8b.htm" />
+  <HelpKINode Title="rcc field" Url="html/ca79e5ec-5d37-90e8-2369-beea7917af03.htm" />
+  <HelpKINode Title="Register method" Url="html/32b2ac03-04ef-5697-d187-0ea3aaf3b9dc.htm" />
+  <HelpKINode Title="RegisterBundles method" Url="html/d9111a96-55fa-cf24-8bce-55cf6c08421f.htm" />
+  <HelpKINode Title="RegisterGlobalFilters method" Url="html/53734ea4-f28b-2811-1742-93d2ece4855f.htm" />
+  <HelpKINode Title="RegisterRoutes method" Url="html/c61ee406-e38c-83d1-b4e2-c2ac0f087900.htm" />
+  <HelpKINode Title="remark property">
+    <HelpKINode Title="Contract.remark Property " Url="html/3c042161-339d-6695-aa5a-c84a863e74ee.htm" />
+    <HelpKINode Title="Contract.remark Property " Url="html/40b1bfa0-17d5-474e-85da-e0860e99cd5f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="reminded property">
+    <HelpKINode Title="Contract.reminded Property " Url="html/fa3b8dec-28e7-89e1-1e47-44e3cd90cec4.htm" />
+    <HelpKINode Title="Contract.reminded Property " Url="html/afab4d20-536a-cef8-47c6-d0028220d123.htm" />
+  </HelpKINode>
+  <HelpKINode Title="remindingDate property">
+    <HelpKINode Title="Contract.remindingDate Property " Url="html/241f5bd7-0fde-c54a-6322-6e33f4e0ba34.htm" />
+    <HelpKINode Title="Contract.remindingDate Property " Url="html/b85220eb-f6e2-8709-d3b7-9286bae03e97.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Report class">
+    <HelpKINode Title="Report Class" Url="html/542582f1-b8c1-3c9a-e26b-9c99de4a68a3.htm" />
+    <HelpKINode Title="about Report class" Url="html/542582f1-b8c1-3c9a-e26b-9c99de4a68a3.htm" />
+    <HelpKINode Title="constructor" Url="html/9077326c-7925-d1cb-fa50-d4bae8013ba5.htm" />
+    <HelpKINode Title="methods" Url="html/c3801630-a990-c74b-17aa-68190e05cc8a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Report method" Url="html/d15a02dd-e06b-66cc-092c-87810fc9381c.htm" />
+  <HelpKINode Title="Report.Report constructor" Url="html/9077326c-7925-d1cb-fa50-d4bae8013ba5.htm" />
+  <HelpKINode Title="ReportContent class">
+    <HelpKINode Title="ReportContent Class" Url="html/8e8db6f4-a34f-bcec-701d-4ef69a1b351e.htm" />
+    <HelpKINode Title="about ReportContent class" Url="html/8e8db6f4-a34f-bcec-701d-4ef69a1b351e.htm" />
+    <HelpKINode Title="constructor" Url="html/2657c00d-2bc0-958a-7613-a24527b858a9.htm" />
+    <HelpKINode Title="methods" Url="html/9ca0821d-0781-f6fc-8365-45df8c5cbc68.htm" />
+    <HelpKINode Title="properties" Url="html/2cdc86b5-f6b0-006c-386e-5c22dc9a45fd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReportContent.category property" Url="html/8b62dffe-f332-9d66-8adf-5958133d1733.htm" />
+  <HelpKINode Title="ReportContent.costCentre property" Url="html/ed6c31aa-6e32-d6b8-6441-1d0fd64137fc.htm" />
+  <HelpKINode Title="ReportContent.costOrRev property" Url="html/1588be72-2172-233e-d133-f1ac9a088976.htm" />
+  <HelpKINode Title="ReportContent.equals method" Url="html/42d6bd1d-487b-ebf1-e9a3-7131c4208c90.htm" />
+  <HelpKINode Title="ReportContent.mandant property" Url="html/869103e7-b1d6-3724-bf28-e42516e4d134.htm" />
+  <HelpKINode Title="ReportContent.ReportContent constructor" Url="html/2657c00d-2bc0-958a-7613-a24527b858a9.htm" />
+  <HelpKINode Title="ReportContent.species property" Url="html/e76906a4-5955-869c-bf87-dd604fff05e0.htm" />
+  <HelpKINode Title="ReportContent.subcategory property" Url="html/bd899e42-ae55-9a8e-41bc-d1dda6b98d51.htm" />
+  <HelpKINode Title="ReportContent.sum property" Url="html/86df1f41-9318-c413-0676-a11cb21abb6c.htm" />
+  <HelpKINode Title="ReportContractsViewModel class">
+    <HelpKINode Title="ReportContractsViewModel Class" Url="html/d2637dc5-a844-de2e-ac5f-ffca4a06f4c6.htm" />
+    <HelpKINode Title="about ReportContractsViewModel class" Url="html/d2637dc5-a844-de2e-ac5f-ffca4a06f4c6.htm" />
+    <HelpKINode Title="constructor" Url="html/7cdd25bc-12ad-28af-2d9c-b39b9cb000f4.htm" />
+    <HelpKINode Title="fields" Url="html/bc21a9e6-5875-2bfe-ffb3-a21826540863.htm" />
+    <HelpKINode Title="methods" Url="html/c5c52bcc-9343-fe92-1ec6-71ff4628d2bd.htm" />
+    <HelpKINode Title="properties" Url="html/66503eeb-5cb4-9f00-f102-53fb92462549.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReportContractsViewModel.categories property" Url="html/fc6cabcf-d0d6-b66c-216b-c7a5770d91a4.htm" />
+  <HelpKINode Title="ReportContractsViewModel.categoriesList field" Url="html/989553a1-cbe2-b41e-8864-20325fbeff68.htm" />
+  <HelpKINode Title="ReportContractsViewModel.contract property" Url="html/128e8b89-165f-288d-9617-f8ef47d4fc23.htm" />
+  <HelpKINode Title="ReportContractsViewModel.contracts property" Url="html/5b36b791-30f3-6b1e-3c1c-64659356954f.htm" />
+  <HelpKINode Title="ReportContractsViewModel.costCentreList field" Url="html/ba865984-4ab9-6473-79e2-72c131baa1c9.htm" />
+  <HelpKINode Title="ReportContractsViewModel.costCentres property" Url="html/ed89aad1-79c2-8f03-d81c-263c8142b17e.htm" />
+  <HelpKINode Title="ReportContractsViewModel.costTypeList field" Url="html/911e1f19-4acd-6fe6-fc12-5e41518daf48.htm" />
+  <HelpKINode Title="ReportContractsViewModel.currentSelectedCategory property" Url="html/692f6848-784f-2cf9-9544-f7fae852f0c2.htm" />
+  <HelpKINode Title="ReportContractsViewModel.currentSelectedCostCentre property" Url="html/28e51fb0-3b9b-f9af-5c26-5fd5867e0a95.htm" />
+  <HelpKINode Title="ReportContractsViewModel.currentSelectedCostType property" Url="html/50654c9f-ac89-25df-1c1e-76632fb5e788.htm" />
+  <HelpKINode Title="ReportContractsViewModel.currentSelectedMandant property" Url="html/804b813b-2561-4c8e-d0c4-94a537676cf0.htm" />
+  <HelpKINode Title="ReportContractsViewModel.currentSelectedSubcategory property" Url="html/0bbf1d5a-4ce1-c7e6-3409-72c0a62112f4.htm" />
+  <HelpKINode Title="ReportContractsViewModel.currentSelectedType property" Url="html/e4cbabb8-6dc0-cf8b-2075-7f49f8aad729.htm" />
+  <HelpKINode Title="ReportContractsViewModel.divide property" Url="html/93aa92ae-ac1f-e946-e731-ffa5e83b3b7b.htm" />
+  <HelpKINode Title="ReportContractsViewModel.gesamt field" Url="html/e209dc28-bb70-e8b5-eba8-3dcc87a7d51d.htm" />
+  <HelpKINode Title="ReportContractsViewModel.gesRev field" Url="html/37b59d71-1951-c0f7-4944-17dd70a984fe.htm" />
+  <HelpKINode Title="ReportContractsViewModel.gesSum field" Url="html/e8f02dd3-6988-6260-6c4e-9ad08ce9af3b.htm" />
+  <HelpKINode Title="ReportContractsViewModel.mandanten property" Url="html/9401aba5-9636-5191-734d-54a84e237255.htm" />
+  <HelpKINode Title="ReportContractsViewModel.mandantenList field" Url="html/475f3174-d565-649f-0b71-8cca29a03b3b.htm" />
+  <HelpKINode Title="ReportContractsViewModel.rcc field" Url="html/ca79e5ec-5d37-90e8-2369-beea7917af03.htm" />
+  <HelpKINode Title="ReportContractsViewModel.ReportContractsViewModel constructor" Url="html/7cdd25bc-12ad-28af-2d9c-b39b9cb000f4.htm" />
+  <HelpKINode Title="ReportContractsViewModel.species property" Url="html/11f3e28a-e1d9-37d7-5fd9-1af08cffa464.htm" />
+  <HelpKINode Title="ReportContractsViewModel.speciesList field" Url="html/c074f3c3-bed2-3103-bccd-065c5e27b749.htm" />
+  <HelpKINode Title="ReportContractsViewModel.subcategories property" Url="html/33cd7490-fc72-3209-c6e8-dc22c7e8a98f.htm" />
+  <HelpKINode Title="ReportContractsViewModel.subcategoryList field" Url="html/971ca366-681f-db36-9c3b-ac2e8632a297.htm" />
+  <HelpKINode Title="RequiredIfDispatcherAttribute class">
+    <HelpKINode Title="RequiredIfDispatcherAttribute Class" Url="html/8b6732ca-34aa-c1bd-7122-f037471b7402.htm" />
+    <HelpKINode Title="about RequiredIfDispatcherAttribute class" Url="html/8b6732ca-34aa-c1bd-7122-f037471b7402.htm" />
+    <HelpKINode Title="constructor" Url="html/bf98ee4c-b75d-4bac-5687-6ec22a5db16b.htm" />
+    <HelpKINode Title="methods" Url="html/b72a7d73-b6d7-ef6f-d332-7c69781218c9.htm" />
+    <HelpKINode Title="properties" Url="html/5056ccf1-0766-b6e6-ad03-1074655cee6d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequiredIfDispatcherAttribute.FormatErrorMessage method" Url="html/47832306-c5bf-31ef-a5a4-d866ffe0da17.htm" />
+  <HelpKINode Title="RequiredIfDispatcherAttribute.GetClientValidationRules method" Url="html/a356fd3a-b418-0799-4f2d-33dbfd06f5c6.htm" />
+  <HelpKINode Title="RequiredIfDispatcherAttribute.IsValid method" Url="html/46fac950-8637-9d43-0f89-ebc4d5b11be7.htm" />
+  <HelpKINode Title="RequiredIfDispatcherAttribute.RequiredIfDispatcherAttribute constructor" Url="html/bf98ee4c-b75d-4bac-5687-6ec22a5db16b.htm" />
+  <HelpKINode Title="responsiblePersonsDepartment method" Url="html/cb612e94-8325-af82-c3e4-f8f7ec0fb52f.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel class">
+    <HelpKINode Title="ResponsiblePersonsDepartmentViewModel Class" Url="html/37d97289-07f3-a646-f675-881ce6e9af00.htm" />
+    <HelpKINode Title="about ResponsiblePersonsDepartmentViewModel class" Url="html/37d97289-07f3-a646-f675-881ce6e9af00.htm" />
+    <HelpKINode Title="constructor" Url="html/75b1d48b-0067-2595-d333-76e4251a6b69.htm" />
+    <HelpKINode Title="methods" Url="html/4b4b25bc-f22a-ba0e-0b16-6e9e08984f68.htm" />
+    <HelpKINode Title="properties" Url="html/87a9fcf7-924a-81dc-6b88-c4329391c97d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.allCoordniators property" Url="html/2fb586f5-49cf-64b4-93f7-3b91efb96060.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.allDispatchers property" Url="html/92da07c3-cfef-9d6e-51b0-356ec79e96a7.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.coordinatorsOfDepartment property" Url="html/ea13523c-d26f-37d6-444d-933f5598f993.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.department property" Url="html/64a81e6d-7cf6-11f5-3b6c-0807cc50de46.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.dispatchersOfDepartment property" Url="html/c6685cd8-6b1f-d231-0844-8e24612c649d.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.PopulateLists method" Url="html/aca12d9f-716b-64e2-327f-eb4d31d21ae8.htm" />
+  <HelpKINode Title="ResponsiblePersonsDepartmentViewModel.ResponsiblePersonsDepartmentViewModel constructor" Url="html/75b1d48b-0067-2595-d333-76e4251a6b69.htm" />
+  <HelpKINode Title="responsiblePersonsMandant method" Url="html/d15f72a4-b8f3-23ca-b377-b2005048e8b9.htm" />
+  <HelpKINode Title="ResponsiblePersonsMandantViewModel class">
+    <HelpKINode Title="ResponsiblePersonsMandantViewModel Class" Url="html/40d89cc2-e32e-0759-c22f-7148be7e124b.htm" />
+    <HelpKINode Title="about ResponsiblePersonsMandantViewModel class" Url="html/40d89cc2-e32e-0759-c22f-7148be7e124b.htm" />
+    <HelpKINode Title="constructor" Url="html/391cd3bf-4749-8f0e-2c22-584ddb0f244e.htm" />
+    <HelpKINode Title="methods" Url="html/78b9c9a1-12ba-d407-4c47-bd42083a46c3.htm" />
+    <HelpKINode Title="properties" Url="html/f32b2365-1056-985e-982e-1a95d4a95203.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResponsiblePersonsMandantViewModel.allCoordniators property" Url="html/99de2b79-9502-02f4-440b-4590e8749119.htm" />
+  <HelpKINode Title="ResponsiblePersonsMandantViewModel.coordinatorsOfMandant property" Url="html/6c436430-3ea4-3774-017c-b44df97d9411.htm" />
+  <HelpKINode Title="ResponsiblePersonsMandantViewModel.mandant property" Url="html/911fd127-3bee-8e77-e4e0-1f08246d4b86.htm" />
+  <HelpKINode Title="ResponsiblePersonsMandantViewModel.PopulateLists method" Url="html/a9d01382-5ffe-ad71-40aa-e603928a3e11.htm" />
+  <HelpKINode Title="ResponsiblePersonsMandantViewModel.ResponsiblePersonsMandantViewModel constructor" Url="html/391cd3bf-4749-8f0e-2c22-584ddb0f244e.htm" />
+  <HelpKINode Title="restoreContract method" Url="html/085dde58-b506-15c1-8644-a5b51612ff6c.htm" />
+  <HelpKINode Title="RouteConfig class">
+    <HelpKINode Title="RouteConfig Class" Url="html/7322271b-062a-cde4-dfbb-ca5ef914a141.htm" />
+    <HelpKINode Title="about RouteConfig class" Url="html/7322271b-062a-cde4-dfbb-ca5ef914a141.htm" />
+    <HelpKINode Title="constructor" Url="html/38e84cc9-d46c-3c4e-5142-15e8c8aa741f.htm" />
+    <HelpKINode Title="methods" Url="html/956c1627-7ca6-b2d0-f446-9120603408b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RouteConfig.RegisterRoutes method" Url="html/c61ee406-e38c-83d1-b4e2-c2ac0f087900.htm" />
+  <HelpKINode Title="RouteConfig.RouteConfig constructor" Url="html/38e84cc9-d46c-3c4e-5142-15e8c8aa741f.htm" />
+  <HelpKINode Title="selectCategory property">
+    <HelpKINode Title="ContractViewModel.selectCategory Property " Url="html/545085b8-8f03-f2cc-7311-e9013a537495.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectCategory Property " Url="html/b74a42d8-f080-75d8-849f-32060ee14326.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectCostCenter property" Url="html/a3ac2903-563e-b4be-2e71-09b97037364d.htm" />
+  <HelpKINode Title="selectCostCentre property">
+    <HelpKINode Title="ContractViewModel.selectCostCentre Property " Url="html/0fa755ea-393b-117a-8d46-9500bc92aa6b.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectCostCentre Property " Url="html/fa8693e4-b266-2ab5-4e7b-699f51a24547.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectMandant property" Url="html/c4655283-b759-fda6-09e2-61dc76addd9f.htm" />
+  <HelpKINode Title="selectMappedDepartment property">
+    <HelpKINode Title="ContractViewModel.selectMappedDepartment Property " Url="html/b943cfc4-fdd3-9a5d-ba61-0ae082218c5e.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectMappedDepartment Property " Url="html/2c09d998-91dd-f86c-3dc4-5ae4afe8b271.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectObservingDepartment property">
+    <HelpKINode Title="ContractViewModel.selectObservingDepartment Property " Url="html/7117c1e3-e495-9b62-1193-d16fea177fc7.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectObservingDepartment Property " Url="html/5abe9316-9586-ae62-b423-bbe80315a110.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectOtherFeatures property" Url="html/5f15add5-0425-b3f8-8e2c-d0f64bcf4e97.htm" />
+  <HelpKINode Title="selectPartner property">
+    <HelpKINode Title="ContractViewModel.selectPartner Property " Url="html/e52352fb-b4e7-b1d1-a498-7f833230a6e3.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectPartner Property " Url="html/89b5e970-f0da-7343-62f8-72933c4ba851.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectPersonInCharge property">
+    <HelpKINode Title="ContractViewModel.selectPersonInCharge Property " Url="html/fb431ab2-1eaa-cdeb-c5df-426944169bbd.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectPersonInCharge Property " Url="html/8abcc0fc-ab66-31ac-26d7-347a1b50c637.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectSigner property">
+    <HelpKINode Title="ContractViewModel.selectSigner Property " Url="html/763d8adc-947a-dbd0-4647-c96325df9e63.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectSigner Property " Url="html/fbb6422c-1c4d-7271-5df9-3efd1779cdd7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectSpecies property">
+    <HelpKINode Title="ContractViewModel.selectSpecies Property " Url="html/dbc9cf5e-3176-5c8a-08ac-236ffe4197db.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectSpecies Property " Url="html/f1f980d5-247e-de9a-aad5-a8e4ad21b001.htm" />
+  </HelpKINode>
+  <HelpKINode Title="selectSubcategory property">
+    <HelpKINode Title="ContractViewModel.selectSubcategory Property " Url="html/2f40cbcc-9f8e-aeb1-1999-fe2bb1c2412a.htm" />
+    <HelpKINode Title="IndexContractsViewModel.selectSubcategory Property " Url="html/373b4a1e-59d9-a187-a99e-c4dbf7d31ec3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="send method" Url="html/217996ee-4992-124b-8172-c8529b0f1e03.htm" />
+  <HelpKINode Title="setSubject method" Url="html/634be2ab-0f79-5f6b-f9e8-29d96d0d35f1.htm" />
+  <HelpKINode Title="setText method">
+    <HelpKINode Title="DepartmentChoiceMail.setText Method " Url="html/c1e0d010-71e4-2753-5134-e49ea5a68cef.htm" />
+    <HelpKINode Title="DispatcherMail.setText Method " Url="html/2a334fe0-e29e-f07e-4d7e-14395f37f78b.htm" />
+    <HelpKINode Title="Mail.setText Method " Url="html/b8ba7def-74cf-94ea-bdd5-03bf25068c1e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="signer property">
+    <HelpKINode Title="Contract.signer Property " Url="html/79872062-c5cc-b225-1422-a3a491f79529.htm" />
+    <HelpKINode Title="User.signer Property " Url="html/5716c635-b209-6a9a-ce03-0ca8640308f0.htm" />
+    <HelpKINode Title="User.signer Property " Url="html/94f9dbf7-21fe-6409-de66-4aaf937ae5e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="signerID property">
+    <HelpKINode Title="Contract.signerID Property " Url="html/b9786da1-9b12-2c0a-a96a-68532188ab37.htm" />
+    <HelpKINode Title="Contract.signerID Property " Url="html/88b492d5-1655-b01a-43c0-586a18b1f17f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SignIn method">
+    <HelpKINode Title="AccountController.SignIn Method " Url="html/9c6270ba-b36f-3cd2-1bae-7a40407ed76a.htm" />
+    <HelpKINode Title="HomeController.SignIn Method " Url="html/76aeaf90-697e-1c5a-0586-740dcc000d42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SignOut method" Url="html/432a0688-288a-8775-4f52-1130e4ce4dae.htm" />
+  <HelpKINode Title="specialAuthorization method" Url="html/d8a163a5-955a-e9a5-24c8-3331d129e025.htm" />
+  <HelpKINode Title="specialAuthorization property">
+    <HelpKINode Title="Contract.specialAuthorization Property " Url="html/b1bf9c99-90cf-7bae-aaf9-999f9836cdc0.htm" />
+    <HelpKINode Title="User.specialAuthorization Property " Url="html/f35bcbde-2c01-a2e9-52d6-08608123bdea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpecialAuthorizationViewModel class">
+    <HelpKINode Title="SpecialAuthorizationViewModel Class" Url="html/4c8634ba-5422-659c-a092-2a3f04d964a9.htm" />
+    <HelpKINode Title="about SpecialAuthorizationViewModel class" Url="html/4c8634ba-5422-659c-a092-2a3f04d964a9.htm" />
+    <HelpKINode Title="constructor" Url="html/177d8102-4313-1e18-fdfd-06b8dcabb2d6.htm" />
+    <HelpKINode Title="methods" Url="html/f2163d9a-49ba-77eb-1f4e-bb2d748ec285.htm" />
+    <HelpKINode Title="properties" Url="html/b502df8a-9cee-02d0-9977-b4fe3c8ab09c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpecialAuthorizationViewModel.allUsers property" Url="html/8746bebb-2c1d-9dd1-6282-5b4c07849615.htm" />
+  <HelpKINode Title="SpecialAuthorizationViewModel.contract property" Url="html/b156b08e-fa14-eb25-67c2-06c115cc67d7.htm" />
+  <HelpKINode Title="SpecialAuthorizationViewModel.PopulateLists method" Url="html/da2982d2-50b7-d690-41f2-1e130da83927.htm" />
+  <HelpKINode Title="SpecialAuthorizationViewModel.SpecialAuthorizationViewModel constructor" Url="html/177d8102-4313-1e18-fdfd-06b8dcabb2d6.htm" />
+  <HelpKINode Title="SpecialAuthorizationViewModel.SpecialAuthorizedUsersOfContract property" Url="html/f3edf945-c7d1-65df-388b-410d49ae4ddf.htm" />
+  <HelpKINode Title="SpecialAuthorizedUsersOfContract property" Url="html/f3edf945-c7d1-65df-388b-410d49ae4ddf.htm" />
+  <HelpKINode Title="species property">
+    <HelpKINode Title="Contract.species Property " Url="html/cfeadf7c-4d42-599c-c1a0-2284252b3a96.htm" />
+    <HelpKINode Title="ReportContent.species Property " Url="html/e76906a4-5955-869c-bf87-dd604fff05e0.htm" />
+    <HelpKINode Title="ReportContractsViewModel.species Property " Url="html/11f3e28a-e1d9-37d7-5fd9-1af08cffa464.htm" />
+  </HelpKINode>
+  <HelpKINode Title="speciesID property">
+    <HelpKINode Title="Contract.speciesID Property " Url="html/2053d651-793d-d569-8765-c5ae53c46562.htm" />
+    <HelpKINode Title="Contract.speciesID Property " Url="html/3cf42351-e974-a1ee-2c42-067dcf90fb4d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="speciesList field" Url="html/c074f3c3-bed2-3103-bccd-065c5e27b749.htm" />
+  <HelpKINode Title="SQLDBEntities class">
+    <HelpKINode Title="SQLDBEntities Class" Url="html/56401b73-897e-758a-e050-3a13a03d2688.htm" />
+    <HelpKINode Title="about SQLDBEntities class" Url="html/56401b73-897e-758a-e050-3a13a03d2688.htm" />
+    <HelpKINode Title="constructor" Url="html/e8b46c4f-0ce7-ce29-12dc-ea80ba1ad3ab.htm" />
+    <HelpKINode Title="methods" Url="html/f2b96544-082c-d1f8-db54-752bb8beffd4.htm" />
+    <HelpKINode Title="properties" Url="html/785b17f3-4dcc-05f5-8257-4948aa43b801.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SQLDBEntities.ContractCategories property" Url="html/69950e74-e856-da91-fb7c-7d74d6f72871.htm" />
+  <HelpKINode Title="SQLDBEntities.ContractPartners property" Url="html/2eef7a92-d333-eabb-c9a7-1ff79ae14fee.htm" />
+  <HelpKINode Title="SQLDBEntities.Contracts property" Url="html/526958e9-e9f8-d50f-e2b9-52b1f5ad3e88.htm" />
+  <HelpKINode Title="SQLDBEntities.ContractSpecies property" Url="html/0b39a8b1-c8db-b471-01ea-fd3e92da2bcc.htm" />
+  <HelpKINode Title="SQLDBEntities.ContractSubcategories property" Url="html/d6fb0926-6a42-3989-e548-4721e2d0147a.htm" />
+  <HelpKINode Title="SQLDBEntities.CostCentreDivides property" Url="html/73c438b5-ef6a-261d-8e9d-496720855c56.htm" />
+  <HelpKINode Title="SQLDBEntities.CostCentres property" Url="html/5085492d-c154-2a60-8f20-0bf84b6d6245.htm" />
+  <HelpKINode Title="SQLDBEntities.Departments property" Url="html/227ce448-9b30-0b5d-2207-6e227241c7ae.htm" />
+  <HelpKINode Title="SQLDBEntities.Documents property" Url="html/5cbb28dc-54dd-27cd-f438-d2af27df6a9d.htm" />
+  <HelpKINode Title="SQLDBEntities.Mandants property" Url="html/c5d18c9d-66d3-59cf-2e7a-55251ea02573.htm" />
+  <HelpKINode Title="SQLDBEntities.OnModelCreating method" Url="html/767f5023-ff5e-bc1c-be9d-77f482402a7f.htm" />
+  <HelpKINode Title="SQLDBEntities.OtherFeatures property" Url="html/8013aa17-3b48-c074-aeec-ada398b457f5.htm" />
+  <HelpKINode Title="SQLDBEntities.SQLDBEntities constructor" Url="html/e8b46c4f-0ce7-ce29-12dc-ea80ba1ad3ab.htm" />
+  <HelpKINode Title="SQLDBEntities.Tasks property" Url="html/2b7ec21e-ea0e-8c9a-2db4-08eae7417192.htm" />
+  <HelpKINode Title="SQLDBEntities.Users property" Url="html/fec522ee-f8c2-516c-b70e-24abc1ba6020.htm" />
+  <HelpKINode Title="Start method" Url="html/b707c897-a3bc-ff48-9339-5e3ee176f314.htm" />
+  <HelpKINode Title="startDate property">
+    <HelpKINode Title="Contract.startDate Property " Url="html/6139ea1b-461a-f4d3-3e67-198d57af91e8.htm" />
+    <HelpKINode Title="Contract.startDate Property " Url="html/7ccaf827-c414-0bf9-08f7-18888ed65590.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup class">
+    <HelpKINode Title="Startup Class" Url="html/e3e9b385-4646-016a-7b07-0114db173eb9.htm" />
+    <HelpKINode Title="about Startup class" Url="html/e3e9b385-4646-016a-7b07-0114db173eb9.htm" />
+    <HelpKINode Title="constructor" Url="html/ecd880c0-9cd9-d684-9a14-ebe7d9081e91.htm" />
+    <HelpKINode Title="methods" Url="html/b65e4587-088f-634c-7a67-31fc57dbea68.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup.Configuration method" Url="html/36aab93e-289e-b6ed-9972-fb6757a0b41b.htm" />
+  <HelpKINode Title="Startup.ConfigureAuth method" Url="html/6e961c8d-1c8e-f847-5f81-0d062b1406c6.htm" />
+  <HelpKINode Title="Startup.Startup constructor" Url="html/ecd880c0-9cd9-d684-9a14-ebe7d9081e91.htm" />
+  <HelpKINode Title="State enumeration" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="state property">
+    <HelpKINode Title="Contract.state Property " Url="html/76af708d-2d59-18a0-d43f-9c001ba680a0.htm" />
+    <HelpKINode Title="Contract.state Property " Url="html/1f426385-2c61-d432-363e-86299b6641fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Stop method" Url="html/079ca31e-5c33-c45c-8ae9-e092c7d02549.htm" />
+  <HelpKINode Title="subcategories property" Url="html/33cd7490-fc72-3209-c6e8-dc22c7e8a98f.htm" />
+  <HelpKINode Title="subcategory property">
+    <HelpKINode Title="Contract.subcategory Property " Url="html/7da2da7b-c3f1-87c6-f739-b5ab7ab7548c.htm" />
+    <HelpKINode Title="ReportContent.subcategory Property " Url="html/bd899e42-ae55-9a8e-41bc-d1dda6b98d51.htm" />
+  </HelpKINode>
+  <HelpKINode Title="subcategoryID property">
+    <HelpKINode Title="Contract.subcategoryID Property " Url="html/23f7ad5c-896f-ecad-ca3f-51a195e324c8.htm" />
+    <HelpKINode Title="Contract.subcategoryID Property " Url="html/7b768f06-db70-f232-3165-e622d27107af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="subcategoryList field" Url="html/971ca366-681f-db36-9c3b-ac2e8632a297.htm" />
+  <HelpKINode Title="subContracts property" Url="html/1a495ebd-5fe8-4984-7e84-9d8fde4db115.htm" />
+  <HelpKINode Title="SubContractsOfContract property" Url="html/666fa25c-2607-c625-204e-c39327649fcf.htm" />
+  <HelpKINode Title="sum property" Url="html/86df1f41-9318-c413-0676-a11cb21abb6c.htm" />
+  <HelpKINode Title="surname property">
+    <HelpKINode Title="User.surname Property " Url="html/d54314f5-b682-315e-33a5-d60516c29618.htm" />
+    <HelpKINode Title="User.surname Property " Url="html/ccb92fb9-a6d7-4b6b-ea8c-0c711193bdb0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task class">
+    <HelpKINode Title="Task Class" Url="html/8b0d11fd-ecd6-728c-dabf-dc7f59f26d74.htm" />
+    <HelpKINode Title="Task Class" Url="html/bbe434d9-1839-908b-3c2f-b6b036810d93.htm" />
+    <HelpKINode Title="about Task class" Url="html/8b0d11fd-ecd6-728c-dabf-dc7f59f26d74.htm" />
+    <HelpKINode Title="about Task class" Url="html/bbe434d9-1839-908b-3c2f-b6b036810d93.htm" />
+    <HelpKINode Title="constructor" Url="html/3f8c4988-43ba-87e8-aca7-82175b974744.htm" />
+    <HelpKINode Title="constructor" Url="html/aad026a5-03d9-4206-3ffe-6bf386038f21.htm" />
+    <HelpKINode Title="methods" Url="html/2b6abf07-0757-8df4-7b8b-7f6850064e05.htm" />
+    <HelpKINode Title="methods" Url="html/604c8c24-c92d-6841-f31a-8f4cb5d939d9.htm" />
+    <HelpKINode Title="properties" Url="html/fa575b89-9be9-0ffe-e417-ee96e1c6fe0d.htm" />
+    <HelpKINode Title="properties" Url="html/fd193da9-9d57-dafd-5318-7fe89e309b84.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.AddUsers method" Url="html/fa834de6-1221-4108-6ac6-26d2987b7ffe.htm" />
+  <HelpKINode Title="Task.contract property" Url="html/d662f345-cc5f-ffa5-d9e6-414e06ff8912.htm" />
+  <HelpKINode Title="Task.Contract property" Url="html/95027d69-0212-4f5c-a7b4-bc1fba1ab21d.htm" />
+  <HelpKINode Title="Task.contractID property">
+    <HelpKINode Title="Task.contractID Property " Url="html/1c5b154c-2598-6ad7-9432-4ed4900ea5f2.htm" />
+    <HelpKINode Title="Task.contractID Property " Url="html/ba819936-295a-6fe7-0649-0542b9a7dc18.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.deadline property">
+    <HelpKINode Title="Task.deadline Property " Url="html/c2513472-9df9-2ba4-1394-85a1546a25a1.htm" />
+    <HelpKINode Title="Task.deadline Property " Url="html/bb61a286-60ed-f2d6-bc8d-a3253b90f80c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.describtion property">
+    <HelpKINode Title="Task.describtion Property " Url="html/f772cb31-5be8-c9a8-f139-b35f8870da70.htm" />
+    <HelpKINode Title="Task.describtion Property " Url="html/8daed124-a98c-cc0c-382c-8326d1b1012f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.Description class">
+    <HelpKINode Title="Task.Description Class" Url="html/23dc07d0-22eb-4eb8-9bbe-55277ed8795d.htm" />
+    <HelpKINode Title="about Task.Description class" Url="html/23dc07d0-22eb-4eb8-9bbe-55277ed8795d.htm" />
+    <HelpKINode Title="constructor" Url="html/85aca5a6-a508-dea6-075d-440e852c15d1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.Description.Description constructor" Url="html/85aca5a6-a508-dea6-075d-440e852c15d1.htm" />
+  <HelpKINode Title="Task.Description.Dispatcher field" Url="html/6adff5fd-239c-ebc3-96e6-2c4557a5de6e.htm" />
+  <HelpKINode Title="Task.Description.Escalation field" Url="html/3487b433-c1a2-a11b-2621-e271b9504753.htm" />
+  <HelpKINode Title="Task.Description.ObservingDepartmentChoice field" Url="html/ee9e89c8-bcd6-32d3-1dac-3330a5b3dd00.htm" />
+  <HelpKINode Title="Task.Description.PersonInCharge field" Url="html/3e28350c-18a6-f844-72ab-17d40b4ad67a.htm" />
+  <HelpKINode Title="Task.ID property">
+    <HelpKINode Title="Task.ID Property " Url="html/e3bfaf82-5981-51db-1c94-b78b7005835d.htm" />
+    <HelpKINode Title="Task.ID Property " Url="html/bf311990-10f8-54be-f05a-e39ba1d1ba02.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.mappedUsers property" Url="html/67ee4e3d-cad8-d6eb-8f03-cf5e93a7af88.htm" />
+  <HelpKINode Title="Task.Task constructor">
+    <HelpKINode Title="Task Constructor " Url="html/3f8c4988-43ba-87e8-aca7-82175b974744.htm" />
+    <HelpKINode Title="Task Constructor " Url="html/aad026a5-03d9-4206-3ffe-6bf386038f21.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Task.Users property" Url="html/7c7a83fa-1491-4108-4fc2-dc0b685d57e8.htm" />
+  <HelpKINode Title="Tasks property">
+    <HelpKINode Title="Contract.Tasks Property " Url="html/d75f3dcf-ad72-4cd9-75de-e8426aa373ac.htm" />
+    <HelpKINode Title="ContractDBContext.Tasks Property " Url="html/886f2d1b-f459-c22a-d7ef-94f66d0f8444.htm" />
+    <HelpKINode Title="SQLDBEntities.Tasks Property " Url="html/2b7ec21e-ea0e-8c9a-2db4-08eae7417192.htm" />
+    <HelpKINode Title="User.Tasks Property " Url="html/d0499bf6-ca7f-9fcb-109a-95a2015fcd33.htm" />
+  </HelpKINode>
+  <HelpKINode Title="tasks property">
+    <HelpKINode Title="Contract.tasks Property " Url="html/0de69c3a-e1a1-d981-732a-3c9b52c1bfca.htm" />
+    <HelpKINode Title="User.tasks Property " Url="html/7e295dad-89d0-fe84-58dd-fa187b915a4e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="titel property">
+    <HelpKINode Title="Contract.titel Property " Url="html/33256caf-6737-4187-6d74-7f4512abe5fb.htm" />
+    <HelpKINode Title="Contract.titel Property " Url="html/93ca13a6-8193-6b38-e145-f7596949d1b6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="title property">
+    <HelpKINode Title="Document.title Property " Url="html/ae43dfb9-6a6a-60de-0f69-88591397b0bc.htm" />
+    <HelpKINode Title="Document.title Property " Url="html/c5fa7295-c4da-9985-d8d6-7576745e8d01.htm" />
+    <HelpKINode Title="OtherFeature.title Property " Url="html/065e10da-0b01-1e32-940d-02e598bc87ae.htm" />
+    <HelpKINode Title="OtherFeature.title Property " Url="html/23f2707d-e576-5028-9fb5-bcf5de78c89b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="unvollst&#228;ndig enumeration member" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="Up method">
+    <HelpKINode Title="Initial.Up Method " Url="html/dab40254-3a8c-4980-5123-a3e5c5621ae7.htm" />
+    <HelpKINode Title="_1.Up Method " Url="html/f4454071-0e54-0158-381e-0e8d904d351d.htm" />
+    <HelpKINode Title="_10.Up Method " Url="html/738ded4e-0a5f-9829-da53-1ebe7db862fb.htm" />
+    <HelpKINode Title="_2.Up Method " Url="html/7d589b37-5e81-d21a-2334-ad5877cbcafb.htm" />
+    <HelpKINode Title="_3.Up Method " Url="html/f48cdafe-405a-0bb2-875b-6fa8b3898fde.htm" />
+    <HelpKINode Title="_8.Up Method " Url="html/c7bee00d-4054-3b20-45da-102c138920d9.htm" />
+    <HelpKINode Title="_9.Up Method " Url="html/0d762415-546f-c326-d8a1-818760aac16d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Upload method" Url="html/aa4f15de-0afb-567d-56de-a62a5c663acf.htm" />
+  <HelpKINode Title="User class">
+    <HelpKINode Title="User Class" Url="html/8fe585bb-2ad1-689c-6e54-ddb046948d5e.htm" />
+    <HelpKINode Title="User Class" Url="html/192f4916-bd64-bc7b-bf73-516a1a98cd3c.htm" />
+    <HelpKINode Title="about User class" Url="html/192f4916-bd64-bc7b-bf73-516a1a98cd3c.htm" />
+    <HelpKINode Title="about User class" Url="html/8fe585bb-2ad1-689c-6e54-ddb046948d5e.htm" />
+    <HelpKINode Title="constructor" Url="html/841d8d1d-0779-fa4b-c6a4-98174ebe74d7.htm" />
+    <HelpKINode Title="constructor" Url="html/a93ea2e5-c651-14a9-7757-0bbb31b84ca2.htm" />
+    <HelpKINode Title="methods" Url="html/7f842e92-5c37-6334-52cf-814e958e5f59.htm" />
+    <HelpKINode Title="methods" Url="html/f0928a45-ab48-7d01-b296-c42c3a1e8d22.htm" />
+    <HelpKINode Title="properties" Url="html/d09838c7-b70a-9574-2ee5-5046015b00d3.htm" />
+    <HelpKINode Title="properties" Url="html/75af6b68-d4a7-f549-5ab4-8dd33b3b20cb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User property" Url="html/582dd555-2245-37a7-d7f4-4d7113021edb.htm" />
+  <HelpKINode Title="User.activeDirectoryName property">
+    <HelpKINode Title="User.activeDirectoryName Property " Url="html/2f48d08c-2282-7cbe-75ce-42aceac35f97.htm" />
+    <HelpKINode Title="User.activeDirectoryName Property " Url="html/25d2bdcd-e668-5082-c956-a14cb7e233b0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.administrator property">
+    <HelpKINode Title="User.administrator Property " Url="html/7061c086-7837-3c97-b171-f9bfc5502fc7.htm" />
+    <HelpKINode Title="User.administrator Property " Url="html/0847a185-4f8b-816e-80f4-2d2353c16a2a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.assignContracts method" Url="html/cc29f2e1-e970-9bb6-a670-38c1876c78b0.htm" />
+  <HelpKINode Title="User.blocked property">
+    <HelpKINode Title="User.blocked Property " Url="html/ec73097f-7f7f-7487-15a9-a1fecb2d9cfe.htm" />
+    <HelpKINode Title="User.blocked Property " Url="html/f25d572a-0b10-4544-a790-68659e1cbabd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.Contracts property" Url="html/7f64fc5a-fd05-e03c-a11a-051464678d21.htm" />
+  <HelpKINode Title="User.Contracts1 property" Url="html/a0b73027-4c56-d213-053d-76fe3a5cfa22.htm" />
+  <HelpKINode Title="User.Contracts2 property" Url="html/5216033f-90dd-82c9-816d-2072969f2df6.htm" />
+  <HelpKINode Title="User.Contracts3 property" Url="html/f8f98ffd-5c3f-a7ed-7fb4-0023698a1cbb.htm" />
+  <HelpKINode Title="User.coordinator property">
+    <HelpKINode Title="User.coordinator Property " Url="html/e21698f0-680f-f8ef-d5d1-e5baac504327.htm" />
+    <HelpKINode Title="User.coordinator Property " Url="html/5e90f122-6d71-481e-14c3-c63f8ed9a5c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.coordinatorOfDepartment property" Url="html/5e636780-aadf-cbd8-ee47-7ba6671cab5f.htm" />
+  <HelpKINode Title="User.coordinatorOfMandant property" Url="html/fda9dcc6-6b09-0a3f-8368-4fe3e4bda1db.htm" />
+  <HelpKINode Title="User.department property" Url="html/32af217d-7a15-7455-4fa1-82635c687ee6.htm" />
+  <HelpKINode Title="User.Department property" Url="html/5126548e-02e5-fff2-e1f3-a8cea4d7ca77.htm" />
+  <HelpKINode Title="User.departmentID property">
+    <HelpKINode Title="User.departmentID Property " Url="html/a50b444d-759a-e41b-c6ee-75c0d7d67076.htm" />
+    <HelpKINode Title="User.departmentID Property " Url="html/e5b579e8-39f9-2e5d-72ae-89e2fdaa2c8d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.Departments property" Url="html/7c915928-d5e1-de6d-ce27-32e61b5ea2e1.htm" />
+  <HelpKINode Title="User.Departments1 property" Url="html/3a5ecf81-4d6c-00a4-2984-5916976ea6b6.htm" />
+  <HelpKINode Title="User.dispatcher property">
+    <HelpKINode Title="User.dispatcher Property " Url="html/b648e104-a1eb-9396-9fe2-24c5674a6324.htm" />
+    <HelpKINode Title="User.dispatcher Property " Url="html/d9c09b2b-c366-8e07-082b-6222e8835e19.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.dispatcherOfDepartment property" Url="html/eb82a902-b16c-c3d0-c60f-fa332909273a.htm" />
+  <HelpKINode Title="User.email property">
+    <HelpKINode Title="User.email Property " Url="html/8e75b361-9818-c41b-6f9a-84dc70d07c0d.htm" />
+    <HelpKINode Title="User.email Property " Url="html/4ca4582b-9e66-3315-903a-e57255ca6b26.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.FullName property" Url="html/27b38320-4fa5-0fb9-3c7c-9923c2740d0c.htm" />
+  <HelpKINode Title="User.getEmail method" Url="html/d46732f1-b990-6b8a-e4b1-810da05ed5e9.htm" />
+  <HelpKINode Title="User.ID property">
+    <HelpKINode Title="User.ID Property " Url="html/f3e02f7a-04f1-4f37-aa7e-1b764def4ef2.htm" />
+    <HelpKINode Title="User.ID Property " Url="html/bb21d1b2-6988-e0d4-36dc-11da0c41d28a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.Mandants property" Url="html/2125c2bd-a08a-c7e0-5328-ab85a851b6fc.htm" />
+  <HelpKINode Title="User.name property">
+    <HelpKINode Title="User.name Property " Url="html/3c38d272-6d97-83d3-07fb-f8a6f87a8b3c.htm" />
+    <HelpKINode Title="User.name Property " Url="html/91c6d7c0-72b4-1c2d-6a21-c7712e1cf863.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.personInCharge property">
+    <HelpKINode Title="User.personInCharge Property " Url="html/3bd1ea65-d8fa-ef88-0849-6cc43fdad80b.htm" />
+    <HelpKINode Title="User.personInCharge Property " Url="html/01fdefa0-4b77-f1b2-c478-3a64ab38bc9a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.signer property">
+    <HelpKINode Title="User.signer Property " Url="html/5716c635-b209-6a9a-ce03-0ca8640308f0.htm" />
+    <HelpKINode Title="User.signer Property " Url="html/94f9dbf7-21fe-6409-de66-4aaf937ae5e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.specialAuthorization property" Url="html/f35bcbde-2c01-a2e9-52d6-08608123bdea.htm" />
+  <HelpKINode Title="User.surname property">
+    <HelpKINode Title="User.surname Property " Url="html/ccb92fb9-a6d7-4b6b-ea8c-0c711193bdb0.htm" />
+    <HelpKINode Title="User.surname Property " Url="html/d54314f5-b682-315e-33a5-d60516c29618.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.Tasks property" Url="html/d0499bf6-ca7f-9fcb-109a-95a2015fcd33.htm" />
+  <HelpKINode Title="User.tasks property" Url="html/7e295dad-89d0-fe84-58dd-fa187b915a4e.htm" />
+  <HelpKINode Title="User.User constructor">
+    <HelpKINode Title="User Constructor " Url="html/841d8d1d-0779-fa4b-c6a4-98174ebe74d7.htm" />
+    <HelpKINode Title="User Constructor " Url="html/a93ea2e5-c651-14a9-7757-0bbb31b84ca2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.viewableContracts property" Url="html/3954e710-6e83-53f9-f5c8-c867ae1d7570.htm" />
+  <HelpKINode Title="User1 property" Url="html/4ac30c59-fcd1-086e-596c-6082648549cd.htm" />
+  <HelpKINode Title="Users property">
+    <HelpKINode Title="Contract.Users Property " Url="html/b258a304-b68d-f8bc-3ae1-0b62ab800ae1.htm" />
+    <HelpKINode Title="ContractDBContext.Users Property " Url="html/43cb741a-5a50-338e-7f73-3c63ca0c679b.htm" />
+    <HelpKINode Title="Department.Users Property " Url="html/3a0f1cfd-4a17-c58c-d1fb-23517c184cf5.htm" />
+    <HelpKINode Title="Mandant.Users Property " Url="html/cd7517d7-1c6d-8629-5ee8-f83a9e723da1.htm" />
+    <HelpKINode Title="SQLDBEntities.Users Property " Url="html/fec522ee-f8c2-516c-b70e-24abc1ba6020.htm" />
+    <HelpKINode Title="Task.Users Property " Url="html/7c7a83fa-1491-4108-4fc2-dc0b685d57e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Users1 property">
+    <HelpKINode Title="Contract.Users1 Property " Url="html/92388391-c23b-f2ec-8cad-a613a6704e58.htm" />
+    <HelpKINode Title="Department.Users1 Property " Url="html/57bfaecf-7f0c-3df9-3e3e-3fc7f55f6eba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Users2 property" Url="html/22180efb-e153-d134-830e-1bbadd5a087c.htm" />
+  <HelpKINode Title="UsersController class">
+    <HelpKINode Title="UsersController Class" Url="html/fa645f27-d122-4e83-1486-92729af7f484.htm" />
+    <HelpKINode Title="about UsersController class" Url="html/fa645f27-d122-4e83-1486-92729af7f484.htm" />
+    <HelpKINode Title="constructor" Url="html/3d8de79f-2048-da89-b667-cac19ade76cc.htm" />
+    <HelpKINode Title="methods" Url="html/d11fdc0e-7407-2816-ab36-55f4934c4993.htm" />
+    <HelpKINode Title="properties" Url="html/97cb4639-ee18-494f-bbab-448d3bd7f570.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsersController.DeleteUser method" Url="html/2bd4569a-eb27-2f95-2877-05c1e0f69a1a.htm" />
+  <HelpKINode Title="UsersController.Dispose method" Url="html/28db0d60-b7f5-e0f7-1082-6b643d2b105a.htm" />
+  <HelpKINode Title="UsersController.GetUser method" Url="html/73e0d486-9736-a70e-45e4-90c3dd1746c4.htm" />
+  <HelpKINode Title="UsersController.GetUsers method" Url="html/73bdc62f-0c16-9e1a-33dc-1336a85b9b9e.htm" />
+  <HelpKINode Title="UsersController.PostUser method" Url="html/04213462-4ff7-4dec-68bc-bb08150c9d40.htm" />
+  <HelpKINode Title="UsersController.PutUser method" Url="html/97cf71eb-74ed-3292-f56a-f0b337b6bf8b.htm" />
+  <HelpKINode Title="UsersController.UsersController constructor" Url="html/3d8de79f-2048-da89-b667-cac19ade76cc.htm" />
+  <HelpKINode Title="valueTax property">
+    <HelpKINode Title="Contract.valueTax Property " Url="html/5de9b478-4b0b-85ea-40a3-cc73977a285c.htm" />
+    <HelpKINode Title="Contract.valueTax Property " Url="html/ad305248-dc12-5eda-4892-ef1f7fbf0e09.htm" />
+  </HelpKINode>
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/83f2cd8d-7291-4b9b-b66b-ffedc1478c1b.htm" />
+    <HelpKINode Title="history" Url="html/deb11ff5-aee6-4404-9417-09f0613bc462.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vertragsmanagement namespace" Url="html/bbbd349c-072d-8efd-f3e2-13a04c1c9959.htm" />
+  <HelpKINode Title="Vertragsmanagement.BundleConfig class" Url="html/93fe8551-23f6-1770-c035-61e2a7b84291.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers namespace" Url="html/b8b0cacb-eff4-e90b-23a9-69a5e0d64376.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers.AccountController class" Url="html/c7df3818-9ea2-be4d-0b1d-b9ad35ddefe6.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers.ContractController class" Url="html/cee0e35c-af64-5aa9-0cf8-874fcfc01cd6.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers.CoreDataController class" Url="html/04d4464d-27b9-2a99-c558-3a6c2f7f6fd0.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers.CoreDataViewModel class" Url="html/6f12a886-c2af-4cc8-9aa4-858d565f4f14.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers.HomeController class" Url="html/8e6f571c-f763-55d1-69be-927e7703591d.htm" />
+  <HelpKINode Title="Vertragsmanagement.Controllers.UsersController class" Url="html/fa645f27-d122-4e83-1486-92729af7f484.htm" />
+  <HelpKINode Title="Vertragsmanagement.DecimalModelBinder class" Url="html/cfb91f48-f378-8eb0-f5b9-7fd9dddfef9a.htm" />
+  <HelpKINode Title="Vertragsmanagement.FilterConfig class" Url="html/b7280768-273a-4b24-69cb-0eaf59d782b1.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations namespace" Url="html/347041bc-ac0a-e1d2-c0a8-6a9ff0c7b82f.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations.Initial class" Url="html/07a49187-6f60-afc9-9399-c4cae7cae59a.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations._1 class" Url="html/c57e346e-be56-9c5d-4e1e-183cc1272ef7.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations._10 class" Url="html/5eda8dc7-e6e6-6f67-13ce-6603e676f0d8.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations._2 class" Url="html/aff08ac3-24ad-0981-c2f2-0d2d86e6ea08.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations._3 class" Url="html/ce73a43a-df04-81e2-0212-bfa08880c2a6.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations._8 class" Url="html/0ef04bae-c82e-6736-ee65-9c0c931b3b67.htm" />
+  <HelpKINode Title="Vertragsmanagement.Migrations._9 class" Url="html/e1d1fc6e-aaa0-1e1a-2de7-3b745560e012.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model namespace" Url="html/33d6d297-021b-e215-8c59-0cf7f6123e67.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.Contract class" Url="html/038a410b-7354-5293-179e-bf5ead2f6546.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.ContractCategory class" Url="html/976a3a11-6555-a15d-3c81-52f83327970c.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.ContractPartner class" Url="html/eb40cdab-7370-f869-606e-20e4ee832bcb.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.ContractSpecy class" Url="html/28cd06b2-e57c-e688-949e-46944f59c8ce.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.ContractSubcategory class" Url="html/f7a4bbf0-66b9-9fd4-06e4-c0c0f7f1c17e.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.CostCentre class" Url="html/2735c710-b84f-eb2d-b5e3-a1289642233d.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.CostCentreDivide class" Url="html/dc17309a-af5c-ab12-6d3b-23131f73589d.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.Department class" Url="html/cdeb7501-f388-0c78-1766-6984bd3cf4d2.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.Document class" Url="html/aa18583d-f825-6aa6-891a-e10ddaa8622c.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.Mandant class" Url="html/9953f98a-cbe4-f9e1-468a-7db72aa7a12e.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.OtherFeature class" Url="html/2c453ad3-852a-ba35-fddd-fcaf5dfc1da8.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.SQLDBEntities class" Url="html/56401b73-897e-758a-e050-3a13a03d2688.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.Task class" Url="html/bbe434d9-1839-908b-3c2f-b6b036810d93.htm" />
+  <HelpKINode Title="Vertragsmanagement.Model.User class" Url="html/192f4916-bd64-bc7b-bf73-516a1a98cd3c.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models namespace" Url="html/3ec26671-2c8c-51ff-b72a-17378f8864aa.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.AfterDateAttribute class" Url="html/2c2246c7-4d6f-753f-19c0-77b4a1e2b62e.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.AlwaysRequiredAttribute class" Url="html/a974d743-49f6-b246-53fb-90c971173b30.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.BeforeDateAttribute class" Url="html/3804bd45-ccd5-290c-dd66-9e88e4c8ba5f.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Contract class" Url="html/1af621e5-acea-052e-6c51-41906f7bdd4e.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Contract.RecipientType enumeration" Url="html/a59830e9-efc4-a008-27c8-641fe84af714.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.ContractCategory class" Url="html/47b0e4a0-5ea2-a319-71a2-952428ca885b.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.ContractDBContext class" Url="html/a958d39a-af1a-173f-fd47-cf31ff77c793.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.ContractPartner class" Url="html/155b95e6-03ce-5ec3-21b5-8ad6c2e8c6c0.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.ContractSpecies class" Url="html/2bd4c71c-3469-f4af-e748-a8c1037313b4.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.ContractSubcategory class" Url="html/7edb5718-a61e-1d49-1eb7-92fa3343756b.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.CostCentre class" Url="html/3e67afaf-f1fd-a2b3-75db-bcc60c083bbd.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.CostCentreDivide class" Url="html/d6404927-7172-fb29-2779-02160ac62856.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Department class" Url="html/180a7463-0485-425c-783a-0812839cbf2b.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Document class" Url="html/2abdd8a9-b39a-4212-dcc4-4ca73444ed0c.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Manager namespace" Url="html/e3e9db2d-93fb-2171-e6ea-b48a1772ce7a.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Manager.DepartmentChoiceMail class" Url="html/b59c32f1-ee2e-864b-c3b4-fa0d4ca65256.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Manager.DispatcherMail class" Url="html/467ed4a0-c5f1-14c3-2a57-a13f8ebf3123.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Manager.EscalationMail class" Url="html/1d5cf671-2cb2-2e82-b528-7502c064ef74.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Manager.Mail class" Url="html/1bbc1517-582c-7721-3cbb-aa88538ff344.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Manager.Manager class" Url="html/0348f335-fb38-3721-70ac-9cf9c1adca8a.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Mandant class" Url="html/7a1b4291-617b-04ca-f88b-1082de8a94d4.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.OtherFeature class" Url="html/b601bfc1-848c-28be-a5fd-f38f3ae664d7.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.PartnerIs enumeration" Url="html/308a06bb-c797-0af2-86b2-53f324002959.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Report class" Url="html/542582f1-b8c1-3c9a-e26b-9c99de4a68a3.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.RequiredIfDispatcherAttribute class" Url="html/8b6732ca-34aa-c1bd-7122-f037471b7402.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.State enumeration" Url="html/02780571-d177-e163-4ff2-bd3fd2fd6526.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Task class" Url="html/8b0d11fd-ecd6-728c-dabf-dc7f59f26d74.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.Task.Description class" Url="html/23dc07d0-22eb-4eb8-9bbe-55277ed8795d.htm" />
+  <HelpKINode Title="Vertragsmanagement.Models.User class" Url="html/8fe585bb-2ad1-689c-6e54-ddb046948d5e.htm" />
+  <HelpKINode Title="Vertragsmanagement.MvcApplication class" Url="html/f142410c-4555-c642-f27f-50523497394c.htm" />
+  <HelpKINode Title="Vertragsmanagement.RouteConfig class" Url="html/7322271b-062a-cde4-dfbb-ca5ef914a141.htm" />
+  <HelpKINode Title="Vertragsmanagement.Startup class" Url="html/e3e9b385-4646-016a-7b07-0114db173eb9.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels namespace" Url="html/e27fcb42-2554-1636-40fa-845dfa2ca48e.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.ContractViewModel class" Url="html/af9a7caf-fb0c-8fcc-bb3b-55980eb130e4.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.CostCentresViewModel class" Url="html/6930a781-361a-73fc-700e-242fd0e64514.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.costOrRev enumeration" Url="html/995e9e8a-c466-fd28-4c42-44ac3af401f9.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.FrameworkContractViewModel class" Url="html/21ec0139-2f13-9f0d-ee60-1f989f831b29.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.IndexContractsViewModel class" Url="html/031eec12-7275-cdd9-72d9-90043ab6617f.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.OtherFeaturesViewModel class" Url="html/77d31e16-c43d-003a-5dea-d16eab77c6a7.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.ReportContent class" Url="html/8e8db6f4-a34f-bcec-701d-4ef69a1b351e.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.ReportContractsViewModel class" Url="html/d2637dc5-a844-de2e-ac5f-ffca4a06f4c6.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.ResponsiblePersonsDepartmentViewModel class" Url="html/37d97289-07f3-a646-f675-881ce6e9af00.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.ResponsiblePersonsMandantViewModel class" Url="html/40d89cc2-e32e-0759-c22f-7148be7e124b.htm" />
+  <HelpKINode Title="Vertragsmanagement.ViewModels.SpecialAuthorizationViewModel class" Url="html/4c8634ba-5422-659c-a092-2a3f04d964a9.htm" />
+  <HelpKINode Title="Vertragsmanagement.WebApiConfig class" Url="html/fd26fb43-ab52-3c4d-e106-0f4f9ad64b6f.htm" />
+  <HelpKINode Title="viewableContracts property" Url="html/3954e710-6e83-53f9-f5c8-c867ae1d7570.htm" />
+  <HelpKINode Title="WebApiConfig class">
+    <HelpKINode Title="WebApiConfig Class" Url="html/fd26fb43-ab52-3c4d-e106-0f4f9ad64b6f.htm" />
+    <HelpKINode Title="about WebApiConfig class" Url="html/fd26fb43-ab52-3c4d-e106-0f4f9ad64b6f.htm" />
+    <HelpKINode Title="methods" Url="html/353b80d1-2b92-e887-dd3d-aafc7b6acf85.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebApiConfig.Register method" Url="html/32b2ac03-04ef-5697-d187-0ea3aaf3b9dc.htm" />
+  <HelpKINode Title="Welcome" Url="html/1ab5e005-6338-4a06-90ce-0f0d3c946a56.htm" />
+  <HelpKINode Title="_1 class">
+    <HelpKINode Title="_1 Class" Url="html/c57e346e-be56-9c5d-4e1e-183cc1272ef7.htm" />
+    <HelpKINode Title="about _1 class" Url="html/c57e346e-be56-9c5d-4e1e-183cc1272ef7.htm" />
+    <HelpKINode Title="constructor" Url="html/2a3ac3bb-89f9-8fc0-401c-369b280caeba.htm" />
+    <HelpKINode Title="methods" Url="html/7b40db9b-39ae-ca55-5bed-22ced4909861.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_1.Down method" Url="html/fc4cfc28-9f11-cb1b-db8e-1edb8caa1b90.htm" />
+  <HelpKINode Title="_1.Up method" Url="html/f4454071-0e54-0158-381e-0e8d904d351d.htm" />
+  <HelpKINode Title="_1._1 constructor" Url="html/2a3ac3bb-89f9-8fc0-401c-369b280caeba.htm" />
+  <HelpKINode Title="_10 class">
+    <HelpKINode Title="_10 Class" Url="html/5eda8dc7-e6e6-6f67-13ce-6603e676f0d8.htm" />
+    <HelpKINode Title="about _10 class" Url="html/5eda8dc7-e6e6-6f67-13ce-6603e676f0d8.htm" />
+    <HelpKINode Title="constructor" Url="html/826fb3c3-6c2a-ecf4-a4e9-771b33ea8501.htm" />
+    <HelpKINode Title="methods" Url="html/a573bfbd-f9a8-ad5b-d42f-18da167ade8c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_10.Down method" Url="html/40fbf3e7-7c4a-5184-95e6-6156841aef6c.htm" />
+  <HelpKINode Title="_10.Up method" Url="html/738ded4e-0a5f-9829-da53-1ebe7db862fb.htm" />
+  <HelpKINode Title="_10._10 constructor" Url="html/826fb3c3-6c2a-ecf4-a4e9-771b33ea8501.htm" />
+  <HelpKINode Title="_2 class">
+    <HelpKINode Title="_2 Class" Url="html/aff08ac3-24ad-0981-c2f2-0d2d86e6ea08.htm" />
+    <HelpKINode Title="about _2 class" Url="html/aff08ac3-24ad-0981-c2f2-0d2d86e6ea08.htm" />
+    <HelpKINode Title="constructor" Url="html/925e853f-7200-b56b-ba14-1b826ba7a639.htm" />
+    <HelpKINode Title="methods" Url="html/a5055325-5627-88e7-ed67-09ad6f5fbb4b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_2.Down method" Url="html/7ecf8281-01f8-46c5-54a6-a8c71c36cd8b.htm" />
+  <HelpKINode Title="_2.Up method" Url="html/7d589b37-5e81-d21a-2334-ad5877cbcafb.htm" />
+  <HelpKINode Title="_2._2 constructor" Url="html/925e853f-7200-b56b-ba14-1b826ba7a639.htm" />
+  <HelpKINode Title="_3 class">
+    <HelpKINode Title="_3 Class" Url="html/ce73a43a-df04-81e2-0212-bfa08880c2a6.htm" />
+    <HelpKINode Title="about _3 class" Url="html/ce73a43a-df04-81e2-0212-bfa08880c2a6.htm" />
+    <HelpKINode Title="constructor" Url="html/011ba089-0ee1-a441-e2de-638cf285702e.htm" />
+    <HelpKINode Title="methods" Url="html/01ed879c-e716-7001-f492-948a23873aef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_3.Down method" Url="html/91238dc5-2365-39ae-c23b-02470b6ba35c.htm" />
+  <HelpKINode Title="_3.Up method" Url="html/f48cdafe-405a-0bb2-875b-6fa8b3898fde.htm" />
+  <HelpKINode Title="_3._3 constructor" Url="html/011ba089-0ee1-a441-e2de-638cf285702e.htm" />
+  <HelpKINode Title="_8 class">
+    <HelpKINode Title="_8 Class" Url="html/0ef04bae-c82e-6736-ee65-9c0c931b3b67.htm" />
+    <HelpKINode Title="about _8 class" Url="html/0ef04bae-c82e-6736-ee65-9c0c931b3b67.htm" />
+    <HelpKINode Title="constructor" Url="html/18d32e5c-5bba-d797-be71-d5794063176f.htm" />
+    <HelpKINode Title="methods" Url="html/7f0067cb-6a30-453d-e4f3-0a00f7f70e26.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_8.Down method" Url="html/7f0ad833-18c1-a388-80bf-d566bc7f5543.htm" />
+  <HelpKINode Title="_8.Up method" Url="html/c7bee00d-4054-3b20-45da-102c138920d9.htm" />
+  <HelpKINode Title="_8._8 constructor" Url="html/18d32e5c-5bba-d797-be71-d5794063176f.htm" />
+  <HelpKINode Title="_9 class">
+    <HelpKINode Title="_9 Class" Url="html/e1d1fc6e-aaa0-1e1a-2de7-3b745560e012.htm" />
+    <HelpKINode Title="about _9 class" Url="html/e1d1fc6e-aaa0-1e1a-2de7-3b745560e012.htm" />
+    <HelpKINode Title="constructor" Url="html/92643778-9ac9-2c37-0bd8-65b26943c55a.htm" />
+    <HelpKINode Title="methods" Url="html/ce13db7a-db94-41bb-5acb-c7495ee5a0c0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_9.Down method" Url="html/29c6c27f-e22f-35d9-393c-87f8622e09da.htm" />
+  <HelpKINode Title="_9.Up method" Url="html/0d762415-546f-c326-d8a1-818760aac16d.htm" />
+  <HelpKINode Title="_9._9 constructor" Url="html/92643778-9ac9-2c37-0bd8-65b26943c55a.htm" />
+</HelpKI>

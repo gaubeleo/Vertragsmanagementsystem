@@ -1,0 +1,39 @@
+﻿@model Vertragsmanagement.Models.ContractCategory
+
+@{
+    ViewBag.Title = "Vertragskategorie löschen";
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title" id="myModalLabel">Vertragskategorie löschen</h4>
+</div>
+
+<div class="modal-body">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+    </dl>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-footer">
+        @if (ViewBag.notDeletable)
+        {
+            <p class="text-danger">Diese Kategorie ist aktiven Verträgen zugeordnet oder ihr sind Unterkategorien zugeordnet. Sie kann deshalb nicht gelöscht werden!</p>
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" disabled="disabled" type="submit" value="Löschen" />
+        }
+        else
+        {
+            <button class="btn" data-dismiss="modal">Abbrechen</button>
+            <input class="btn btn-primary" type="submit" value="Löschen" />
+        }
+    </div>
+}
